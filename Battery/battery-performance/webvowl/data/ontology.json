@@ -8,7 +8,7 @@
     },
     "iri" : "https://w3id.org/eudpp/battery-performance",
     "version" : "Version 0.3.0 DRAFT",
-    "author" : [ "Marc-Andree Wolf", "Nader Jelassi" ],
+    "author" : [ "Nader Jelassi", "Marc-Andree Wolf" ],
     "description" : {
       "en" : "Module for the electrochemical performance, durability and in-use state of batteries in EU Digital Product Passports (capacity, voltage, power capability, round trip efficiency, self-discharge, internal resistance, lifetime, temperature exposure, accidents), covering the 'Performance and durability' category of the BatteryPass-Ready Data Attribute Long List (attributes 59-100) required by Regulation (EU) 2023/1542, Annex XIII."
     },
@@ -16,18 +16,18 @@
       "en" : "EU DPP Battery Performance Ontology"
     },
     "comments" : {
-      "en" : "Developed against the CIRPASS-2 CORE ontology v2.0.5 (refresh of 25 August 2026; P_DPP v2.0.6 of 27 August 2026, MAT v1.0.2). External references are pinned to these versions."
+      "en" : "Developed against the CIRPASS-2 CORE ontology of October 2026 (P_DPP v2.1.0, MAT v1.1.0). External references are pinned to these versions."
     },
     "other" : {
       "creator" : [ {
         "identifier" : "creator",
         "language" : "en",
-        "value" : "Marc-Andree Wolf",
+        "value" : "Nader Jelassi",
         "type" : "label"
       }, {
         "identifier" : "creator",
         "language" : "en",
-        "value" : "Nader Jelassi",
+        "value" : "Marc-Andree Wolf",
         "type" : "label"
       } ],
       "references" : [ {
@@ -42,17 +42,17 @@
         "value" : "2026-07-07",
         "type" : "label"
       } ],
-      "source" : [ {
-        "identifier" : "source",
-        "language" : "undefined",
-        "value" : "https://eur-lex.europa.eu/eli/reg/2023/1542/oj",
-        "type" : "iri"
-      } ],
       "versionInfo" : [ {
         "identifier" : "versionInfo",
         "language" : "en",
         "value" : "Version 0.3.0 DRAFT",
         "type" : "label"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://eur-lex.europa.eu/eli/reg/2023/1542/oj",
+        "type" : "iri"
       } ],
       "title" : [ {
         "identifier" : "title",
@@ -86,19 +86,19 @@
       "modified" : [ {
         "identifier" : "modified",
         "language" : "undefined",
-        "value" : "2026-09-01",
-        "type" : "label"
-      } ],
-      "preferredNamespaceUri" : [ {
-        "identifier" : "preferredNamespaceUri",
-        "language" : "undefined",
-        "value" : "https://w3id.org/eudpp/battery-performance#",
+        "value" : "2026-10-06",
         "type" : "label"
       } ],
       "bibliographicCitation" : [ {
         "identifier" : "bibliographicCitation",
         "language" : "en",
         "value" : "EU DPP Battery Performance Ontology. Draft version 0.3.0.",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery-performance#",
         "type" : "label"
       } ],
       "issued" : [ {
@@ -222,10 +222,10 @@
     "id" : "79",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "19",
+    "id" : "1",
     "type" : "owl:Class"
   }, {
-    "id" : "1",
+    "id" : "19",
     "type" : "owl:Class"
   }, {
     "id" : "63",
@@ -572,33 +572,6 @@
       "IRI-based" : "decimal"
     }
   }, {
-    "iri" : "https://w3id.org/eudpp/battery-performance#AccidentEvent",
-    "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/eudpp/battery-performance",
-        "type" : "iri"
-      } ],
-      "references" : [ {
-        "identifier" : "references",
-        "language" : "en",
-        "value" : "BatteryPass-Ready Data Attribute Long List v1.3, attribute 100",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "AccidentEvent",
-      "en" : "Accident Event"
-    },
-    "comment" : {
-      "en" : "An accident affecting the battery, including when incorporated in the equipment it is powering. Specialises the generic ProductEvent class of the CORE event module, of which MaintenanceEvent is a sibling: an accident is not a maintenance operation. The link to the battery is provided by the CORE event mechanism (no dedicated object property in this module)."
-    },
-    "id" : "19",
-    "superClasses" : [ "63" ]
-  }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#BatteryStateRecord",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
     "instances" : 0,
@@ -631,6 +604,33 @@
     },
     "id" : "1",
     "superClasses" : [ "56" ]
+  }, {
+    "iri" : "https://w3id.org/eudpp/battery-performance#AccidentEvent",
+    "baseIri" : "https://w3id.org/eudpp/battery-performance",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery-performance",
+        "type" : "iri"
+      } ],
+      "references" : [ {
+        "identifier" : "references",
+        "language" : "en",
+        "value" : "BatteryPass-Ready Data Attribute Long List v1.3, attribute 100",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AccidentEvent",
+      "en" : "Accident Event"
+    },
+    "comment" : {
+      "en" : "An accident affecting the battery, including when incorporated in the equipment it is powering. Specialises the generic ProductEvent class of the CORE event module, of which MaintenanceEvent is a sibling: an accident is not a maintenance operation. The link to the battery is provided by the CORE event mechanism (no dedicated object property in this module)."
+    },
+    "id" : "19",
+    "superClasses" : [ "63" ]
   }, {
     "iri" : "https://w3id.org/eudpp#ProductEvent",
     "baseIri" : "https://w3id.org/eudpp",
@@ -1423,12 +1423,12 @@
   }, {
     "range" : "56",
     "domain" : "55",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "54"
   }, {
     "range" : "56",
     "domain" : "13",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "57"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#nominalVoltage",
@@ -1467,17 +1467,17 @@
   }, {
     "range" : "56",
     "domain" : "1",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "59"
   }, {
     "range" : "48",
     "domain" : "6",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "61"
   }, {
     "range" : "63",
     "domain" : "19",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "62"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#numberOfOverchargeEvents",
@@ -2230,34 +2230,6 @@
     "attributes" : [ "datatype" ],
     "id" : "101"
   }, {
-    "iri" : "https://w3id.org/eudpp/battery-performance#selfDischargeRateEvolution",
-    "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "79",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/eudpp/battery-performance",
-        "type" : "iri"
-      } ],
-      "references" : [ {
-        "identifier" : "references",
-        "language" : "en",
-        "value" : "BatteryPass-Ready Data Attribute Long List v1.3, attribute 80",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "selfDischargeRateEvolution",
-      "en" : "evolution of self-discharge rates"
-    },
-    "domain" : "1",
-    "comment" : {
-      "en" : "The change of self-discharge over time and usage, as percentage calculated from the initial and current self-discharge rate. Unit: percent (%)."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "102"
-  }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#roundTripEnergyEfficiencyFade",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
     "range" : "77",
@@ -2282,6 +2254,34 @@
     "domain" : "1",
     "comment" : {
       "en" : "The decrease of round trip energy efficiency as percentage. Unit: percent (%)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "102"
+  }, {
+    "iri" : "https://w3id.org/eudpp/battery-performance#selfDischargeRateEvolution",
+    "baseIri" : "https://w3id.org/eudpp/battery-performance",
+    "range" : "79",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery-performance",
+        "type" : "iri"
+      } ],
+      "references" : [ {
+        "identifier" : "references",
+        "language" : "en",
+        "value" : "BatteryPass-Ready Data Attribute Long List v1.3, attribute 80",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "selfDischargeRateEvolution",
+      "en" : "evolution of self-discharge rates"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "The change of self-discharge over time and usage, as percentage calculated from the initial and current self-discharge rate. Unit: percent (%)."
     },
     "attributes" : [ "datatype" ],
     "id" : "103"

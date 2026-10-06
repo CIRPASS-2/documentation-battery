@@ -16,7 +16,7 @@
       "en" : "EU DPP Battery Metals Vocabulary"
     },
     "comments" : {
-      "en" : "Developed against the CIRPASS-2 CORE ontology v2.0.5 (refresh of 25 August 2026; P_DPP v2.0.6 of 27 August 2026, MAT v1.0.2). To be revisited when MAT v2 lands (ontologies-core#24, #25): #25 introduces eudpp:materialTypeScheme, to be added to these four concepts as it is to the ten chemistries, and recycledContentType, which splits pre- from post-consumer shares."
+      "en" : "Developed against the CIRPASS-2 CORE ontology of October 2026 (P_DPP v2.1.0, MAT v1.1.0). The four concepts carry eudpp:materialTypeScheme, added to MAT by ontologies-core#25. MAT v1.1.0 also adds eudpp:materialRecycledContentType (pre-consumer, post-consumer, unknown); the battery profile keeps one total share per metal, as BatteryPass-Ready long list v2.0 and the Commission guidance of 15 August 2026 ask."
     },
     "other" : {
       "creator" : [ {
@@ -42,17 +42,17 @@
         "value" : "2026-09-03",
         "type" : "label"
       } ],
-      "source" : [ {
-        "identifier" : "source",
-        "language" : "undefined",
-        "value" : "https://eur-lex.europa.eu/eli/reg/2023/1542/oj",
-        "type" : "iri"
-      } ],
       "versionInfo" : [ {
         "identifier" : "versionInfo",
         "language" : "en",
         "value" : "Version 0.1.0 DRAFT",
         "type" : "label"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://eur-lex.europa.eu/eli/reg/2023/1542/oj",
+        "type" : "iri"
       } ],
       "title" : [ {
         "identifier" : "title",
@@ -63,12 +63,12 @@
       "seeAlso" : [ {
         "identifier" : "seeAlso",
         "language" : "undefined",
-        "value" : "https://w3id.org/eudpp/battery-chemistries",
+        "value" : "https://w3id.org/eudpp/battery-materials",
         "type" : "iri"
       }, {
         "identifier" : "seeAlso",
         "language" : "undefined",
-        "value" : "https://w3id.org/eudpp/battery-materials",
+        "value" : "https://w3id.org/eudpp/battery-chemistries",
         "type" : "iri"
       } ],
       "license" : [ {
@@ -97,7 +97,7 @@
       "modified" : [ {
         "identifier" : "modified",
         "language" : "undefined",
-        "value" : "2026-09-03",
+        "value" : "2026-10-06",
         "type" : "label"
       } ],
       "bibliographicCitation" : [ {
@@ -168,17 +168,17 @@
         }, {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-metals#Lead",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-metals#Lithium",
           "type" : "iri"
         }, {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-metals#Cobalt",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals#Lead",
           "type" : "iri"
         } ],
         "scopeNote" : [ {
@@ -212,22 +212,28 @@
           "value" : "https://w3id.org/eudpp/battery-metals",
           "type" : "iri"
         } ],
-        "references" : [ {
-          "identifier" : "references",
-          "language" : "en",
-          "value" : "Regulation (EU) 2023/1542, Art. 8(1); BatteryPass-Ready Data Attribute Long List v1.3, attributes 48 and 51",
-          "type" : "label"
-        } ],
         "inScheme" : [ {
           "identifier" : "inScheme",
           "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
           "type" : "iri"
         } ],
+        "references" : [ {
+          "identifier" : "references",
+          "language" : "en",
+          "value" : "Regulation (EU) 2023/1542, Art. 8(1); BatteryPass-Ready Data Attribute Long List v1.3, attributes 48 and 51",
+          "type" : "label"
+        } ],
         "notation" : [ {
           "identifier" : "notation",
           "language" : "undefined",
           "value" : "Ni",
+          "type" : "label"
+        } ],
+        "materialTypeScheme" : [ {
+          "identifier" : "materialTypeScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
           "type" : "label"
         } ],
         "prefLabel" : [ {
@@ -287,6 +293,12 @@
           "value" : "Co",
           "type" : "label"
         } ],
+        "materialTypeScheme" : [ {
+          "identifier" : "materialTypeScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
+          "type" : "label"
+        } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
           "language" : "en",
@@ -326,17 +338,17 @@
           "value" : "https://w3id.org/eudpp/battery-metals",
           "type" : "iri"
         } ],
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
-          "type" : "iri"
-        } ],
         "references" : [ {
           "identifier" : "references",
           "language" : "en",
           "value" : "Regulation (EU) 2023/1542, Art. 8(1); BatteryPass-Ready Data Attribute Long List v1.3, attributes 50 and 53",
           "type" : "label"
+        } ],
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
+          "type" : "iri"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -348,6 +360,12 @@
           "identifier" : "prefLabel",
           "language" : "en",
           "value" : "Lithium",
+          "type" : "label"
+        } ],
+        "materialTypeScheme" : [ {
+          "identifier" : "materialTypeScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
           "type" : "label"
         } ],
         "altLabel" : [ {
@@ -405,6 +423,12 @@
           "identifier" : "notation",
           "language" : "undefined",
           "value" : "Pb",
+          "type" : "label"
+        } ],
+        "materialTypeScheme" : [ {
+          "identifier" : "materialTypeScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
           "type" : "label"
         } ],
         "prefLabel" : [ {
@@ -456,22 +480,28 @@
           "value" : "https://w3id.org/eudpp/battery-metals",
           "type" : "iri"
         } ],
-        "references" : [ {
-          "identifier" : "references",
-          "language" : "en",
-          "value" : "Regulation (EU) 2023/1542, Art. 8(1); BatteryPass-Ready Data Attribute Long List v1.3, attributes 48 and 51",
-          "type" : "label"
-        } ],
         "inScheme" : [ {
           "identifier" : "inScheme",
           "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
           "type" : "iri"
         } ],
+        "references" : [ {
+          "identifier" : "references",
+          "language" : "en",
+          "value" : "Regulation (EU) 2023/1542, Art. 8(1); BatteryPass-Ready Data Attribute Long List v1.3, attributes 48 and 51",
+          "type" : "label"
+        } ],
         "notation" : [ {
           "identifier" : "notation",
           "language" : "undefined",
           "value" : "Ni",
+          "type" : "label"
+        } ],
+        "materialTypeScheme" : [ {
+          "identifier" : "materialTypeScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
           "type" : "label"
         } ],
         "prefLabel" : [ {
@@ -504,6 +534,69 @@
         "en" : "Nickel"
       }
     }, {
+      "iri" : "https://w3id.org/eudpp/battery-metals#Lithium",
+      "baseIri" : "https://w3id.org/eudpp/battery-metals",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals",
+          "type" : "iri"
+        } ],
+        "references" : [ {
+          "identifier" : "references",
+          "language" : "en",
+          "value" : "Regulation (EU) 2023/1542, Art. 8(1); BatteryPass-Ready Data Attribute Long List v1.3, attributes 50 and 53",
+          "type" : "label"
+        } ],
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
+          "type" : "iri"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "Li",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Lithium",
+          "type" : "label"
+        } ],
+        "materialTypeScheme" : [ {
+          "identifier" : "materialTypeScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "Li",
+          "type" : "label"
+        } ],
+        "topConceptOf" : [ {
+          "identifier" : "topConceptOf",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
+          "type" : "iri"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "Recycled share is measured on the lithium present in active materials, recovered from battery manufacturing waste or post-consumer waste. Long list attributes 50 and 53.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Lithium",
+        "en" : "Lithium"
+      }
+    }, {
       "iri" : "https://w3id.org/eudpp/battery-metals#Cobalt",
       "baseIri" : "https://w3id.org/eudpp/battery-metals",
       "annotations" : {
@@ -529,6 +622,12 @@
           "identifier" : "notation",
           "language" : "undefined",
           "value" : "Co",
+          "type" : "label"
+        } ],
+        "materialTypeScheme" : [ {
+          "identifier" : "materialTypeScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
           "type" : "label"
         } ],
         "prefLabel" : [ {
@@ -559,63 +658,6 @@
       "labels" : {
         "IRI-based" : "Cobalt",
         "en" : "Cobalt"
-      }
-    }, {
-      "iri" : "https://w3id.org/eudpp/battery-metals#Lithium",
-      "baseIri" : "https://w3id.org/eudpp/battery-metals",
-      "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-metals",
-          "type" : "iri"
-        } ],
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
-          "type" : "iri"
-        } ],
-        "references" : [ {
-          "identifier" : "references",
-          "language" : "en",
-          "value" : "Regulation (EU) 2023/1542, Art. 8(1); BatteryPass-Ready Data Attribute Long List v1.3, attributes 50 and 53",
-          "type" : "label"
-        } ],
-        "notation" : [ {
-          "identifier" : "notation",
-          "language" : "undefined",
-          "value" : "Li",
-          "type" : "label"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "Lithium",
-          "type" : "label"
-        } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "Li",
-          "type" : "label"
-        } ],
-        "topConceptOf" : [ {
-          "identifier" : "topConceptOf",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
-          "type" : "iri"
-        } ],
-        "scopeNote" : [ {
-          "identifier" : "scopeNote",
-          "language" : "en",
-          "value" : "Recycled share is measured on the lithium present in active materials, recovered from battery manufacturing waste or post-consumer waste. Long list attributes 50 and 53.",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "Lithium",
-        "en" : "Lithium"
       }
     }, {
       "iri" : "https://w3id.org/eudpp/battery-metals#Lead",
@@ -649,6 +691,12 @@
           "identifier" : "notation",
           "language" : "undefined",
           "value" : "Pb",
+          "type" : "label"
+        } ],
+        "materialTypeScheme" : [ {
+          "identifier" : "materialTypeScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
           "type" : "label"
         } ],
         "prefLabel" : [ {

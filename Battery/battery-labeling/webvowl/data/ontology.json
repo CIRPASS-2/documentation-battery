@@ -8,7 +8,7 @@
     },
     "iri" : "https://w3id.org/eudpp/battery-labeling",
     "version" : "Version 0.2.1 DRAFT",
-    "author" : [ "Nader Jelassi", "Marc-Andree Wolf" ],
+    "author" : [ "Marc-Andree Wolf", "Nader Jelassi" ],
     "description" : {
       "en" : "Module for the labels and symbols required on batteries in EU Digital Product Passports: separate collection symbol, the cadmium symbol and the lead symbol, extinguishing agent information and label symbol. Covers the battery-specific fields of the 'Symbols, labels and documentation of conformity' category of the BatteryPass-Ready Data Attribute Long List required by Regulation (EU) 2023/1542, and the Spherity Battery Pass Labeling entities."
     },
@@ -16,18 +16,18 @@
       "en" : "EU DPP Battery Labeling Ontology"
     },
     "comments" : {
-      "en" : "Developed against the CIRPASS-2 CORE ontology v2.0.5 (refresh of 25 August 2026; P_DPP v2.0.6 of 27 August 2026, MAT v1.0.2). External references are pinned to these versions."
+      "en" : "Developed against the CIRPASS-2 CORE ontology of October 2026 (P_DPP v2.1.0, MAT v1.1.0). External references are pinned to these versions."
     },
     "other" : {
       "creator" : [ {
         "identifier" : "creator",
         "language" : "en",
-        "value" : "Nader Jelassi",
+        "value" : "Marc-Andree Wolf",
         "type" : "label"
       }, {
         "identifier" : "creator",
         "language" : "en",
-        "value" : "Marc-Andree Wolf",
+        "value" : "Nader Jelassi",
         "type" : "label"
       } ],
       "references" : [ {
@@ -92,19 +92,19 @@
       "modified" : [ {
         "identifier" : "modified",
         "language" : "undefined",
-        "value" : "2026-09-01",
-        "type" : "label"
-      } ],
-      "preferredNamespaceUri" : [ {
-        "identifier" : "preferredNamespaceUri",
-        "language" : "undefined",
-        "value" : "https://w3id.org/eudpp/battery-labeling#",
+        "value" : "2026-10-06",
         "type" : "label"
       } ],
       "bibliographicCitation" : [ {
         "identifier" : "bibliographicCitation",
         "language" : "en",
         "value" : "EU DPP Battery Labeling Ontology. Draft version 0.2.1.",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery-labeling#",
         "type" : "label"
       } ],
       "issued" : [ {

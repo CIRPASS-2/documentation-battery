@@ -8,7 +8,7 @@
     },
     "iri" : "https://w3id.org/eudpp/battery-materials",
     "version" : "Version 0.3.0 DRAFT",
-    "author" : [ "Nader Jelassi", "Marc-Andree Wolf" ],
+    "author" : [ "Marc-Andree Wolf", "Nader Jelassi" ],
     "description" : {
       "en" : "Module for the chemistry and material composition specifics of batteries in EU Digital Product Passports: battery chemistry, typed through the battery-chemistries controlled vocabulary, and the internal location of materials within the battery, typed through the battery-locations controlled vocabulary. Extends the cross-sectoral MAT module of the CIRPASS-2 CORE ontology by direct reference."
     },
@@ -16,18 +16,18 @@
       "en" : "EU DPP Battery Materials Ontology"
     },
     "comments" : {
-      "en" : "Developed against the CIRPASS-2 CORE ontology v2.0.5 (refresh of 25 August 2026; P_DPP v2.0.6 of 27 August 2026, MAT v1.0.2). External references are pinned to these versions."
+      "en" : "Developed against the CIRPASS-2 CORE ontology of October 2026 (P_DPP v2.1.0, MAT v1.1.0). External references are pinned to these versions."
     },
     "other" : {
       "creator" : [ {
         "identifier" : "creator",
         "language" : "en",
-        "value" : "Nader Jelassi",
+        "value" : "Marc-Andree Wolf",
         "type" : "label"
       }, {
         "identifier" : "creator",
         "language" : "en",
-        "value" : "Marc-Andree Wolf",
+        "value" : "Nader Jelassi",
         "type" : "label"
       } ],
       "references" : [ {
@@ -97,19 +97,19 @@
       "modified" : [ {
         "identifier" : "modified",
         "language" : "undefined",
-        "value" : "2026-09-01",
-        "type" : "label"
-      } ],
-      "bibliographicCitation" : [ {
-        "identifier" : "bibliographicCitation",
-        "language" : "en",
-        "value" : "EU DPP Battery Materials Ontology. Draft version 0.3.0.",
+        "value" : "2026-10-06",
         "type" : "label"
       } ],
       "preferredNamespaceUri" : [ {
         "identifier" : "preferredNamespaceUri",
         "language" : "undefined",
         "value" : "https://w3id.org/eudpp/battery-materials#",
+        "type" : "label"
+      } ],
+      "bibliographicCitation" : [ {
+        "identifier" : "bibliographicCitation",
+        "language" : "en",
+        "value" : "EU DPP Battery Materials Ontology. Draft version 0.3.0.",
         "type" : "label"
       } ],
       "issued" : [ {
@@ -245,7 +245,7 @@
     },
     "domain" : "1",
     "subproperty" : [ "2" ],
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "0"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-materials#hasBatteryLocation",
@@ -307,7 +307,7 @@
   }, {
     "range" : "7",
     "domain" : "5",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "8"
   } ]
 }

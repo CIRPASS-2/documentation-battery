@@ -5,18 +5,18 @@
 <https://w3id.org/eudpp/battery> <http://purl.org/dc/terms/created> "2026-07-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://w3id.org/eudpp/battery> <http://purl.org/dc/terms/creator> "Marc-Andree Wolf"@en .
 <https://w3id.org/eudpp/battery> <http://purl.org/dc/terms/creator> "Nader Jelassi"@en .
-<https://w3id.org/eudpp/battery> <http://purl.org/dc/terms/description> "Sectoral ontology for battery Digital Product Passports under Regulation (EU) 2023/1542. This umbrella module declares the Battery product class; battery data is organised in nine companion modules: battery-performance (electrochemical performance, durability and in-use state), battery-materials (chemistry and material location), battery-labeling (labels and symbols), battery-categories (the five Art. 3(1) battery categories), battery-chemistries (the ten labelling chemistries), battery-locations (cathode, anode, electrolyte), battery-metals (the four metals whose recycled content Art. 8(1) requires), battery-statuses (the five Annex XIII 4(c) lifecycle statuses) and battery-extinguisher-classes; battery-cf-shapes carries the carbon footprint SHACL profile. It extends the CIRPASS-2 cross-sectoral CORE ontology by direct reference, following the approach of the Textile sector modules."@en .
+<https://w3id.org/eudpp/battery> <http://purl.org/dc/terms/description> "Sectoral ontology for battery Digital Product Passports under Regulation (EU) 2023/1542. This umbrella module declares the Battery product class and the SafetyInstruction class; battery data is organised in nine companion modules: battery-performance (electrochemical performance, durability and in-use state), battery-materials (chemistry and material location), battery-labeling (labels and symbols), battery-categories (the five Art. 3(1) battery categories), battery-chemistries (the ten labelling chemistries), battery-locations (cathode, anode, electrolyte), battery-metals (the four metals whose recycled content Art. 8(1) requires), battery-statuses (the five Annex XIII 4(c) lifecycle statuses) and battery-extinguisher-classes; battery-cf-shapes carries the carbon footprint SHACL profile. It extends the CIRPASS-2 cross-sectoral CORE ontology by direct reference, following the approach of the Textile sector modules."@en .
 <https://w3id.org/eudpp/battery> <http://purl.org/dc/terms/issued> "2026-07-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://w3id.org/eudpp/battery> <http://purl.org/dc/terms/license> <https://www.apache.org/licenses/LICENSE-2.0> .
 <https://w3id.org/eudpp/battery> <http://purl.org/dc/terms/license> "This ontology is licensed under the Apache License, Version 2.0. In case of dispute over Apache 2.0 applicability, or in case considering the ontology as a document, this ontology document is to be considered licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0)."@en .
-<https://w3id.org/eudpp/battery> <http://purl.org/dc/terms/modified> "2026-09-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/eudpp/battery> <http://purl.org/dc/terms/modified> "2026-10-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://w3id.org/eudpp/battery> <http://purl.org/dc/terms/references> "Regulation (EU) 2023/1542 (Batteries Regulation)"@en .
 <https://w3id.org/eudpp/battery> <http://purl.org/dc/terms/source> <https://eur-lex.europa.eu/eli/reg/2023/1542/oj> .
-<https://w3id.org/eudpp/battery> <http://purl.org/dc/terms/title> "EU DPP Battery Ontology (all modules)"@en .
+<https://w3id.org/eudpp/battery> <http://purl.org/dc/terms/title> "EU DPP Battery Ontology"@en .
 <https://w3id.org/eudpp/battery> <http://purl.org/vocab/vann/preferredNamespacePrefix> "bat" .
 <https://w3id.org/eudpp/battery> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/eudpp/battery#" .
-<https://w3id.org/eudpp/battery> <http://www.w3.org/2000/01/rdf-schema#comment> "Developed against the CIRPASS-2 CORE ontology v2.0.5 (refresh of 25 August 2026; P_DPP v2.0.6 of 27 August 2026, MAT v1.0.2). External references are pinned to these versions."@en .
-<https://w3id.org/eudpp/battery> <http://www.w3.org/2000/01/rdf-schema#label> "EU DPP Battery Ontology (all modules)"@en .
+<https://w3id.org/eudpp/battery> <http://www.w3.org/2000/01/rdf-schema#comment> "Developed against the CIRPASS-2 CORE ontology of October 2026 (P_DPP v2.1.0, MAT v1.1.0). External references are pinned to these versions."@en .
+<https://w3id.org/eudpp/battery> <http://www.w3.org/2000/01/rdf-schema#label> "EU DPP Battery Ontology"@en .
 <https://w3id.org/eudpp/battery> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/eudpp/battery-categories> .
 <https://w3id.org/eudpp/battery> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/eudpp/battery-cf-shapes> .
 <https://w3id.org/eudpp/battery> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/eudpp/battery-chemistries> .
@@ -108,6 +108,9 @@
 # 
 # https://w3id.org/eudpp#codeValue
 <https://w3id.org/eudpp#codeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/eudpp#materialTypeScheme
+<https://w3id.org/eudpp#materialTypeScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # https://w3id.org/eudpp/battery-performance#measurementUnit
 <https://w3id.org/eudpp/battery-performance#measurementUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -286,10 +289,11 @@
 <https://w3id.org/eudpp/battery#safetyMeasures> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
 <https://w3id.org/eudpp/battery#safetyMeasures> <http://purl.org/dc/terms/references> "Regulation (EU) 2023/1542, Annex XIII 2(d)"@en .
 <https://w3id.org/eudpp/battery#safetyMeasures> <http://purl.org/dc/terms/source> <https://eur-lex.europa.eu/eli/reg/2023/1542/oj> .
-<https://w3id.org/eudpp/battery#safetyMeasures> <http://www.w3.org/2000/01/rdf-schema#comment> "Link to the safety measures applicable to the battery. The document the URL points at is a digital instruction in the sense of the cross-sectoral class eudpp:DigitalInstruction (P_DPP), and the correspondence is recorded here as rdfs:seeAlso. It is deliberately not a SKOS mapping: this is a datatype property carrying a URL, eudpp:DigitalInstruction is a class of documents, and an alignment between the two would not hold at audit. Re-expressing this property on a CORE document pattern is the subject of ontologies-battery#11 and is deferred until that pattern is settled."@en .
+<https://w3id.org/eudpp/battery#safetyMeasures> <http://www.w3.org/2000/01/rdf-schema#comment> "Deprecated on 6 October 2026 and kept for existing data: the safety measures are now a bat:SafetyInstruction, subclass of eudpp:DigitalInstruction (P_DPP), reached through dpp:hasProperty with its URL on dpp:webLink (ontologies-core#45). Link to the safety measures applicable to the battery."@en .
 <https://w3id.org/eudpp/battery#safetyMeasures> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/eudpp/battery> .
 <https://w3id.org/eudpp/battery#safetyMeasures> <http://www.w3.org/2000/01/rdf-schema#label> "safety measures"@en .
-<https://w3id.org/eudpp/battery#safetyMeasures> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/eudpp#DigitalInstruction> .
+<https://w3id.org/eudpp/battery#safetyMeasures> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/eudpp/battery#SafetyInstruction> .
+<https://w3id.org/eudpp/battery#safetyMeasures> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 # 
 # https://w3id.org/eudpp/battery#testReportResults
 <https://w3id.org/eudpp/battery#testReportResults> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -768,6 +772,9 @@
 # https://w3id.org/eudpp#ClassificationCode
 <https://w3id.org/eudpp#ClassificationCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
+# https://w3id.org/eudpp#DigitalInstruction
+<https://w3id.org/eudpp#DigitalInstruction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
 # https://w3id.org/eudpp#Durability
 <https://w3id.org/eudpp#Durability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
@@ -795,6 +802,15 @@
 <https://w3id.org/eudpp/battery#Battery> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/eudpp/battery> .
 <https://w3id.org/eudpp/battery#Battery> <http://www.w3.org/2000/01/rdf-schema#label> "Battery"@en .
 <https://w3id.org/eudpp/battery#Battery> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme> .
+# 
+# https://w3id.org/eudpp/battery#SafetyInstruction
+<https://w3id.org/eudpp/battery#SafetyInstruction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/eudpp/battery#SafetyInstruction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/eudpp#DigitalInstruction> .
+<https://w3id.org/eudpp/battery#SafetyInstruction> <http://purl.org/dc/terms/references> "Regulation (EU) 2023/1542, Annex XIII 2(d); BatteryPass-Ready Data Attribute Long List v1.3, attribute 47"@en .
+<https://w3id.org/eudpp/battery#SafetyInstruction> <http://purl.org/dc/terms/source> <https://eur-lex.europa.eu/eli/reg/2023/1542/oj> .
+<https://w3id.org/eudpp/battery#SafetyInstruction> <http://www.w3.org/2000/01/rdf-schema#comment> "Instruction manual giving the safety measures to be taken when handling the battery, including dismantling. A digital instruction in the sense of the cross-sectoral class eudpp:DigitalInstruction (P_DPP): reached from the battery through dpp:hasProperty, with its URL on dpp:webLink. Declared here so that the safety measures can be told apart from the other instructions of a battery; replaces the datatype property bat:safetyMeasures (ontologies-core#45)."@en .
+<https://w3id.org/eudpp/battery#SafetyInstruction> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/eudpp/battery> .
+<https://w3id.org/eudpp/battery#SafetyInstruction> <http://www.w3.org/2000/01/rdf-schema#label> "Safety instruction"@en .
 # 
 # https://w3id.org/eudpp/battery-labeling#BatteryLabel
 <https://w3id.org/eudpp/battery-labeling#BatteryLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -976,7 +992,7 @@
 <https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme> <http://purl.org/dc/terms/source> "Draft Implementing Act on the harmonised format and technical specifications for the labelling of batteries, under Regulation (EU) 2023/1542, Annex VI Part A (7). Not yet adopted; the ten terms of this scheme are the draft ones."@en .
 <https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/eudpp/battery-chemistries> .
 <https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme> <http://www.w3.org/2000/01/rdf-schema#label> "Battery chemistries per the draft labelling Implementing Act"@en .
-<https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme> <http://www.w3.org/2004/02/skos/core#editorialNote> "Re-check flag. The Implementing Act is still a draft: the ten terms and their notations are to be re-checked on adoption. CIRPASS-2/ontologies-core#25 introduces eudpp:materialTypeScheme on the MAT material type; once it exists, the ten individuals are to carry it, pointing at batchem:BatteryChemistryScheme, so that the CORE mechanism and SKOS both carry the value."@en .
+<https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme> <http://www.w3.org/2004/02/skos/core#editorialNote> "Re-check flag. The Implementing Act is still a draft: the ten terms and their notations are to be re-checked on adoption. The ten individuals carry eudpp:materialTypeScheme (MAT v1.1.0, CIRPASS-2/ontologies-core#25), pointing at batchem:BatteryChemistryScheme, so that the CORE mechanism and SKOS both carry the scheme."@en .
 <https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/eudpp/battery-chemistries#LiIonLCO> .
 <https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/eudpp/battery-chemistries#LiIonLFP> .
 <https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/eudpp/battery-chemistries#LiIonLMO> .
@@ -1003,6 +1019,7 @@
 <https://w3id.org/eudpp/battery-chemistries#LiIonLCO> <http://www.w3.org/2004/02/skos/core#notation> "Li-ion LCO" .
 <https://w3id.org/eudpp/battery-chemistries#LiIonLCO> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lithium ion LCO"@en .
 <https://w3id.org/eudpp/battery-chemistries#LiIonLCO> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme> .
+<https://w3id.org/eudpp/battery-chemistries#LiIonLCO> <https://w3id.org/eudpp#materialTypeScheme> "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 # 
 # https://w3id.org/eudpp/battery-chemistries#LiIonLFP
 <https://w3id.org/eudpp/battery-chemistries#LiIonLFP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1017,6 +1034,7 @@
 <https://w3id.org/eudpp/battery-chemistries#LiIonLFP> <http://www.w3.org/2004/02/skos/core#notation> "Li-ion LFP" .
 <https://w3id.org/eudpp/battery-chemistries#LiIonLFP> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lithium ion LFP"@en .
 <https://w3id.org/eudpp/battery-chemistries#LiIonLFP> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme> .
+<https://w3id.org/eudpp/battery-chemistries#LiIonLFP> <https://w3id.org/eudpp#materialTypeScheme> "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 # 
 # https://w3id.org/eudpp/battery-chemistries#LiIonLMO
 <https://w3id.org/eudpp/battery-chemistries#LiIonLMO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1031,6 +1049,7 @@
 <https://w3id.org/eudpp/battery-chemistries#LiIonLMO> <http://www.w3.org/2004/02/skos/core#notation> "Li-ion LMO" .
 <https://w3id.org/eudpp/battery-chemistries#LiIonLMO> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lithium ion LMO"@en .
 <https://w3id.org/eudpp/battery-chemistries#LiIonLMO> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme> .
+<https://w3id.org/eudpp/battery-chemistries#LiIonLMO> <https://w3id.org/eudpp#materialTypeScheme> "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 # 
 # https://w3id.org/eudpp/battery-chemistries#LiIonNCA
 <https://w3id.org/eudpp/battery-chemistries#LiIonNCA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1045,6 +1064,7 @@
 <https://w3id.org/eudpp/battery-chemistries#LiIonNCA> <http://www.w3.org/2004/02/skos/core#notation> "Li-ion NCA" .
 <https://w3id.org/eudpp/battery-chemistries#LiIonNCA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lithium ion NCA"@en .
 <https://w3id.org/eudpp/battery-chemistries#LiIonNCA> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme> .
+<https://w3id.org/eudpp/battery-chemistries#LiIonNCA> <https://w3id.org/eudpp#materialTypeScheme> "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 # 
 # https://w3id.org/eudpp/battery-chemistries#LiIonNMC
 <https://w3id.org/eudpp/battery-chemistries#LiIonNMC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1059,6 +1079,7 @@
 <https://w3id.org/eudpp/battery-chemistries#LiIonNMC> <http://www.w3.org/2004/02/skos/core#notation> "Li-ion NMC" .
 <https://w3id.org/eudpp/battery-chemistries#LiIonNMC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lithium ion NMC"@en .
 <https://w3id.org/eudpp/battery-chemistries#LiIonNMC> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme> .
+<https://w3id.org/eudpp/battery-chemistries#LiIonNMC> <https://w3id.org/eudpp#materialTypeScheme> "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 # 
 # https://w3id.org/eudpp/battery-chemistries#LiMetal
 <https://w3id.org/eudpp/battery-chemistries#LiMetal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1072,6 +1093,7 @@
 <https://w3id.org/eudpp/battery-chemistries#LiMetal> <http://www.w3.org/2004/02/skos/core#notation> "Li-metal" .
 <https://w3id.org/eudpp/battery-chemistries#LiMetal> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lithium metal"@en .
 <https://w3id.org/eudpp/battery-chemistries#LiMetal> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme> .
+<https://w3id.org/eudpp/battery-chemistries#LiMetal> <https://w3id.org/eudpp#materialTypeScheme> "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 # 
 # https://w3id.org/eudpp/battery-chemistries#NaIon
 <https://w3id.org/eudpp/battery-chemistries#NaIon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1085,6 +1107,7 @@
 <https://w3id.org/eudpp/battery-chemistries#NaIon> <http://www.w3.org/2004/02/skos/core#notation> "Na-ion" .
 <https://w3id.org/eudpp/battery-chemistries#NaIon> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sodium-ion"@en .
 <https://w3id.org/eudpp/battery-chemistries#NaIon> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme> .
+<https://w3id.org/eudpp/battery-chemistries#NaIon> <https://w3id.org/eudpp#materialTypeScheme> "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 # 
 # https://w3id.org/eudpp/battery-chemistries#NiCd
 <https://w3id.org/eudpp/battery-chemistries#NiCd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1098,6 +1121,7 @@
 <https://w3id.org/eudpp/battery-chemistries#NiCd> <http://www.w3.org/2004/02/skos/core#notation> "Ni-Cd" .
 <https://w3id.org/eudpp/battery-chemistries#NiCd> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nickel cadmium"@en .
 <https://w3id.org/eudpp/battery-chemistries#NiCd> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme> .
+<https://w3id.org/eudpp/battery-chemistries#NiCd> <https://w3id.org/eudpp#materialTypeScheme> "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 # 
 # https://w3id.org/eudpp/battery-chemistries#NiMH
 <https://w3id.org/eudpp/battery-chemistries#NiMH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1111,6 +1135,7 @@
 <https://w3id.org/eudpp/battery-chemistries#NiMH> <http://www.w3.org/2004/02/skos/core#notation> "Ni-MH" .
 <https://w3id.org/eudpp/battery-chemistries#NiMH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nickel metal hydride"@en .
 <https://w3id.org/eudpp/battery-chemistries#NiMH> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme> .
+<https://w3id.org/eudpp/battery-chemistries#NiMH> <https://w3id.org/eudpp#materialTypeScheme> "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 # 
 # https://w3id.org/eudpp/battery-chemistries#Pb
 <https://w3id.org/eudpp/battery-chemistries#Pb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1124,6 +1149,7 @@
 <https://w3id.org/eudpp/battery-chemistries#Pb> <http://www.w3.org/2004/02/skos/core#notation> "Pb" .
 <https://w3id.org/eudpp/battery-chemistries#Pb> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lead acid"@en .
 <https://w3id.org/eudpp/battery-chemistries#Pb> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme> .
+<https://w3id.org/eudpp/battery-chemistries#Pb> <https://w3id.org/eudpp#materialTypeScheme> "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 # 
 # https://w3id.org/eudpp/battery-extinguisher-classes#ClassA
 <https://w3id.org/eudpp/battery-extinguisher-classes#ClassA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1278,6 +1304,7 @@
 <https://w3id.org/eudpp/battery-metals#Cobalt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cobalt"@en .
 <https://w3id.org/eudpp/battery-metals#Cobalt> <http://www.w3.org/2004/02/skos/core#scopeNote> "Recycled share is measured on the cobalt present in active materials, recovered from battery manufacturing waste or post-consumer waste. Long list attributes 49 and 52."@en .
 <https://w3id.org/eudpp/battery-metals#Cobalt> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/eudpp/battery-metals#BatteryMetalScheme> .
+<https://w3id.org/eudpp/battery-metals#Cobalt> <https://w3id.org/eudpp#materialTypeScheme> "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 # 
 # https://w3id.org/eudpp/battery-metals#Lead
 <https://w3id.org/eudpp/battery-metals#Lead> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1293,6 +1320,7 @@
 <https://w3id.org/eudpp/battery-metals#Lead> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lead"@en .
 <https://w3id.org/eudpp/battery-metals#Lead> <http://www.w3.org/2004/02/skos/core#scopeNote> "Lead is the exception in Art. 8(1): the recycled share is measured on the lead present in THE BATTERY, not in active materials, and recovered from waste without the manufacturing / post-consumer split. Long list attribute 54, which has no pre- and post-consumer counterpart."@en .
 <https://w3id.org/eudpp/battery-metals#Lead> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/eudpp/battery-metals#BatteryMetalScheme> .
+<https://w3id.org/eudpp/battery-metals#Lead> <https://w3id.org/eudpp#materialTypeScheme> "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 # 
 # https://w3id.org/eudpp/battery-metals#Lithium
 <https://w3id.org/eudpp/battery-metals#Lithium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1307,6 +1335,7 @@
 <https://w3id.org/eudpp/battery-metals#Lithium> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lithium"@en .
 <https://w3id.org/eudpp/battery-metals#Lithium> <http://www.w3.org/2004/02/skos/core#scopeNote> "Recycled share is measured on the lithium present in active materials, recovered from battery manufacturing waste or post-consumer waste. Long list attributes 50 and 53."@en .
 <https://w3id.org/eudpp/battery-metals#Lithium> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/eudpp/battery-metals#BatteryMetalScheme> .
+<https://w3id.org/eudpp/battery-metals#Lithium> <https://w3id.org/eudpp#materialTypeScheme> "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 # 
 # https://w3id.org/eudpp/battery-metals#Nickel
 <https://w3id.org/eudpp/battery-metals#Nickel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1321,6 +1350,7 @@
 <https://w3id.org/eudpp/battery-metals#Nickel> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nickel"@en .
 <https://w3id.org/eudpp/battery-metals#Nickel> <http://www.w3.org/2004/02/skos/core#scopeNote> "Recycled share is measured on the nickel present in active materials, recovered from battery manufacturing waste or post-consumer waste. Long list attributes 48 and 51."@en .
 <https://w3id.org/eudpp/battery-metals#Nickel> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/eudpp/battery-metals#BatteryMetalScheme> .
+<https://w3id.org/eudpp/battery-metals#Nickel> <https://w3id.org/eudpp#materialTypeScheme> "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 # 
 # https://w3id.org/eudpp/battery-statuses#BatteryStatusScheme
 <https://w3id.org/eudpp/battery-statuses#BatteryStatusScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1334,7 +1364,7 @@
 <https://w3id.org/eudpp/battery-statuses#BatteryStatusScheme> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/eudpp/battery-statuses#Repurposed> .
 <https://w3id.org/eudpp/battery-statuses#BatteryStatusScheme> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/eudpp/battery-statuses#Waste> .
 <https://w3id.org/eudpp/battery-statuses#BatteryStatusScheme> <http://www.w3.org/2004/02/skos/core#prefLabel> "Battery lifecycle statuses per Annex XIII 4(c)"@en .
-<https://w3id.org/eudpp/battery-statuses#BatteryStatusScheme> <http://www.w3.org/2004/02/skos/core#scopeNote> "Closed list of five terms. The status is dynamic at individual-battery granularity: it is updated on placing on the market and on every status change. A new battery passport is issued when the battery has been remanufactured, repurposed or subjected to a treatment operation preparing for re-use or repurposing and is placed on the market again; the link back to the previous passport is carried by the CORE property dpp:linkToPreviousDPP, not by this vocabulary. Access to the battery status is restricted to persons with a legitimate interest — a conformance rule expressed in the SHACL shapes, not in this ontology."@en .
+<https://w3id.org/eudpp/battery-statuses#BatteryStatusScheme> <http://www.w3.org/2004/02/skos/core#scopeNote> "Closed list of five terms. The status is dynamic at individual-battery granularity: it is updated on placing on the market and on every status change. A new battery passport is issued when the battery has been remanufactured, repurposed or subjected to a treatment operation preparing for re-use or repurposing and is placed on the market again; the link back to the previous passport is carried by the CORE, not by this vocabulary: dpp:linkToPreviousDPP, and since P_DPP v2.1.0 the object properties linking a passport to its previous and next passports (ontologies-core#56). Access to the battery status is restricted to persons with a legitimate interest — a conformance rule expressed in the SHACL shapes, not in this ontology."@en .
 # 
 # https://w3id.org/eudpp/battery-statuses#Original
 <https://w3id.org/eudpp/battery-statuses#Original> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
