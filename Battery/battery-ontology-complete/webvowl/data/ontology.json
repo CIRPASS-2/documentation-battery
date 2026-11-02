@@ -21,12 +21,12 @@
     "other" : {
       "creator" : [ {
         "identifier" : "creator",
-        "language" : "en",
+        "language" : "undefined",
         "value" : "Nader Jelassi",
         "type" : "label"
       }, {
         "identifier" : "creator",
-        "language" : "en",
+        "language" : "undefined",
         "value" : "Marc-Andree Wolf",
         "type" : "label"
       } ],
@@ -63,17 +63,12 @@
       "seeAlso" : [ {
         "identifier" : "seeAlso",
         "language" : "undefined",
-        "value" : "https://w3id.org/eudpp/battery-categories",
-        "type" : "iri"
-      }, {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
         "value" : "https://w3id.org/eudpp/battery-materials",
         "type" : "iri"
       }, {
         "identifier" : "seeAlso",
         "language" : "undefined",
-        "value" : "https://w3id.org/eudpp/battery-chemistries",
+        "value" : "https://w3id.org/eudpp/battery-cf-shapes",
         "type" : "iri"
       }, {
         "identifier" : "seeAlso",
@@ -83,7 +78,7 @@
       }, {
         "identifier" : "seeAlso",
         "language" : "undefined",
-        "value" : "https://w3id.org/eudpp/battery-locations",
+        "value" : "https://w3id.org/eudpp/battery-categories",
         "type" : "iri"
       }, {
         "identifier" : "seeAlso",
@@ -93,7 +88,12 @@
       }, {
         "identifier" : "seeAlso",
         "language" : "undefined",
-        "value" : "https://w3id.org/eudpp/battery-extinguisher-classes",
+        "value" : "https://w3id.org/eudpp/battery-chemistries",
+        "type" : "iri"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery-locations",
         "type" : "iri"
       }, {
         "identifier" : "seeAlso",
@@ -103,28 +103,28 @@
       }, {
         "identifier" : "seeAlso",
         "language" : "undefined",
-        "value" : "https://w3id.org/eudpp/battery-metals",
+        "value" : "https://w3id.org/eudpp/battery-extinguisher-classes",
         "type" : "iri"
       }, {
         "identifier" : "seeAlso",
         "language" : "undefined",
-        "value" : "https://w3id.org/eudpp/battery-cf-shapes",
+        "value" : "https://w3id.org/eudpp/battery-metals",
         "type" : "iri"
       } ],
       "license" : [ {
         "identifier" : "license",
-        "language" : "en",
-        "value" : "This ontology is licensed under the Apache License, Version 2.0. In case of dispute over Apache 2.0 applicability, or in case considering the ontology as a document, this ontology document is to be considered licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0).",
-        "type" : "label"
-      }, {
-        "identifier" : "license",
         "language" : "undefined",
         "value" : "https://www.apache.org/licenses/LICENSE-2.0",
         "type" : "iri"
+      }, {
+        "identifier" : "license",
+        "language" : "en",
+        "value" : "This ontology is licensed under the Apache License, Version 2.0. In case of dispute over Apache 2.0 applicability, or in case considering the ontology as a document, this ontology document is to be considered licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0).",
+        "type" : "label"
       } ],
       "contributor" : [ {
         "identifier" : "contributor",
-        "language" : "en",
+        "language" : "undefined",
         "value" : "Arnab Sinha",
         "type" : "label"
       } ],
@@ -189,25 +189,25 @@
     "id" : "36",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "37",
+    "id" : "18",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "39",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "40",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "41",
-    "type" : "rdfs:Datatype"
+    "id" : "48",
+    "type" : "owl:Class"
   }, {
     "id" : "49",
-    "type" : "owl:Class"
+    "type" : "rdfs:Datatype"
   }, {
     "id" : "50",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "51",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "18",
+    "id" : "52",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "53",
@@ -234,97 +234,97 @@
     "id" : "27",
     "type" : "rdfs:Datatype"
   }, {
+    "id" : "30",
+    "type" : "rdfs:Datatype"
+  }, {
     "id" : "60",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "61",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "45",
+    "id" : "2",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "5",
     "type" : "owl:Class"
   }, {
-    "id" : "47",
+    "id" : "46",
     "type" : "owl:Class"
   }, {
     "id" : "74",
     "type" : "owl:Class"
   }, {
-    "id" : "2",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "30",
-    "type" : "rdfs:Datatype"
-  }, {
     "id" : "76",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "78",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "79",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "80",
-    "type" : "owl:Class"
-  }, {
-    "id" : "82",
+    "id" : "77",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "9",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "83",
+    "id" : "80",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "71",
+    "id" : "38",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "70",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "24",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "85",
+    "id" : "68",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "84",
     "type" : "owl:Class"
   }, {
-    "id" : "72",
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "94",
     "type" : "owl:Class"
   }, {
     "id" : "95",
-    "type" : "owl:Class"
-  }, {
-    "id" : "39",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "65",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "99",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "43",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "69",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "101",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "102",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "98",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "89",
+    "id" : "101",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "106",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "75",
     "type" : "owl:Class"
   }, {
-    "id" : "119",
+    "id" : "127",
     "type" : "owl:Class"
   }, {
     "id" : "1",
@@ -333,32 +333,14 @@
     "id" : "26",
     "type" : "owl:Class"
   }, {
-    "id" : "122",
-    "type" : "owl:Class"
-  }, {
-    "id" : "84",
+    "id" : "83",
     "type" : "owl:Thing"
   }, {
     "id" : "15",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "67",
+    "id" : "123",
     "type" : "owl:Class"
-  }, {
-    "id" : "17",
-    "type" : "owl:Class"
-  }, {
-    "id" : "87",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "13",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "106",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "63",
-    "type" : "rdfs:Datatype"
   }, {
     "id" : "134",
     "type" : "rdfs:Datatype"
@@ -366,16 +348,46 @@
     "id" : "135",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "111",
+    "id" : "73",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "108",
+    "id" : "44",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "140",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "111",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "21",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "113",
+    "id" : "116",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "12",
@@ -384,7 +396,7 @@
     "id" : "59",
     "type" : "owl:Class"
   }, {
-    "id" : "81",
+    "id" : "82",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
@@ -411,28 +423,22 @@
           "value" : "https://w3id.org/eudpp/battery-chemistries",
           "type" : "iri"
         } ],
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
-          "type" : "iri"
-        } ],
         "references" : [ {
           "identifier" : "references",
           "language" : "en",
           "value" : "BatteryPass-Ready Data Attribute Long List v1.3, attribute 39",
           "type" : "label"
         } ],
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
+          "type" : "iri"
+        } ],
         "notation" : [ {
           "identifier" : "notation",
           "language" : "undefined",
           "value" : "Li-ion LFP",
-          "type" : "label"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "Lithium ion LFP",
           "type" : "label"
         } ],
         "materialTypeScheme" : [ {
@@ -441,15 +447,21 @@
           "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
           "type" : "label"
         } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Lithium ion LFP",
+          "type" : "label"
+        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
-          "value" : "Lithium iron phosphate",
+          "value" : "Li-ion LFP",
           "type" : "label"
         }, {
           "identifier" : "altLabel",
           "language" : "en",
-          "value" : "Li-ion LFP",
+          "value" : "Lithium iron phosphate",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -473,17 +485,17 @@
           "value" : "https://w3id.org/eudpp/battery-extinguisher-classes",
           "type" : "iri"
         } ],
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-extinguisher-classes#ExtinguisherClassScheme",
-          "type" : "iri"
-        } ],
         "references" : [ {
           "identifier" : "references",
           "language" : "en",
           "value" : "Spherity Battery Pass ontology v0.1, extinguishingAgent",
           "type" : "label"
+        } ],
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-extinguisher-classes#ExtinguisherClassScheme",
+          "type" : "iri"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -524,17 +536,17 @@
           "value" : "https://w3id.org/eudpp/battery-extinguisher-classes",
           "type" : "iri"
         } ],
-        "references" : [ {
-          "identifier" : "references",
-          "language" : "en",
-          "value" : "Spherity Battery Pass ontology v0.1, extinguishingAgent",
-          "type" : "label"
-        } ],
         "inScheme" : [ {
           "identifier" : "inScheme",
           "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-extinguisher-classes#ExtinguisherClassScheme",
           "type" : "iri"
+        } ],
+        "references" : [ {
+          "identifier" : "references",
+          "language" : "en",
+          "value" : "Spherity Battery Pass ontology v0.1, extinguishingAgent",
+          "type" : "label"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -575,17 +587,17 @@
           "value" : "https://w3id.org/eudpp/battery-metals",
           "type" : "iri"
         } ],
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
-          "type" : "iri"
-        } ],
         "references" : [ {
           "identifier" : "references",
           "language" : "en",
           "value" : "Regulation (EU) 2023/1542, Art. 8(1); BatteryPass-Ready Data Attribute Long List v1.3, attributes 49 and 52",
           "type" : "label"
+        } ],
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
+          "type" : "iri"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -638,17 +650,17 @@
           "value" : "https://w3id.org/eudpp/battery-metals",
           "type" : "iri"
         } ],
-        "references" : [ {
-          "identifier" : "references",
-          "language" : "en",
-          "value" : "Regulation (EU) 2023/1542, Art. 8(1); BatteryPass-Ready Data Attribute Long List v1.3, attributes 50 and 53",
-          "type" : "label"
-        } ],
         "inScheme" : [ {
           "identifier" : "inScheme",
           "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
           "type" : "iri"
+        } ],
+        "references" : [ {
+          "identifier" : "references",
+          "language" : "en",
+          "value" : "Regulation (EU) 2023/1542, Art. 8(1); BatteryPass-Ready Data Attribute Long List v1.3, attributes 50 and 53",
+          "type" : "label"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -701,17 +713,17 @@
           "value" : "https://w3id.org/eudpp/battery-categories",
           "type" : "iri"
         } ],
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme",
-          "type" : "iri"
-        } ],
         "references" : [ {
           "identifier" : "references",
           "language" : "en",
           "value" : "Regulation (EU) 2023/1542, Art. 3(1)(12)",
           "type" : "label"
+        } ],
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme",
+          "type" : "iri"
         } ],
         "codeSet" : [ {
           "identifier" : "codeSet",
@@ -749,16 +761,16 @@
           "value" : "https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme",
           "type" : "iri"
         } ],
-        "codeValue" : [ {
-          "identifier" : "codeValue",
-          "language" : "undefined",
-          "value" : "SLI",
-          "type" : "label"
-        } ],
         "scopeNote" : [ {
           "identifier" : "scopeNote",
           "language" : "en",
           "value" : "Out of scope of the battery passport.",
+          "type" : "label"
+        } ],
+        "codeValue" : [ {
+          "identifier" : "codeValue",
+          "language" : "undefined",
+          "value" : "SLI",
           "type" : "label"
         } ]
       },
@@ -776,17 +788,17 @@
           "value" : "https://w3id.org/eudpp/battery-statuses",
           "type" : "iri"
         } ],
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-statuses#BatteryStatusScheme",
-          "type" : "iri"
-        } ],
         "references" : [ {
           "identifier" : "references",
           "language" : "en",
           "value" : "Regulation (EU) 2023/1542, Annex XIII 4(c)",
           "type" : "label"
+        } ],
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-statuses#BatteryStatusScheme",
+          "type" : "iri"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -839,17 +851,17 @@
           "value" : "https://w3id.org/eudpp/battery-locations",
           "type" : "iri"
         } ],
-        "references" : [ {
-          "identifier" : "references",
-          "language" : "en",
-          "value" : "Regulation (EU) 2023/1542, Annex XIII 2(a); BatteryPass-Ready Data Attribute Long List v1.3, attribute 41",
-          "type" : "label"
-        } ],
         "inScheme" : [ {
           "identifier" : "inScheme",
           "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-locations#BatteryLocationScheme",
           "type" : "iri"
+        } ],
+        "references" : [ {
+          "identifier" : "references",
+          "language" : "en",
+          "value" : "Regulation (EU) 2023/1542, Annex XIII 2(a); BatteryPass-Ready Data Attribute Long List v1.3, attribute 41",
+          "type" : "label"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -902,16 +914,16 @@
           "value" : "Pb",
           "type" : "label"
         } ],
-        "materialTypeScheme" : [ {
-          "identifier" : "materialTypeScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
-          "type" : "label"
-        } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
           "language" : "en",
           "value" : "Lead acid",
+          "type" : "label"
+        } ],
+        "materialTypeScheme" : [ {
+          "identifier" : "materialTypeScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
           "type" : "label"
         } ],
         "altLabel" : [ {
@@ -941,17 +953,17 @@
           "value" : "https://w3id.org/eudpp/battery-locations",
           "type" : "iri"
         } ],
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-locations#BatteryLocationScheme",
-          "type" : "iri"
-        } ],
         "references" : [ {
           "identifier" : "references",
           "language" : "en",
           "value" : "Regulation (EU) 2023/1542, Annex XIII 2(a); BatteryPass-Ready Data Attribute Long List v1.3, attribute 41",
           "type" : "label"
+        } ],
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-locations#BatteryLocationScheme",
+          "type" : "iri"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -986,17 +998,17 @@
           "value" : "https://w3id.org/eudpp/battery-chemistries",
           "type" : "iri"
         } ],
-        "references" : [ {
-          "identifier" : "references",
-          "language" : "en",
-          "value" : "BatteryPass-Ready Data Attribute Long List v1.3, attribute 39",
-          "type" : "label"
-        } ],
         "inScheme" : [ {
           "identifier" : "inScheme",
           "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
           "type" : "iri"
+        } ],
+        "references" : [ {
+          "identifier" : "references",
+          "language" : "en",
+          "value" : "BatteryPass-Ready Data Attribute Long List v1.3, attribute 39",
+          "type" : "label"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -1004,16 +1016,16 @@
           "value" : "Ni-MH",
           "type" : "label"
         } ],
-        "materialTypeScheme" : [ {
-          "identifier" : "materialTypeScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
-          "type" : "label"
-        } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
           "language" : "en",
           "value" : "Nickel metal hydride",
+          "type" : "label"
+        } ],
+        "materialTypeScheme" : [ {
+          "identifier" : "materialTypeScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
           "type" : "label"
         } ],
         "altLabel" : [ {
@@ -1043,17 +1055,17 @@
           "value" : "https://w3id.org/eudpp/battery-statuses",
           "type" : "iri"
         } ],
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-statuses#BatteryStatusScheme",
-          "type" : "iri"
-        } ],
         "references" : [ {
           "identifier" : "references",
           "language" : "en",
           "value" : "Regulation (EU) 2023/1542, Annex XIII 4(c)",
           "type" : "label"
+        } ],
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-statuses#BatteryStatusScheme",
+          "type" : "iri"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -1205,57 +1217,6 @@
         "en" : "Extinguisher class C"
       }
     }, {
-      "iri" : "https://w3id.org/eudpp/battery-extinguisher-classes#ClassD",
-      "baseIri" : "https://w3id.org/eudpp/battery-extinguisher-classes",
-      "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-extinguisher-classes",
-          "type" : "iri"
-        } ],
-        "references" : [ {
-          "identifier" : "references",
-          "language" : "en",
-          "value" : "Spherity Battery Pass ontology v0.1, extinguishingAgent",
-          "type" : "label"
-        } ],
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-extinguisher-classes#ExtinguisherClassScheme",
-          "type" : "iri"
-        } ],
-        "notation" : [ {
-          "identifier" : "notation",
-          "language" : "undefined",
-          "value" : "D",
-          "type" : "label"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "Extinguisher class D",
-          "type" : "label"
-        } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "Fires involving combustible metals. Same scope in EN 2:2005 and in NFPA 10; the class most likely to be relevant to lithium battery cells.",
-          "type" : "label"
-        } ],
-        "topConceptOf" : [ {
-          "identifier" : "topConceptOf",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-extinguisher-classes#ExtinguisherClassScheme",
-          "type" : "iri"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "ClassD",
-        "en" : "Extinguisher class D"
-      }
-    }, {
       "iri" : "https://w3id.org/eudpp/battery-categories#PortableBattery",
       "baseIri" : "https://w3id.org/eudpp/battery-categories",
       "annotations" : {
@@ -1277,16 +1238,16 @@
           "value" : "Regulation (EU) 2023/1542, Art. 3(1)(9)",
           "type" : "label"
         } ],
-        "notation" : [ {
-          "identifier" : "notation",
-          "language" : "undefined",
-          "value" : "portable",
-          "type" : "label"
-        } ],
         "codeSet" : [ {
           "identifier" : "codeSet",
           "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme",
+          "type" : "label"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "portable",
           "type" : "label"
         } ],
         "prefLabel" : [ {
@@ -1325,6 +1286,57 @@
         "en" : "Portable battery"
       }
     }, {
+      "iri" : "https://w3id.org/eudpp/battery-extinguisher-classes#ClassD",
+      "baseIri" : "https://w3id.org/eudpp/battery-extinguisher-classes",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-extinguisher-classes",
+          "type" : "iri"
+        } ],
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-extinguisher-classes#ExtinguisherClassScheme",
+          "type" : "iri"
+        } ],
+        "references" : [ {
+          "identifier" : "references",
+          "language" : "en",
+          "value" : "Spherity Battery Pass ontology v0.1, extinguishingAgent",
+          "type" : "label"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "D",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Extinguisher class D",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Fires involving combustible metals. Same scope in EN 2:2005 and in NFPA 10; the class most likely to be relevant to lithium battery cells.",
+          "type" : "label"
+        } ],
+        "topConceptOf" : [ {
+          "identifier" : "topConceptOf",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-extinguisher-classes#ExtinguisherClassScheme",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "ClassD",
+        "en" : "Extinguisher class D"
+      }
+    }, {
       "iri" : "https://w3id.org/eudpp/battery-categories#LMTBattery",
       "baseIri" : "https://w3id.org/eudpp/battery-categories",
       "annotations" : {
@@ -1346,16 +1358,16 @@
           "value" : "Regulation (EU) 2023/1542, Art. 3(1)(11)",
           "type" : "label"
         } ],
-        "codeSet" : [ {
-          "identifier" : "codeSet",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme",
-          "type" : "label"
-        } ],
         "notation" : [ {
           "identifier" : "notation",
           "language" : "undefined",
           "value" : "LMT",
+          "type" : "label"
+        } ],
+        "codeSet" : [ {
+          "identifier" : "codeSet",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme",
           "type" : "label"
         } ],
         "prefLabel" : [ {
@@ -1364,16 +1376,16 @@
           "value" : "Light means of transport battery",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "LMT battery",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "a battery that is sealed, weighs 25 kg or less and is specifically designed to provide electric power for the traction of wheeled vehicles that can be powered by an electric motor alone or by a combination of motor and human power, including type-approved vehicles of category L within the meaning of Regulation (EU) No 168/2013 of the European Parliament and of the Council, and that is not an electric vehicle battery",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "LMT battery",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -1382,16 +1394,16 @@
           "value" : "https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme",
           "type" : "iri"
         } ],
-        "scopeNote" : [ {
-          "identifier" : "scopeNote",
-          "language" : "en",
-          "value" : "In scope of the battery passport.",
-          "type" : "label"
-        } ],
         "codeValue" : [ {
           "identifier" : "codeValue",
           "language" : "undefined",
           "value" : "LMT",
+          "type" : "label"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "In scope of the battery passport.",
           "type" : "label"
         } ]
       },
@@ -1439,16 +1451,16 @@
           "value" : "Extinguisher class F",
           "type" : "label"
         } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "Fires involving cooking media (vegetable or animal oils and fats), per EN 2:2005.",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
           "value" : "K (NFPA 10)",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Fires involving cooking media (vegetable or animal oils and fats), per EN 2:2005.",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -1526,75 +1538,6 @@
         "en" : "Lithium metal"
       }
     }, {
-      "iri" : "https://w3id.org/eudpp/battery-categories#IndustrialBattery",
-      "baseIri" : "https://w3id.org/eudpp/battery-categories",
-      "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-categories",
-          "type" : "iri"
-        } ],
-        "references" : [ {
-          "identifier" : "references",
-          "language" : "en",
-          "value" : "Regulation (EU) 2023/1542, Art. 3(1)(13)",
-          "type" : "label"
-        } ],
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme",
-          "type" : "iri"
-        } ],
-        "notation" : [ {
-          "identifier" : "notation",
-          "language" : "undefined",
-          "value" : "industrial",
-          "type" : "label"
-        } ],
-        "codeSet" : [ {
-          "identifier" : "codeSet",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme",
-          "type" : "label"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "Industrial battery",
-          "type" : "label"
-        } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "a battery that is specifically designed for industrial uses, intended for industrial uses after having been subject to preparation for repurposing or repurposing, or any other battery that weighs more than 5 kg and that is neither an electric vehicle battery, an LMT battery, nor an SLI battery",
-          "type" : "label"
-        } ],
-        "topConceptOf" : [ {
-          "identifier" : "topConceptOf",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme",
-          "type" : "iri"
-        } ],
-        "scopeNote" : [ {
-          "identifier" : "scopeNote",
-          "language" : "en",
-          "value" : "In scope of the battery passport above 2 kWh.",
-          "type" : "label"
-        } ],
-        "codeValue" : [ {
-          "identifier" : "codeValue",
-          "language" : "undefined",
-          "value" : "industrial",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "IndustrialBattery",
-        "en" : "Industrial battery"
-      }
-    }, {
       "iri" : "https://w3id.org/eudpp/battery-categories#ElectricVehicleBattery",
       "baseIri" : "https://w3id.org/eudpp/battery-categories",
       "annotations" : {
@@ -1604,17 +1547,17 @@
           "value" : "https://w3id.org/eudpp/battery-categories",
           "type" : "iri"
         } ],
-        "references" : [ {
-          "identifier" : "references",
-          "language" : "en",
-          "value" : "Regulation (EU) 2023/1542, Art. 3(1)(14)",
-          "type" : "label"
-        } ],
         "inScheme" : [ {
           "identifier" : "inScheme",
           "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme",
           "type" : "iri"
+        } ],
+        "references" : [ {
+          "identifier" : "references",
+          "language" : "en",
+          "value" : "Regulation (EU) 2023/1542, Art. 3(1)(14)",
+          "type" : "label"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -1670,6 +1613,75 @@
         "en" : "Electric vehicle battery"
       }
     }, {
+      "iri" : "https://w3id.org/eudpp/battery-categories#IndustrialBattery",
+      "baseIri" : "https://w3id.org/eudpp/battery-categories",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-categories",
+          "type" : "iri"
+        } ],
+        "references" : [ {
+          "identifier" : "references",
+          "language" : "en",
+          "value" : "Regulation (EU) 2023/1542, Art. 3(1)(13)",
+          "type" : "label"
+        } ],
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme",
+          "type" : "iri"
+        } ],
+        "codeSet" : [ {
+          "identifier" : "codeSet",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme",
+          "type" : "label"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "industrial",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Industrial battery",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "a battery that is specifically designed for industrial uses, intended for industrial uses after having been subject to preparation for repurposing or repurposing, or any other battery that weighs more than 5 kg and that is neither an electric vehicle battery, an LMT battery, nor an SLI battery",
+          "type" : "label"
+        } ],
+        "topConceptOf" : [ {
+          "identifier" : "topConceptOf",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme",
+          "type" : "iri"
+        } ],
+        "codeValue" : [ {
+          "identifier" : "codeValue",
+          "language" : "undefined",
+          "value" : "industrial",
+          "type" : "label"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "In scope of the battery passport above 2 kWh.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "IndustrialBattery",
+        "en" : "Industrial battery"
+      }
+    }, {
       "iri" : "https://w3id.org/eudpp/battery-metals#Lead",
       "baseIri" : "https://w3id.org/eudpp/battery-metals",
       "annotations" : {
@@ -1685,17 +1697,17 @@
           "value" : "https://w3id.org/eudpp/battery-metals",
           "type" : "iri"
         } ],
-        "references" : [ {
-          "identifier" : "references",
-          "language" : "en",
-          "value" : "Regulation (EU) 2023/1542, Art. 8(1); BatteryPass-Ready Data Attribute Long List v1.3, attribute 54",
-          "type" : "label"
-        } ],
         "inScheme" : [ {
           "identifier" : "inScheme",
           "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
           "type" : "iri"
+        } ],
+        "references" : [ {
+          "identifier" : "references",
+          "language" : "en",
+          "value" : "Regulation (EU) 2023/1542, Art. 8(1); BatteryPass-Ready Data Attribute Long List v1.3, attribute 54",
+          "type" : "label"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -1703,16 +1715,16 @@
           "value" : "Pb",
           "type" : "label"
         } ],
-        "materialTypeScheme" : [ {
-          "identifier" : "materialTypeScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
-          "type" : "label"
-        } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
           "language" : "en",
           "value" : "Lead",
+          "type" : "label"
+        } ],
+        "materialTypeScheme" : [ {
+          "identifier" : "materialTypeScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
           "type" : "label"
         } ],
         "altLabel" : [ {
@@ -1838,12 +1850,12 @@
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
-          "value" : "Lithium cobalt oxide",
+          "value" : "Li-ion LCO",
           "type" : "label"
         }, {
           "identifier" : "altLabel",
           "language" : "en",
-          "value" : "Li-ion LCO",
+          "value" : "Lithium cobalt oxide",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -1867,17 +1879,17 @@
           "value" : "https://w3id.org/eudpp/battery-chemistries",
           "type" : "iri"
         } ],
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
-          "type" : "iri"
-        } ],
         "references" : [ {
           "identifier" : "references",
           "language" : "en",
           "value" : "BatteryPass-Ready Data Attribute Long List v1.3, attribute 39",
           "type" : "label"
+        } ],
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
+          "type" : "iri"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -1900,12 +1912,12 @@
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
-          "value" : "Li-ion LMO",
+          "value" : "Lithium manganese oxide",
           "type" : "label"
         }, {
           "identifier" : "altLabel",
           "language" : "en",
-          "value" : "Lithium manganese oxide",
+          "value" : "Li-ion LMO",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -1947,27 +1959,27 @@
           "value" : "Li-ion NCA",
           "type" : "label"
         } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "Lithium ion NCA",
-          "type" : "label"
-        } ],
         "materialTypeScheme" : [ {
           "identifier" : "materialTypeScheme",
           "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
           "type" : "label"
         } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Lithium ion NCA",
+          "type" : "label"
+        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
-          "value" : "Li-ion NCA",
+          "value" : "Lithium nickel cobalt aluminium oxide",
           "type" : "label"
         }, {
           "identifier" : "altLabel",
           "language" : "en",
-          "value" : "Lithium nickel cobalt aluminium oxide",
+          "value" : "Li-ion NCA",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -1991,17 +2003,17 @@
           "value" : "https://w3id.org/eudpp/battery-chemistries",
           "type" : "iri"
         } ],
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
-          "type" : "iri"
-        } ],
         "references" : [ {
           "identifier" : "references",
           "language" : "en",
           "value" : "BatteryPass-Ready Data Attribute Long List v1.3, attribute 39",
           "type" : "label"
+        } ],
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
+          "type" : "iri"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -2081,12 +2093,12 @@
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
-          "value" : "Li-ion NMC",
+          "value" : "Lithium nickel manganese cobalt oxide",
           "type" : "label"
         }, {
           "identifier" : "altLabel",
           "language" : "en",
-          "value" : "Lithium nickel manganese cobalt oxide",
+          "value" : "Li-ion NMC",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -2128,16 +2140,16 @@
           "value" : "Ni",
           "type" : "label"
         } ],
-        "materialTypeScheme" : [ {
-          "identifier" : "materialTypeScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
-          "type" : "label"
-        } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
           "language" : "en",
           "value" : "Nickel",
+          "type" : "label"
+        } ],
+        "materialTypeScheme" : [ {
+          "identifier" : "materialTypeScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
           "type" : "label"
         } ],
         "altLabel" : [ {
@@ -2224,17 +2236,17 @@
           "value" : "https://w3id.org/eudpp/battery-chemistries",
           "type" : "iri"
         } ],
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
-          "type" : "iri"
-        } ],
         "references" : [ {
           "identifier" : "references",
           "language" : "en",
           "value" : "BatteryPass-Ready Data Attribute Long List v1.3, attribute 39",
           "type" : "label"
+        } ],
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
+          "type" : "iri"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -2341,11 +2353,11 @@
       "IRI-based" : "decimal"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "31",
     "label" : {
-      "IRI-based" : "decimal"
+      "IRI-based" : "integer"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
@@ -2369,9 +2381,16 @@
       "IRI-based" : "decimal"
     }
   }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "18",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "37",
+    "id" : "39",
     "label" : {
       "IRI-based" : "decimal"
     }
@@ -2381,13 +2400,6 @@
     "id" : "40",
     "label" : {
       "IRI-based" : "decimal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "41",
-    "label" : {
-      "IRI-based" : "integer"
     }
   }, {
     "iri" : "https://w3id.org/eudpp#MaterialType",
@@ -2406,28 +2418,22 @@
           "value" : "https://w3id.org/eudpp/battery-chemistries",
           "type" : "iri"
         } ],
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
-          "type" : "iri"
-        } ],
         "references" : [ {
           "identifier" : "references",
           "language" : "en",
           "value" : "BatteryPass-Ready Data Attribute Long List v1.3, attribute 39",
           "type" : "label"
         } ],
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
+          "type" : "iri"
+        } ],
         "notation" : [ {
           "identifier" : "notation",
           "language" : "undefined",
           "value" : "Li-ion LFP",
-          "type" : "label"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "Lithium ion LFP",
           "type" : "label"
         } ],
         "materialTypeScheme" : [ {
@@ -2436,15 +2442,21 @@
           "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
           "type" : "label"
         } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Lithium ion LFP",
+          "type" : "label"
+        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
-          "value" : "Lithium iron phosphate",
+          "value" : "Li-ion LFP",
           "type" : "label"
         }, {
           "identifier" : "altLabel",
           "language" : "en",
-          "value" : "Li-ion LFP",
+          "value" : "Lithium iron phosphate",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -2501,12 +2513,12 @@
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
-          "value" : "Lithium cobalt oxide",
+          "value" : "Li-ion LCO",
           "type" : "label"
         }, {
           "identifier" : "altLabel",
           "language" : "en",
-          "value" : "Li-ion LCO",
+          "value" : "Lithium cobalt oxide",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -2530,17 +2542,17 @@
           "value" : "https://w3id.org/eudpp/battery-chemistries",
           "type" : "iri"
         } ],
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
-          "type" : "iri"
-        } ],
         "references" : [ {
           "identifier" : "references",
           "language" : "en",
           "value" : "BatteryPass-Ready Data Attribute Long List v1.3, attribute 39",
           "type" : "label"
+        } ],
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
+          "type" : "iri"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -2563,12 +2575,12 @@
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
-          "value" : "Li-ion LMO",
+          "value" : "Lithium manganese oxide",
           "type" : "label"
         }, {
           "identifier" : "altLabel",
           "language" : "en",
-          "value" : "Lithium manganese oxide",
+          "value" : "Li-ion LMO",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -2592,17 +2604,17 @@
           "value" : "https://w3id.org/eudpp/battery-metals",
           "type" : "iri"
         } ],
-        "references" : [ {
-          "identifier" : "references",
-          "language" : "en",
-          "value" : "Regulation (EU) 2023/1542, Art. 8(1); BatteryPass-Ready Data Attribute Long List v1.3, attributes 50 and 53",
-          "type" : "label"
-        } ],
         "inScheme" : [ {
           "identifier" : "inScheme",
           "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
           "type" : "iri"
+        } ],
+        "references" : [ {
+          "identifier" : "references",
+          "language" : "en",
+          "value" : "Regulation (EU) 2023/1542, Art. 8(1); BatteryPass-Ready Data Attribute Long List v1.3, attributes 50 and 53",
+          "type" : "label"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -2655,17 +2667,17 @@
           "value" : "https://w3id.org/eudpp/battery-metals",
           "type" : "iri"
         } ],
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
-          "type" : "iri"
-        } ],
         "references" : [ {
           "identifier" : "references",
           "language" : "en",
           "value" : "Regulation (EU) 2023/1542, Art. 8(1); BatteryPass-Ready Data Attribute Long List v1.3, attributes 49 and 52",
           "type" : "label"
+        } ],
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
+          "type" : "iri"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -2736,27 +2748,27 @@
           "value" : "Li-ion NCA",
           "type" : "label"
         } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "Lithium ion NCA",
-          "type" : "label"
-        } ],
         "materialTypeScheme" : [ {
           "identifier" : "materialTypeScheme",
           "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
           "type" : "label"
         } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Lithium ion NCA",
+          "type" : "label"
+        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
-          "value" : "Li-ion NCA",
+          "value" : "Lithium nickel cobalt aluminium oxide",
           "type" : "label"
         }, {
           "identifier" : "altLabel",
           "language" : "en",
-          "value" : "Lithium nickel cobalt aluminium oxide",
+          "value" : "Li-ion NCA",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -2780,17 +2792,17 @@
           "value" : "https://w3id.org/eudpp/battery-chemistries",
           "type" : "iri"
         } ],
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
-          "type" : "iri"
-        } ],
         "references" : [ {
           "identifier" : "references",
           "language" : "en",
           "value" : "BatteryPass-Ready Data Attribute Long List v1.3, attribute 39",
           "type" : "label"
+        } ],
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
+          "type" : "iri"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -2855,16 +2867,16 @@
           "value" : "Pb",
           "type" : "label"
         } ],
-        "materialTypeScheme" : [ {
-          "identifier" : "materialTypeScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
-          "type" : "label"
-        } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
           "language" : "en",
           "value" : "Lead acid",
+          "type" : "label"
+        } ],
+        "materialTypeScheme" : [ {
+          "identifier" : "materialTypeScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
           "type" : "label"
         } ],
         "altLabel" : [ {
@@ -2927,12 +2939,12 @@
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
-          "value" : "Li-ion NMC",
+          "value" : "Lithium nickel manganese cobalt oxide",
           "type" : "label"
         }, {
           "identifier" : "altLabel",
           "language" : "en",
-          "value" : "Lithium nickel manganese cobalt oxide",
+          "value" : "Li-ion NMC",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -2956,17 +2968,17 @@
           "value" : "https://w3id.org/eudpp/battery-chemistries",
           "type" : "iri"
         } ],
-        "references" : [ {
-          "identifier" : "references",
-          "language" : "en",
-          "value" : "BatteryPass-Ready Data Attribute Long List v1.3, attribute 39",
-          "type" : "label"
-        } ],
         "inScheme" : [ {
           "identifier" : "inScheme",
           "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
           "type" : "iri"
+        } ],
+        "references" : [ {
+          "identifier" : "references",
+          "language" : "en",
+          "value" : "BatteryPass-Ready Data Attribute Long List v1.3, attribute 39",
+          "type" : "label"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -2974,16 +2986,16 @@
           "value" : "Ni-MH",
           "type" : "label"
         } ],
-        "materialTypeScheme" : [ {
-          "identifier" : "materialTypeScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
-          "type" : "label"
-        } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
           "language" : "en",
           "value" : "Nickel metal hydride",
+          "type" : "label"
+        } ],
+        "materialTypeScheme" : [ {
+          "identifier" : "materialTypeScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
           "type" : "label"
         } ],
         "altLabel" : [ {
@@ -3031,16 +3043,16 @@
           "value" : "Ni",
           "type" : "label"
         } ],
-        "materialTypeScheme" : [ {
-          "identifier" : "materialTypeScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
-          "type" : "label"
-        } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
           "language" : "en",
           "value" : "Nickel",
+          "type" : "label"
+        } ],
+        "materialTypeScheme" : [ {
+          "identifier" : "materialTypeScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
           "type" : "label"
         } ],
         "altLabel" : [ {
@@ -3065,6 +3077,63 @@
       "labels" : {
         "IRI-based" : "Nickel",
         "en" : "Nickel"
+      }
+    }, {
+      "iri" : "https://w3id.org/eudpp/battery-chemistries#NiCd",
+      "baseIri" : "https://w3id.org/eudpp/battery-chemistries",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-chemistries",
+          "type" : "iri"
+        } ],
+        "references" : [ {
+          "identifier" : "references",
+          "language" : "en",
+          "value" : "BatteryPass-Ready Data Attribute Long List v1.3, attribute 39",
+          "type" : "label"
+        } ],
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
+          "type" : "iri"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "Ni-Cd",
+          "type" : "label"
+        } ],
+        "materialTypeScheme" : [ {
+          "identifier" : "materialTypeScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Nickel cadmium",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "Ni-Cd",
+          "type" : "label"
+        } ],
+        "topConceptOf" : [ {
+          "identifier" : "topConceptOf",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "NiCd",
+        "en" : "Nickel cadmium"
       }
     }, {
       "iri" : "https://w3id.org/eudpp/battery-chemistries#LiMetal",
@@ -3124,63 +3193,6 @@
         "en" : "Lithium metal"
       }
     }, {
-      "iri" : "https://w3id.org/eudpp/battery-chemistries#NiCd",
-      "baseIri" : "https://w3id.org/eudpp/battery-chemistries",
-      "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-chemistries",
-          "type" : "iri"
-        } ],
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
-          "type" : "iri"
-        } ],
-        "references" : [ {
-          "identifier" : "references",
-          "language" : "en",
-          "value" : "BatteryPass-Ready Data Attribute Long List v1.3, attribute 39",
-          "type" : "label"
-        } ],
-        "notation" : [ {
-          "identifier" : "notation",
-          "language" : "undefined",
-          "value" : "Ni-Cd",
-          "type" : "label"
-        } ],
-        "materialTypeScheme" : [ {
-          "identifier" : "materialTypeScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
-          "type" : "label"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "Nickel cadmium",
-          "type" : "label"
-        } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "Ni-Cd",
-          "type" : "label"
-        } ],
-        "topConceptOf" : [ {
-          "identifier" : "topConceptOf",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
-          "type" : "iri"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "NiCd",
-        "en" : "Nickel cadmium"
-      }
-    }, {
       "iri" : "https://w3id.org/eudpp/battery-metals#Lead",
       "baseIri" : "https://w3id.org/eudpp/battery-metals",
       "annotations" : {
@@ -3196,17 +3208,17 @@
           "value" : "https://w3id.org/eudpp/battery-metals",
           "type" : "iri"
         } ],
-        "references" : [ {
-          "identifier" : "references",
-          "language" : "en",
-          "value" : "Regulation (EU) 2023/1542, Art. 8(1); BatteryPass-Ready Data Attribute Long List v1.3, attribute 54",
-          "type" : "label"
-        } ],
         "inScheme" : [ {
           "identifier" : "inScheme",
           "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
           "type" : "iri"
+        } ],
+        "references" : [ {
+          "identifier" : "references",
+          "language" : "en",
+          "value" : "Regulation (EU) 2023/1542, Art. 8(1); BatteryPass-Ready Data Attribute Long List v1.3, attribute 54",
+          "type" : "label"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -3214,16 +3226,16 @@
           "value" : "Pb",
           "type" : "label"
         } ],
-        "materialTypeScheme" : [ {
-          "identifier" : "materialTypeScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
-          "type" : "label"
-        } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
           "language" : "en",
           "value" : "Lead",
+          "type" : "label"
+        } ],
+        "materialTypeScheme" : [ {
+          "identifier" : "materialTypeScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
           "type" : "label"
         } ],
         "altLabel" : [ {
@@ -3251,7 +3263,14 @@
       }
     } ],
     "attributes" : [ "external" ],
-    "id" : "49"
+    "id" : "48"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "49",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -3262,16 +3281,9 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "51",
+    "id" : "52",
     "label" : {
       "IRI-based" : "decimal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "18",
-    "label" : {
-      "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
@@ -3353,6 +3365,13 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "30",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "60",
     "label" : {
       "IRI-based" : "decimal"
@@ -3360,14 +3379,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "61",
-    "label" : {
-      "IRI-based" : "decimal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "45",
+    "id" : "2",
     "label" : {
       "IRI-based" : "decimal"
     }
@@ -3436,8 +3448,8 @@
       "en" : "The electrochemical composition of the battery, reflecting the active materials used in cathode and anode and, voluntarily, electrolyte. Specialises the cross-sectoral MaterialOfComposition class."
     },
     "attributes" : [ "external" ],
-    "id" : "47",
-    "superClasses" : [ "72" ]
+    "id" : "46",
+    "superClasses" : [ "71" ]
   }, {
     "iri" : "https://w3id.org/eudpp#DigitalInstruction",
     "baseIri" : "https://w3id.org/eudpp",
@@ -3451,20 +3463,6 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "2",
-    "label" : {
-      "IRI-based" : "decimal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "30",
-    "label" : {
-      "IRI-based" : "decimal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "76",
     "label" : {
       "IRI-based" : "decimal"
@@ -3472,14 +3470,28 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "78",
+    "id" : "77",
     "label" : {
       "IRI-based" : "decimal"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "79",
+    "id" : "9",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "80",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "38",
     "label" : {
       "IRI-based" : "decimal"
     }
@@ -3509,33 +3521,19 @@
       "en" : "Container for the thermal exposure of the battery in use: operating temperature information, idle-state temperature range boundaries, and aggregated time spent (and spent charging) in extreme temperatures outside those boundaries. Anchored under the cross-sectoral Property class, not under QuantitativeProperty: this is a container grouping several measured quantities, not a quantity itself."
     },
     "attributes" : [ "external" ],
-    "id" : "80",
-    "superClasses" : [ "81" ]
+    "id" : "81",
+    "superClasses" : [ "82" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "82",
+    "id" : "42",
     "label" : {
       "IRI-based" : "decimal"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "9",
-    "label" : {
-      "IRI-based" : "decimal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "83",
-    "label" : {
-      "IRI-based" : "decimal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "71",
+    "id" : "70",
     "label" : {
       "IRI-based" : "decimal"
     }
@@ -3543,6 +3541,20 @@
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "24",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "68",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "66",
     "label" : {
       "IRI-based" : "decimal"
     }
@@ -3584,17 +3596,17 @@
           "value" : "https://w3id.org/eudpp/battery-locations",
           "type" : "iri"
         } ],
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-locations#BatteryLocationScheme",
-          "type" : "iri"
-        } ],
         "references" : [ {
           "identifier" : "references",
           "language" : "en",
           "value" : "Regulation (EU) 2023/1542, Annex XIII 2(a); BatteryPass-Ready Data Attribute Long List v1.3, attribute 41",
           "type" : "label"
+        } ],
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-locations#BatteryLocationScheme",
+          "type" : "iri"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -3674,17 +3686,17 @@
           "value" : "https://w3id.org/eudpp/battery-locations",
           "type" : "iri"
         } ],
-        "references" : [ {
-          "identifier" : "references",
-          "language" : "en",
-          "value" : "Regulation (EU) 2023/1542, Annex XIII 2(a); BatteryPass-Ready Data Attribute Long List v1.3, attribute 41",
-          "type" : "label"
-        } ],
         "inScheme" : [ {
           "identifier" : "inScheme",
           "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-locations#BatteryLocationScheme",
           "type" : "iri"
+        } ],
+        "references" : [ {
+          "identifier" : "references",
+          "language" : "en",
+          "value" : "Regulation (EU) 2023/1542, Annex XIII 2(a); BatteryPass-Ready Data Attribute Long List v1.3, attribute 41",
+          "type" : "label"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -3714,7 +3726,7 @@
       "en" : "An internal location within the battery where a material or sub-component resides. Battery-specific class with no CORE anchor. Its value set is the battery-locations vocabulary, which declares the three locations named by Regulation (EU) 2023/1542, Annex XIII 2(a): cathode, anode and electrolyte."
     },
     "attributes" : [ "external" ],
-    "id" : "85"
+    "id" : "84"
   }, {
     "iri" : "https://w3id.org/eudpp#MaterialOfComposition",
     "baseIri" : "https://w3id.org/eudpp",
@@ -3722,9 +3734,9 @@
     "label" : {
       "IRI-based" : "MaterialOfComposition"
     },
-    "subClasses" : [ "47" ],
+    "subClasses" : [ "46" ],
     "attributes" : [ "external" ],
-    "id" : "72"
+    "id" : "71"
   }, {
     "iri" : "https://w3id.org/eudpp#ClassificationCode",
     "baseIri" : "https://w3id.org/eudpp",
@@ -3754,16 +3766,16 @@
           "value" : "Regulation (EU) 2023/1542, Art. 3(1)(9)",
           "type" : "label"
         } ],
-        "notation" : [ {
-          "identifier" : "notation",
-          "language" : "undefined",
-          "value" : "portable",
-          "type" : "label"
-        } ],
         "codeSet" : [ {
           "identifier" : "codeSet",
           "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme",
+          "type" : "label"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "portable",
           "type" : "label"
         } ],
         "prefLabel" : [ {
@@ -3823,16 +3835,16 @@
           "value" : "Regulation (EU) 2023/1542, Art. 3(1)(11)",
           "type" : "label"
         } ],
-        "codeSet" : [ {
-          "identifier" : "codeSet",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme",
-          "type" : "label"
-        } ],
         "notation" : [ {
           "identifier" : "notation",
           "language" : "undefined",
           "value" : "LMT",
+          "type" : "label"
+        } ],
+        "codeSet" : [ {
+          "identifier" : "codeSet",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme",
           "type" : "label"
         } ],
         "prefLabel" : [ {
@@ -3841,16 +3853,16 @@
           "value" : "Light means of transport battery",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "LMT battery",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "a battery that is sealed, weighs 25 kg or less and is specifically designed to provide electric power for the traction of wheeled vehicles that can be powered by an electric motor alone or by a combination of motor and human power, including type-approved vehicles of category L within the meaning of Regulation (EU) No 168/2013 of the European Parliament and of the Council, and that is not an electric vehicle battery",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "LMT battery",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -3859,16 +3871,16 @@
           "value" : "https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme",
           "type" : "iri"
         } ],
-        "scopeNote" : [ {
-          "identifier" : "scopeNote",
-          "language" : "en",
-          "value" : "In scope of the battery passport.",
-          "type" : "label"
-        } ],
         "codeValue" : [ {
           "identifier" : "codeValue",
           "language" : "undefined",
           "value" : "LMT",
+          "type" : "label"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "In scope of the battery passport.",
           "type" : "label"
         } ]
       },
@@ -3886,17 +3898,17 @@
           "value" : "https://w3id.org/eudpp/battery-categories",
           "type" : "iri"
         } ],
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme",
-          "type" : "iri"
-        } ],
         "references" : [ {
           "identifier" : "references",
           "language" : "en",
           "value" : "Regulation (EU) 2023/1542, Art. 3(1)(12)",
           "type" : "label"
+        } ],
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme",
+          "type" : "iri"
         } ],
         "codeSet" : [ {
           "identifier" : "codeSet",
@@ -3934,16 +3946,16 @@
           "value" : "https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme",
           "type" : "iri"
         } ],
-        "codeValue" : [ {
-          "identifier" : "codeValue",
-          "language" : "undefined",
-          "value" : "SLI",
-          "type" : "label"
-        } ],
         "scopeNote" : [ {
           "identifier" : "scopeNote",
           "language" : "en",
           "value" : "Out of scope of the battery passport.",
+          "type" : "label"
+        } ],
+        "codeValue" : [ {
+          "identifier" : "codeValue",
+          "language" : "undefined",
+          "value" : "SLI",
           "type" : "label"
         } ]
       },
@@ -3952,7 +3964,7 @@
         "en" : "Starting, lighting and ignition battery"
       }
     }, {
-      "iri" : "https://w3id.org/eudpp/battery-categories#ElectricVehicleBattery",
+      "iri" : "https://w3id.org/eudpp/battery-categories#IndustrialBattery",
       "baseIri" : "https://w3id.org/eudpp/battery-categories",
       "annotations" : {
         "isDefinedBy" : [ {
@@ -3964,7 +3976,7 @@
         "references" : [ {
           "identifier" : "references",
           "language" : "en",
-          "value" : "Regulation (EU) 2023/1542, Art. 3(1)(14)",
+          "value" : "Regulation (EU) 2023/1542, Art. 3(1)(13)",
           "type" : "label"
         } ],
         "inScheme" : [ {
@@ -3972,6 +3984,75 @@
           "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme",
           "type" : "iri"
+        } ],
+        "codeSet" : [ {
+          "identifier" : "codeSet",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme",
+          "type" : "label"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "industrial",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Industrial battery",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "a battery that is specifically designed for industrial uses, intended for industrial uses after having been subject to preparation for repurposing or repurposing, or any other battery that weighs more than 5 kg and that is neither an electric vehicle battery, an LMT battery, nor an SLI battery",
+          "type" : "label"
+        } ],
+        "topConceptOf" : [ {
+          "identifier" : "topConceptOf",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme",
+          "type" : "iri"
+        } ],
+        "codeValue" : [ {
+          "identifier" : "codeValue",
+          "language" : "undefined",
+          "value" : "industrial",
+          "type" : "label"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "In scope of the battery passport above 2 kWh.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "IndustrialBattery",
+        "en" : "Industrial battery"
+      }
+    }, {
+      "iri" : "https://w3id.org/eudpp/battery-categories#ElectricVehicleBattery",
+      "baseIri" : "https://w3id.org/eudpp/battery-categories",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-categories",
+          "type" : "iri"
+        } ],
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme",
+          "type" : "iri"
+        } ],
+        "references" : [ {
+          "identifier" : "references",
+          "language" : "en",
+          "value" : "Regulation (EU) 2023/1542, Art. 3(1)(14)",
+          "type" : "label"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -4026,112 +4107,22 @@
         "IRI-based" : "ElectricVehicleBattery",
         "en" : "Electric vehicle battery"
       }
-    }, {
-      "iri" : "https://w3id.org/eudpp/battery-categories#IndustrialBattery",
-      "baseIri" : "https://w3id.org/eudpp/battery-categories",
-      "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-categories",
-          "type" : "iri"
-        } ],
-        "references" : [ {
-          "identifier" : "references",
-          "language" : "en",
-          "value" : "Regulation (EU) 2023/1542, Art. 3(1)(13)",
-          "type" : "label"
-        } ],
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme",
-          "type" : "iri"
-        } ],
-        "notation" : [ {
-          "identifier" : "notation",
-          "language" : "undefined",
-          "value" : "industrial",
-          "type" : "label"
-        } ],
-        "codeSet" : [ {
-          "identifier" : "codeSet",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme",
-          "type" : "label"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "Industrial battery",
-          "type" : "label"
-        } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "a battery that is specifically designed for industrial uses, intended for industrial uses after having been subject to preparation for repurposing or repurposing, or any other battery that weighs more than 5 kg and that is neither an electric vehicle battery, an LMT battery, nor an SLI battery",
-          "type" : "label"
-        } ],
-        "topConceptOf" : [ {
-          "identifier" : "topConceptOf",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme",
-          "type" : "iri"
-        } ],
-        "scopeNote" : [ {
-          "identifier" : "scopeNote",
-          "language" : "en",
-          "value" : "In scope of the battery passport above 2 kWh.",
-          "type" : "label"
-        } ],
-        "codeValue" : [ {
-          "identifier" : "codeValue",
-          "language" : "undefined",
-          "value" : "industrial",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "IndustrialBattery",
-        "en" : "Industrial battery"
-      }
     } ],
     "attributes" : [ "external" ],
-    "id" : "95"
+    "id" : "94"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "39",
+    "id" : "95",
     "label" : {
       "IRI-based" : "decimal"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "65",
+    "id" : "98",
     "label" : {
-      "IRI-based" : "decimal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "99",
-    "label" : {
-      "IRI-based" : "decimal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "43",
-    "label" : {
-      "IRI-based" : "decimal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "69",
-    "label" : {
-      "IRI-based" : "decimal"
+      "IRI-based" : "integer"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#integer",
@@ -4141,25 +4132,46 @@
       "IRI-based" : "integer"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "102",
-    "label" : {
-      "IRI-based" : "integer"
-    }
-  }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "98",
+    "id" : "100",
     "label" : {
       "IRI-based" : "decimal"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#integer",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "89",
+    "id" : "88",
     "label" : {
       "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "103",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "104",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "79",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "106",
+    "label" : {
+      "IRI-based" : "decimal"
     }
   }, {
     "iri" : "https://w3id.org/eudpp/battery#SafetyInstruction",
@@ -4226,17 +4238,7 @@
         "hasTopConcept" : [ {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-categories#LMTBattery",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-categories#ElectricVehicleBattery",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-categories#PortableBattery",
+          "value" : "https://w3id.org/eudpp/battery-categories#SLIBattery",
           "type" : "iri"
         }, {
           "identifier" : "hasTopConcept",
@@ -4246,7 +4248,17 @@
         }, {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-categories#SLIBattery",
+          "value" : "https://w3id.org/eudpp/battery-categories#LMTBattery",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-categories#PortableBattery",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-categories#ElectricVehicleBattery",
           "type" : "iri"
         } ],
         "source" : [ {
@@ -4291,17 +4303,17 @@
         "hasTopConcept" : [ {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-locations#Electrolyte",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-locations#Cathode",
           "type" : "iri"
         }, {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-locations#Anode",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-locations#Electrolyte",
           "type" : "iri"
         } ],
         "scopeNote" : [ {
@@ -4314,60 +4326,6 @@
       "labels" : {
         "IRI-based" : "BatteryLocationScheme",
         "en" : "Battery locations per Annex XIII 2(a)"
-      }
-    }, {
-      "iri" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
-      "baseIri" : "https://w3id.org/eudpp/battery-metals",
-      "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-metals",
-          "type" : "iri"
-        } ],
-        "references" : [ {
-          "identifier" : "references",
-          "language" : "en",
-          "value" : "Regulation (EU) 2023/1542, Art. 8(1)",
-          "type" : "label"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "Battery metals subject to recycled content declaration, Art. 8(1)",
-          "type" : "label"
-        } ],
-        "hasTopConcept" : [ {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-metals#Lead",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-metals#Lithium",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-metals#Cobalt",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-metals#Nickel",
-          "type" : "iri"
-        } ],
-        "scopeNote" : [ {
-          "identifier" : "scopeNote",
-          "language" : "en",
-          "value" : "Art. 8(1) does not treat the four metals alike. For cobalt, lithium and nickel it asks for the share present in ACTIVE MATERIALS and recovered from battery manufacturing waste or post-consumer waste; for lead it asks for the share present in THE BATTERY and recovered from waste. The distinction is recorded on each concept and is not expressible in the CORE today.",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "BatteryMetalScheme",
-        "en" : "Battery metals subject to recycled content declaration, Art. 8(1)"
       }
     }, {
       "iri" : "https://w3id.org/eudpp/battery-extinguisher-classes#ExtinguisherClassScheme",
@@ -4400,12 +4358,12 @@
         "hasTopConcept" : [ {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-extinguisher-classes#ClassB",
+          "value" : "https://w3id.org/eudpp/battery-extinguisher-classes#ClassC",
           "type" : "iri"
         }, {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-extinguisher-classes#ClassC",
+          "value" : "https://w3id.org/eudpp/battery-extinguisher-classes#ClassA",
           "type" : "iri"
         }, {
           "identifier" : "hasTopConcept",
@@ -4415,7 +4373,7 @@
         }, {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-extinguisher-classes#ClassA",
+          "value" : "https://w3id.org/eudpp/battery-extinguisher-classes#ClassB",
           "type" : "iri"
         }, {
           "identifier" : "hasTopConcept",
@@ -4433,6 +4391,60 @@
       "labels" : {
         "IRI-based" : "ExtinguisherClassScheme",
         "en" : "Extinguisher classes applicable to a battery"
+      }
+    }, {
+      "iri" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
+      "baseIri" : "https://w3id.org/eudpp/battery-metals",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals",
+          "type" : "iri"
+        } ],
+        "references" : [ {
+          "identifier" : "references",
+          "language" : "en",
+          "value" : "Regulation (EU) 2023/1542, Art. 8(1)",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Battery metals subject to recycled content declaration, Art. 8(1)",
+          "type" : "label"
+        } ],
+        "hasTopConcept" : [ {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals#Lead",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals#Cobalt",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals#Nickel",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals#Lithium",
+          "type" : "iri"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "Art. 8(1) does not treat the four metals alike. For cobalt, lithium and nickel it asks for the share present in ACTIVE MATERIALS and recovered from battery manufacturing waste or post-consumer waste; for lead it asks for the share present in THE BATTERY and recovered from waste. The distinction is recorded on each concept and is not expressible in the CORE today.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "BatteryMetalScheme",
+        "en" : "Battery metals subject to recycled content declaration, Art. 8(1)"
       }
     }, {
       "iri" : "https://w3id.org/eudpp/battery-chemistries#BatteryChemistryScheme",
@@ -4465,27 +4477,17 @@
         "hasTopConcept" : [ {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-chemistries#LiIonLFP",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-chemistries#LiIonLCO",
           "type" : "iri"
         }, {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-chemistries#LiIonNMC",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-chemistries#NiMH",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-chemistries#NaIon",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-chemistries#NiCd",
           "type" : "iri"
         }, {
           "identifier" : "hasTopConcept",
@@ -4500,17 +4502,27 @@
         }, {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-chemistries#NiCd",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-chemistries#NaIon",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-chemistries#LiIonNMC",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-chemistries#LiMetal",
           "type" : "iri"
         }, {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-chemistries#LiIonNCA",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-chemistries#LiIonLFP",
           "type" : "iri"
         } ],
         "source" : [ {
@@ -4555,6 +4567,11 @@
         "hasTopConcept" : [ {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-statuses#Original",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-statuses#Waste",
           "type" : "iri"
         }, {
@@ -4566,11 +4583,6 @@
           "identifier" : "hasTopConcept",
           "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-statuses#Remanufactured",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-statuses#Original",
           "type" : "iri"
         }, {
           "identifier" : "hasTopConcept",
@@ -4591,7 +4603,7 @@
       }
     } ],
     "attributes" : [ "external" ],
-    "id" : "119"
+    "id" : "127"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#BatteryStateRecord",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
@@ -4625,7 +4637,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "1",
-    "superClasses" : [ "81" ]
+    "superClasses" : [ "82" ]
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#AccidentEvent",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
@@ -4653,7 +4665,21 @@
     },
     "attributes" : [ "external" ],
     "id" : "26",
-    "superClasses" : [ "122" ]
+    "superClasses" : [ "123" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "83",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "15",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
   }, {
     "iri" : "https://w3id.org/eudpp#ProductEvent",
     "baseIri" : "https://w3id.org/eudpp",
@@ -4663,18 +4689,32 @@
     },
     "subClasses" : [ "26" ],
     "attributes" : [ "external" ],
-    "id" : "122"
+    "id" : "123"
   }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "84",
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "134",
     "label" : {
-      "undefined" : "Thing"
+      "IRI-based" : "decimal"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "15",
+    "id" : "135",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "73",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "44",
     "label" : {
       "IRI-based" : "decimal"
     }
@@ -4716,7 +4756,7 @@
       "en" : "A label or symbol required on the battery or in its passport under Regulation (EU) 2023/1542 (e.g. separate collection symbol, cadmium symbol, lead symbol, carbon footprint label). Provisional battery-specific class: it is declared here only because the CORE has no cross-sectoral Labelling class yet. When that class lands (CIRPASS-2/ontologies-core#55), BatteryLabel is to be re-anchored as a specialisation of it rather than kept as a root class."
     },
     "attributes" : [ "external" ],
-    "id" : "67"
+    "id" : "64"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#BatteryPerformance",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
@@ -4744,11 +4784,11 @@
     },
     "attributes" : [ "external" ],
     "id" : "17",
-    "superClasses" : [ "81" ]
+    "superClasses" : [ "82" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "87",
+    "id" : "86",
     "label" : {
       "IRI-based" : "anyURI"
     }
@@ -4762,28 +4802,35 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "106",
+    "id" : "109",
     "label" : {
       "IRI-based" : "anyURI"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "63",
+    "id" : "62",
     "label" : {
       "IRI-based" : "anyURI"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#duration",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "134",
+    "id" : "140",
     "label" : {
       "IRI-based" : "duration"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "135",
+    "id" : "141",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "114",
     "label" : {
       "IRI-based" : "anyURI"
     }
@@ -4797,13 +4844,6 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "108",
-    "label" : {
-      "IRI-based" : "anyURI"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "21",
     "label" : {
       "IRI-based" : "anyURI"
@@ -4811,7 +4851,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "113",
+    "id" : "116",
     "label" : {
       "IRI-based" : "anyURI"
     }
@@ -4842,9 +4882,9 @@
     "label" : {
       "IRI-based" : "Property"
     },
-    "subClasses" : [ "17", "80", "1" ],
+    "subClasses" : [ "17", "81", "1" ],
     "attributes" : [ "external" ],
-    "id" : "81"
+    "id" : "82"
   } ],
   "property" : [ {
     "id" : "0",
@@ -4880,67 +4920,67 @@
     "id" : "32",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "38",
+    "id" : "37",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "42",
+    "id" : "41",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "44",
+    "id" : "43",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "46",
+    "id" : "45",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "52",
+    "id" : "51",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "57",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "62",
+    "id" : "61",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "64",
+    "id" : "63",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "66",
+    "id" : "65",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "68",
+    "id" : "67",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "70",
+    "id" : "69",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "73",
+    "id" : "72",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "77",
+    "id" : "78",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "48",
+    "id" : "47",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "86",
+    "id" : "85",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "88",
+    "id" : "87",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "89",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "90",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "91",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "92",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "93",
+    "id" : "92",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "94",
+    "id" : "93",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "96",
@@ -4949,22 +4989,19 @@
     "id" : "97",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "100",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "103",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "104",
+    "id" : "99",
     "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "102",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "105",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "107",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "109",
+    "id" : "108",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "110",
@@ -4973,50 +5010,47 @@
     "id" : "112",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "114",
+    "id" : "113",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "115",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "116",
-    "type" : "rdfs:SubClassOf"
-  }, {
     "id" : "117",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "118",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "119",
+    "type" : "owl:datatypeProperty"
+  }, {
     "id" : "120",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "121",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "123",
-    "type" : "owl:datatypeProperty"
+    "id" : "122",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "124",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "125",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "126",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "127",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "128",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "129",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "130",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "131",
     "type" : "owl:datatypeProperty"
@@ -5025,7 +5059,7 @@
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "133",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "136",
     "type" : "owl:datatypeProperty"
@@ -5037,15 +5071,6 @@
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "139",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "140",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "141",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "7",
     "type" : "owl:objectProperty"
   }, {
     "id" : "142",
@@ -5064,6 +5089,33 @@
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "147",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "148",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "149",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "150",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "151",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "152",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "153",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "154",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "155",
     "type" : "owl:datatypeProperty"
   } ],
   "propertyAttribute" : [ {
@@ -5396,7 +5448,7 @@
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#remainingPowerCapability",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "39",
+    "range" : "38",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5426,11 +5478,11 @@
       "en" : "The amount of energy that a battery is capable to provide over a given period of time under reference conditions at a distinct point in time during its usage. Unit: watt (W)."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "38"
+    "id" : "37"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#remainingCapacity",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "43",
+    "range" : "42",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5454,11 +5506,11 @@
       "en" : "The corresponding in-use data attribute to rated capacity. Unit: ampere-hour (Ah)."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "42"
+    "id" : "41"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#timeSpentChargingInExtremeTemperaturesBelowBoundary",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "45",
+    "range" : "44",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5488,11 +5540,11 @@
       "en" : "The aggregated time, in which the battery is charged, while temperatures below the lower boundary of the temperature range as defined in 'Temperature range idle state, lower boundary' are prevalent. Unit: minute."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "44"
+    "id" : "43"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-materials#hasBatteryChemistry",
     "baseIri" : "https://w3id.org/eudpp/battery-materials",
-    "range" : "47",
+    "range" : "46",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5511,17 +5563,17 @@
       "IRI-based" : "hasBatteryChemistry",
       "en" : "has battery chemistry"
     },
-    "superproperty" : [ "48" ],
+    "superproperty" : [ "47" ],
     "domain" : "5",
     "comment" : {
       "en" : "Links a battery to its electrochemical chemistry. Declared as a sub-property of the CORE product-to-material link dpp:hasMaterial (CONNECTOR)."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "46"
+    "id" : "45"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#expectedLifetimeCycles",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "41",
+    "range" : "31",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5545,7 +5597,7 @@
       "en" : "Expected lifetime under the reference conditions for which the battery has been designed, in number of charge-discharge cycles (except for non-cycle applications)."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "52"
+    "id" : "51"
   }, {
     "iri" : "https://w3id.org/eudpp/battery#hasBatteryStatus",
     "baseIri" : "https://w3id.org/eudpp/battery",
@@ -5594,7 +5646,7 @@
   }, {
     "iri" : "https://w3id.org/eudpp/battery#testReportResults",
     "baseIri" : "https://w3id.org/eudpp/battery",
-    "range" : "63",
+    "range" : "62",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5624,11 +5676,39 @@
       "en" : "Link to the test report results. Access is restricted to notified bodies, market surveillance authorities and the Commission; the restriction is expressed in the SHACL layer, not here. Migration to the CORE document pattern eudpp:Source (LCA module) is tracked in ontologies-battery#11 and deferred until the LCA module is integrated into the CORE; xsd:anyURI is the agreed interim."
     },
     "attributes" : [ "datatype" ],
-    "id" : "62"
+    "id" : "61"
+  }, {
+    "iri" : "https://w3id.org/eudpp/battery-labeling#separateCollectionSymbol",
+    "baseIri" : "https://w3id.org/eudpp/battery-labeling",
+    "range" : "56",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery-labeling",
+        "type" : "iri"
+      } ],
+      "references" : [ {
+        "identifier" : "references",
+        "language" : "en",
+        "value" : "BatteryPass-Ready Data Attribute Long List v1.3, attribute 21 (Regulation (EU) 2023/1542, Annex XIII (1s), Art. 13(4), Annex VI Part B)",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "separateCollectionSymbol",
+      "en" : "separate collection symbol"
+    },
+    "domain" : "64",
+    "comment" : {
+      "en" : "Symbol indicating the necessity of separate collection of the battery (crossed-out wheeled bin), as a link to the symbol resource. Required on all batteries; the symbol itself is set out in Annex VI Part B."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "63"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#powerToEnergyRatio",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "65",
+    "range" : "66",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5652,39 +5732,11 @@
       "en" : "The suitable approximate value of the power capability used to designate or identify the battery, while the battery energy is determined in reference conditions to be defined. Unit: watt per watt-hour (W/Wh). Declared as Integer [W/Wh] in the BatteryPass-Ready long list; xsd:decimal retained per the Gap Analysis decision (open question to BatteryPass-Ready)."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "64"
-  }, {
-    "iri" : "https://w3id.org/eudpp/battery-labeling#separateCollectionSymbol",
-    "baseIri" : "https://w3id.org/eudpp/battery-labeling",
-    "range" : "56",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/eudpp/battery-labeling",
-        "type" : "iri"
-      } ],
-      "references" : [ {
-        "identifier" : "references",
-        "language" : "en",
-        "value" : "BatteryPass-Ready Data Attribute Long List v1.3, attribute 21 (Regulation (EU) 2023/1542, Annex XIII (1s), Art. 13(4), Annex VI Part B)",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "separateCollectionSymbol",
-      "en" : "separate collection symbol"
-    },
-    "domain" : "67",
-    "comment" : {
-      "en" : "Symbol indicating the necessity of separate collection of the battery (crossed-out wheeled bin), as a link to the symbol resource. Required on all batteries; the symbol itself is set out in Annex VI Part B."
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "66"
+    "id" : "65"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#ratedCapacity",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "69",
+    "range" : "68",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5708,11 +5760,11 @@
       "en" : "The total number of ampere-hours that can be withdrawn from a fully charged battery under reference conditions. Unit: ampere-hour (Ah), or milliampere-hour (mAh) for LMT batteries."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "68"
+    "id" : "67"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#remainingUsableBatteryEnergy",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "71",
+    "range" : "70",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5736,11 +5788,11 @@
       "en" : "The usable battery energy at the present point in the lifetime of a battery as determined according to the procedure in the UN GTR No 22. Unit: kilowatt-hour (kWh)."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "70"
+    "id" : "69"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#timeSpentInExtremeTemperaturesAboveBoundary",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "61",
+    "range" : "73",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5770,11 +5822,11 @@
       "en" : "The aggregated time, in which temperatures above the upper boundary of the temperature range as defined in 'Temperature range idle state, upper boundary' are prevalent. Unit: minute."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "73"
+    "id" : "72"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#nominalVoltage",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "3",
+    "range" : "79",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5804,22 +5856,22 @@
       "en" : "The suitable approximate value of the voltage used to designate or identify the battery. Unit: volt (V)."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "77"
+    "id" : "78"
   }, {
     "iri" : "https://w3id.org/eudpp#hasMaterial",
     "baseIri" : "https://w3id.org/eudpp",
-    "range" : "84",
+    "range" : "83",
     "label" : {
       "IRI-based" : "hasMaterial"
     },
-    "domain" : "84",
-    "subproperty" : [ "46" ],
+    "domain" : "83",
+    "subproperty" : [ "45" ],
     "attributes" : [ "external", "object" ],
-    "id" : "48"
+    "id" : "47"
   }, {
     "iri" : "https://w3id.org/eudpp/battery#dueDiligenceReport",
     "baseIri" : "https://w3id.org/eudpp/battery",
-    "range" : "87",
+    "range" : "86",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5849,11 +5901,11 @@
       "en" : "Link to the battery due diligence policy and report on the supply chain, covering the raw materials listed in Annex X (cobalt, natural graphite, lithium, nickel) and the chemical compounds based on them. Migration to the CORE document pattern eudpp:Source (LCA module) is tracked in ontologies-battery#11 and deferred until the LCA module is integrated into the CORE; xsd:anyURI is the agreed interim."
     },
     "attributes" : [ "datatype" ],
-    "id" : "86"
+    "id" : "85"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#numberOfOverchargeEvents",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "89",
+    "range" : "88",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5877,11 +5929,11 @@
       "en" : "The number of occasions, in which voltage has increased above the upper operational limit as provided in the battery passport. In-use event counter."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "88"
+    "id" : "87"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#initialSelfDischargeRate",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "28",
+    "range" : "19",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5905,11 +5957,11 @@
       "en" : "The self-discharge rate in an idle state of the battery in reference conditions (temperature etc.) at begin of life. Unit: percent per month (%/month)."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "90"
+    "id" : "89"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#roundTripEnergyEfficiencyAt50PercentCycleLife",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "82",
+    "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5933,7 +5985,7 @@
       "en" : "The ratio of the net energy delivered by a battery during a discharge test to the total energy required to restore the initial state of charge by a standard charge, measured at 50% of cycle life (see Regulation (EU) 2023/1542, Annex IV (6)). Unit: percent (%)."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "91"
+    "id" : "90"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-labeling#extinguishingAgent",
     "baseIri" : "https://w3id.org/eudpp/battery-labeling",
@@ -5962,12 +6014,12 @@
       "IRI-based" : "extinguishingAgent",
       "en" : "extinguishing agent"
     },
-    "domain" : "67",
+    "domain" : "64",
     "comment" : {
       "en" : "Specification of the usable extinguishing agent, as one of the extinguisher classes of the battery-extinguisher-classes vocabulary. Retyped from a free-text datatype property in v0.2.0: the value set is now controlled."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "92"
+    "id" : "91"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#capacityThresholdForExhaustion",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
@@ -5995,11 +6047,11 @@
       "en" : "The percentage of SOCE (State of Certified Energy), above which the battery is still considered operational as EV battery in its current life, as provided by the economic operator. Unit: percent (%)."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "93"
+    "id" : "92"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#temperatureRangeIdleStateLowerBoundary",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "78",
+    "range" : "60",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -6024,12 +6076,40 @@
       "IRI-based" : "temperatureRangeIdleStateLowerBoundary",
       "en" : "temperature range idle state, lower boundary"
     },
-    "domain" : "80",
+    "domain" : "81",
     "comment" : {
       "en" : "The lower boundary of the surrounding temperature range. Unit: degree Celsius (°C)."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "94"
+    "id" : "93"
+  }, {
+    "iri" : "https://w3id.org/eudpp/battery-performance#dischargeCRateOfCycleLifeTest",
+    "baseIri" : "https://w3id.org/eudpp/battery-performance",
+    "range" : "36",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery-performance",
+        "type" : "iri"
+      } ],
+      "references" : [ {
+        "identifier" : "references",
+        "language" : "en",
+        "value" : "Guidance Document: Digital Batteries Passport – data points by category, version 3.2 (19 October 2026), data point 40 (Regulation (EU) 2023/1542, Annex XIII (1p))",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "dischargeCRateOfCycleLifeTest",
+      "en" : "discharge C-rate of relevant cycle-life test"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "Discharge rate, in terms of rated capacity (C-rate), applied in the relevant cycle-life reference test: data point 40 of the Commission guidance. Unit: ampere per ampere-hour (A/Ah)."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "96"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#capacityFade",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
@@ -6057,11 +6137,11 @@
       "en" : "The decrease over time and upon usage in the amount of charge that a battery can deliver at the rated voltage, with respect to the original rated capacity as declared by the manufacturer. Unit: percent (%)."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "96"
+    "id" : "97"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#originalPowerCapability",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "98",
+    "range" : "100",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -6091,11 +6171,11 @@
       "en" : "The amount of energy that a battery is capable to provide over a given period of time under reference conditions. Unit: watt (W)."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "97"
+    "id" : "99"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-labeling#hasBatteryLabel",
     "baseIri" : "https://w3id.org/eudpp/battery-labeling",
-    "range" : "67",
+    "range" : "64",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -6119,11 +6199,11 @@
       "en" : "Links a battery to a label or symbol required by the Batteries Regulation."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "100"
+    "id" : "102"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#hasTemperatureExposure",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "80",
+    "range" : "81",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -6142,11 +6222,11 @@
       "en" : "Links a battery to its in-use thermal exposure data."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "103"
+    "id" : "105"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#currentSelfDischargeRate",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "50",
+    "range" : "52",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -6170,11 +6250,11 @@
       "en" : "The change of the self-discharge rate in an idle state of the battery in reference conditions (temperature etc.) at aging parameter x, e.g. after a certain amount of storage time or number of cycles. Unit: percent per month (%/month)."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "104"
+    "id" : "107"
   }, {
     "iri" : "https://w3id.org/eudpp/battery#safetyMeasures",
     "baseIri" : "https://w3id.org/eudpp/battery",
-    "range" : "106",
+    "range" : "109",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -6210,11 +6290,11 @@
       "en" : "Deprecated on 6 October 2026 and kept for existing data: the safety measures are now a bat:SafetyInstruction, subclass of eudpp:DigitalInstruction (P_DPP), reached through dpp:hasProperty with its URL on dpp:webLink (ontologies-core#45). Link to the safety measures applicable to the battery."
     },
     "attributes" : [ "datatype", "deprecated" ],
-    "id" : "105"
+    "id" : "108"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-labeling#leadSymbol",
     "baseIri" : "https://w3id.org/eudpp/battery-labeling",
-    "range" : "108",
+    "range" : "111",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -6233,16 +6313,16 @@
       "IRI-based" : "leadSymbol",
       "en" : "symbol for lead"
     },
-    "domain" : "67",
+    "domain" : "64",
     "comment" : {
       "en" : "Representation of the chemical symbol 'Pb' for lead, as a link to the symbol resource. Its legal trigger is its own: the symbol is required for batteries containing more than 0,004 % lead by weight, independently of the cadmium symbol."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "107"
+    "id" : "110"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#internalResistanceIncrease",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "35",
+    "range" : "3",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -6266,11 +6346,11 @@
       "en" : "The increase over time and upon usage of internal resistance, for the pack (cell and module recommended). Unit: percent (%)."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "109"
+    "id" : "112"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-labeling#labelingSymbol",
     "baseIri" : "https://w3id.org/eudpp/battery-labeling",
-    "range" : "111",
+    "range" : "114",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -6289,16 +6369,16 @@
       "IRI-based" : "labelingSymbol",
       "en" : "labeling symbol"
     },
-    "domain" : "67",
+    "domain" : "64",
     "comment" : {
       "en" : "Link to the image of the label symbol displayed on the battery."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "110"
+    "id" : "113"
   }, {
     "iri" : "https://w3id.org/eudpp/battery#dueDiligenceAudit",
     "baseIri" : "https://w3id.org/eudpp/battery",
-    "range" : "113",
+    "range" : "116",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -6328,11 +6408,11 @@
       "en" : "Link to the third-party verification of the battery due diligence policy, carried out by a notified body. Migration to the CORE document pattern eudpp:Source (LCA module) is tracked in ontologies-battery#11 and deferred until the LCA module is integrated into the CORE; xsd:anyURI is the agreed interim."
     },
     "attributes" : [ "datatype" ],
-    "id" : "112"
+    "id" : "115"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#minimumVoltage",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "19",
+    "range" : "106",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -6362,11 +6442,16 @@
       "en" : "The lower voltage limit that the safe operation of the battery is rated for. Unit: volt (V)."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "114"
+    "id" : "117"
+  }, {
+    "range" : "82",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "118"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#initialInternalResistance",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "40",
+    "range" : "35",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -6393,29 +6478,44 @@
     },
     "domain" : "17",
     "comment" : {
-      "en" : "'Quotient of change of voltage of a battery by the corresponding change in discharge current under specified conditions' (IEV 482 03 36), at begin of life, for battery cell and pack (module recommended). Unit: ohm."
+      "en" : "'Quotient of change of voltage of a battery by the corresponding change in discharge current under specified conditions' (IEV 482 03 36), at begin of life, for battery cell and pack (module recommended). Unit: ohm. Version 3.2 of the Commission guidance gives the cell and pack values as two items of data point 38: use the subproperties initialCellInternalResistance and initialPackInternalResistance."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "115"
+    "id" : "119"
   }, {
-    "range" : "81",
-    "domain" : "80",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "116"
-  }, {
-    "range" : "81",
+    "range" : "82",
     "domain" : "17",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "117"
+    "id" : "120"
   }, {
-    "range" : "81",
+    "range" : "82",
     "domain" : "1",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "118"
+    "id" : "121"
+  }, {
+    "range" : "123",
+    "domain" : "26",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "122"
+  }, {
+    "range" : "71",
+    "domain" : "46",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "124"
+  }, {
+    "range" : "59",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "125"
+  }, {
+    "range" : "12",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "126"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-materials#hasBatteryLocation",
     "baseIri" : "https://w3id.org/eudpp/battery-materials",
-    "range" : "85",
+    "range" : "84",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -6434,12 +6534,12 @@
       "IRI-based" : "hasBatteryLocation",
       "en" : "has battery location"
     },
-    "domain" : "47",
+    "domain" : "46",
     "comment" : {
       "en" : "Links a battery material of composition to its internal location within the battery. The domain is restricted to BatteryChemistry rather than the cross-sectoral MaterialOfComposition, so that this battery-specific property is not asserted on materials of other sectors."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "120"
+    "id" : "128"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#asOfDate",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
@@ -6473,11 +6573,11 @@
       "en" : "The date and time the values of this record were read. xsd:dateTimeStamp rather than xsd:dateTime: the time zone offset is then mandatory, so no separate offset property is needed."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "121"
+    "id" : "129"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#expectedLifetimeCalendarYears",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "36",
+    "range" : "39",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -6501,11 +6601,11 @@
       "en" : "Expected lifetime under the reference conditions for which the battery has been designed, in calendar years. Unit: year."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "123"
+    "id" : "130"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#certifiedUsableBatteryEnergy",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "51",
+    "range" : "50",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -6529,16 +6629,11 @@
       "en" : "The usable battery energy according to the procedure in the UN GTR No 22 as determined during the certification of the vehicle. Unit: kilowatt-hour (kWh)."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "124"
-  }, {
-    "range" : "12",
-    "domain" : "5",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "125"
+    "id" : "131"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#numberOfFullCycles",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "101",
+    "range" : "98",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -6562,31 +6657,44 @@
       "en" : "In-use number of (full) charging and discharging cycles."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "126"
-  }, {
-    "range" : "122",
-    "domain" : "26",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "127"
-  }, {
-    "range" : "59",
-    "domain" : "6",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "128"
-  }, {
-    "range" : "72",
-    "domain" : "47",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "129"
+    "id" : "132"
   }, {
     "range" : "74",
     "domain" : "75",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "130"
+    "id" : "133"
+  }, {
+    "iri" : "https://w3id.org/eudpp/battery-performance#chargeCRateOfCycleLifeTest",
+    "baseIri" : "https://w3id.org/eudpp/battery-performance",
+    "range" : "49",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery-performance",
+        "type" : "iri"
+      } ],
+      "references" : [ {
+        "identifier" : "references",
+        "language" : "en",
+        "value" : "Guidance Document: Digital Batteries Passport – data points by category, version 3.2 (19 October 2026), data point 39 (Regulation (EU) 2023/1542, Annex XIII (1p))",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "chargeCRateOfCycleLifeTest",
+      "en" : "charge C-rate of relevant cycle-life test"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "Charge rate, in terms of rated capacity (C-rate), applied in the relevant cycle-life reference test: data point 39 of the Commission guidance. Unit: ampere per ampere-hour (A/Ah)."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "136"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#temperatureRangeIdleStateUpperBoundary",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "76",
+    "range" : "135",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -6611,16 +6719,16 @@
       "IRI-based" : "temperatureRangeIdleStateUpperBoundary",
       "en" : "temperature range idle state, upper boundary"
     },
-    "domain" : "80",
+    "domain" : "81",
     "comment" : {
       "en" : "The upper boundary of the surrounding temperature range. Unit: degree Celsius (°C)."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "131"
+    "id" : "137"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#timeSpentChargingInExtremeTemperaturesAboveBoundary",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "60",
+    "range" : "134",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -6650,7 +6758,7 @@
       "en" : "The aggregated time, in which the battery is charged, while temperatures above the upper boundary of the temperature range as defined in 'Temperature range idle state, upper boundary' are prevalent. Unit: minute."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "132"
+    "id" : "138"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#hasBatteryStateRecord",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
@@ -6673,11 +6781,79 @@
       "en" : "Links a battery to one dated record of its in-use state. A battery carries as many records as there are readings; no ordering property is declared, the as-of date orders the series."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "133"
+    "id" : "139"
+  }, {
+    "iri" : "https://w3id.org/eudpp/battery-performance#initialPackInternalResistance",
+    "baseIri" : "https://w3id.org/eudpp/battery-performance",
+    "range" : "34",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery-performance",
+        "type" : "iri"
+      } ],
+      "references" : [ {
+        "identifier" : "references",
+        "language" : "en",
+        "value" : "Guidance Document: Digital Batteries Passport – data points by category, version 3.2 (19 October 2026), data point 38 (Regulation (EU) 2023/1542, Annex XIII (1o))",
+        "type" : "label"
+      } ],
+      "measurementUnit" : [ {
+        "identifier" : "measurementUnit",
+        "language" : "undefined",
+        "value" : "https://si-digital-framework.org/SI/units/ohm",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "initialPackInternalResistance",
+      "en" : "initial internal resistance of battery pack"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "Initial internal resistance at battery pack level: the pack value of data point 38 of the Commission guidance (internal battery pack resistance). Unit: ohm."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "142"
+  }, {
+    "iri" : "https://w3id.org/eudpp/battery-performance#initialCellInternalResistance",
+    "baseIri" : "https://w3id.org/eudpp/battery-performance",
+    "range" : "28",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery-performance",
+        "type" : "iri"
+      } ],
+      "references" : [ {
+        "identifier" : "references",
+        "language" : "en",
+        "value" : "Guidance Document: Digital Batteries Passport – data points by category, version 3.2 (19 October 2026), data point 38 (Regulation (EU) 2023/1542, Annex XIII (1o))",
+        "type" : "label"
+      } ],
+      "measurementUnit" : [ {
+        "identifier" : "measurementUnit",
+        "language" : "undefined",
+        "value" : "https://si-digital-framework.org/SI/units/ohm",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "initialCellInternalResistance",
+      "en" : "initial internal resistance of battery cell"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "Initial internal resistance at battery cell level: the cell value of data point 38 of the Commission guidance (internal battery cell resistance). Unit: ohm."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "143"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#maximumPermittedBatteryPower",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "34",
+    "range" : "104",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -6707,11 +6883,11 @@
       "en" : "The value of maximum permitted power the battery is rated for and reflects the data relevant for power limits. Unit: watt (W). Declared as Integer [W] in the BatteryPass-Ready long list; xsd:decimal retained per the Gap Analysis decision (open question to BatteryPass-Ready)."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "136"
+    "id" : "144"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-labeling#cadmiumSymbol",
     "baseIri" : "https://w3id.org/eudpp/battery-labeling",
-    "range" : "135",
+    "range" : "141",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -6730,16 +6906,16 @@
       "IRI-based" : "cadmiumSymbol",
       "en" : "symbol for cadmium"
     },
-    "domain" : "67",
+    "domain" : "64",
     "comment" : {
       "en" : "Representation of the chemical symbol 'Cd' for cadmium, as a link to the symbol resource. Its legal trigger is its own: the symbol is required for batteries containing more than 0,002 % cadmium by weight, independently of the lead symbol."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "137"
+    "id" : "145"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#energyThroughput",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "37",
+    "range" : "40",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -6763,11 +6939,11 @@
       "en" : "The overall sum of the energy throughput over the battery lifetime at a specific time during usage. Unit: kilowatt-hour (kWh)."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "138"
+    "id" : "146"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#maximumVoltage",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "22",
+    "range" : "103",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -6797,7 +6973,7 @@
       "en" : "The upper voltage limit that the safe operation of the battery is rated for. Unit: volt (V)."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "139"
+    "id" : "147"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#hasBatteryPerformance",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
@@ -6820,11 +6996,11 @@
       "en" : "Links a battery to its electrochemical performance and in-use state data."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "140"
+    "id" : "148"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#initialRoundTripEnergyEfficiency",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "31",
+    "range" : "22",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -6848,16 +7024,16 @@
       "en" : "The ratio of the net energy delivered by a battery during a discharge test to the total energy required to restore the initial state of charge by a standard charge (see Regulation (EU) 2023/1542, Annex IV (6)). Unit: percent (%)."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "141"
+    "id" : "149"
   }, {
     "iri" : "https://w3id.org/eudpp#hasProperty",
     "baseIri" : "https://w3id.org/eudpp",
-    "range" : "84",
+    "range" : "83",
     "label" : {
       "IRI-based" : "hasProperty"
     },
-    "domain" : "84",
-    "subproperty" : [ "4", "133", "140", "103" ],
+    "domain" : "83",
+    "subproperty" : [ "4", "139", "148", "105" ],
     "attributes" : [ "external", "object" ],
     "id" : "7"
   }, {
@@ -6884,14 +7060,14 @@
     },
     "domain" : "17",
     "comment" : {
-      "en" : "Measurement parameter for 'Expected lifetime: Number of charge-discharge cycles': applied charge and discharge rate in terms of rated capacity (C-rate) of the relevant cycle-life reference test. Unit: ampere per ampere-hour (A/Ah)."
+      "en" : "Measurement parameter for 'Expected lifetime: Number of charge-discharge cycles': applied charge and discharge rate in terms of rated capacity (C-rate) of the relevant cycle-life reference test. Unit: ampere per ampere-hour (A/Ah). Version 3.2 of the Commission guidance separates the charge C-rate (data point 39) from the discharge C-rate (data point 40): use the subproperties chargeCRateOfCycleLifeTest and dischargeCRateOfCycleLifeTest."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "142"
+    "id" : "150"
   }, {
     "iri" : "https://w3id.org/eudpp/battery#warrantyPeriod",
     "baseIri" : "https://w3id.org/eudpp/battery",
-    "range" : "134",
+    "range" : "140",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -6927,39 +7103,11 @@
       "en" : "Length of the commercial warranty covering the calendar life of the battery, as an ISO 8601 duration - for example \"P24M\" for twenty-four months. Declared in the battery namespace on the decision of 26 August 2026: a cross-sectoral warranty period was requested in CIRPASS-2/ontologies-core#34, but the ESPR does not require one, whereas Regulation (EU) 2023/1542 does, so the term stays sectoral."
     },
     "attributes" : [ "datatype" ],
-    "id" : "143"
-  }, {
-    "iri" : "https://w3id.org/eudpp/battery-performance#roundTripEnergyEfficiencyFade",
-    "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "79",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/eudpp/battery-performance",
-        "type" : "iri"
-      } ],
-      "references" : [ {
-        "identifier" : "references",
-        "language" : "en",
-        "value" : "BatteryPass-Ready Data Attribute Long List v1.3, attribute 77",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "roundTripEnergyEfficiencyFade",
-      "en" : "energy round trip efficiency fade"
-    },
-    "domain" : "1",
-    "comment" : {
-      "en" : "The decrease of round trip energy efficiency as percentage. Unit: percent (%)."
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "144"
+    "id" : "151"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#selfDischargeRateEvolution",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "83",
+    "range" : "80",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -6983,11 +7131,39 @@
       "en" : "The change of self-discharge over time and usage, as percentage calculated from the initial and current self-discharge rate. Unit: percent (%)."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "145"
+    "id" : "152"
+  }, {
+    "iri" : "https://w3id.org/eudpp/battery-performance#roundTripEnergyEfficiencyFade",
+    "baseIri" : "https://w3id.org/eudpp/battery-performance",
+    "range" : "76",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery-performance",
+        "type" : "iri"
+      } ],
+      "references" : [ {
+        "identifier" : "references",
+        "language" : "en",
+        "value" : "BatteryPass-Ready Data Attribute Long List v1.3, attribute 77",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "roundTripEnergyEfficiencyFade",
+      "en" : "energy round trip efficiency fade"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "The decrease of round trip energy efficiency as percentage. Unit: percent (%)."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "153"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#numberOfDeepDischargeEvents",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "102",
+    "range" : "101",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -7011,11 +7187,11 @@
       "en" : "The number of occasions, in which voltage has dropped below the lower operational limit as provided in the battery passport. In-use event counter."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "146"
+    "id" : "154"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#powerFade",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "99",
+    "range" : "95",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -7039,6 +7215,6 @@
       "en" : "The decrease over time and upon usage in the amount of power that a battery can deliver at the rated voltage. Unit: percent (%)."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "147"
+    "id" : "155"
   } ]
 }

@@ -161,7 +161,7 @@
         "hasTopConcept" : [ {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-extinguisher-classes#ClassA",
+          "value" : "https://w3id.org/eudpp/battery-extinguisher-classes#ClassF",
           "type" : "iri"
         }, {
           "identifier" : "hasTopConcept",
@@ -171,17 +171,17 @@
         }, {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-extinguisher-classes#ClassC",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-extinguisher-classes#ClassF",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-extinguisher-classes#ClassB",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-extinguisher-classes#ClassA",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-extinguisher-classes#ClassC",
           "type" : "iri"
         } ],
         "scopeNote" : [ {
@@ -266,17 +266,17 @@
           "value" : "https://w3id.org/eudpp/battery-extinguisher-classes",
           "type" : "iri"
         } ],
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-extinguisher-classes#ExtinguisherClassScheme",
-          "type" : "iri"
-        } ],
         "references" : [ {
           "identifier" : "references",
           "language" : "en",
           "value" : "Spherity Battery Pass ontology v0.1, extinguishingAgent",
           "type" : "label"
+        } ],
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-extinguisher-classes#ExtinguisherClassScheme",
+          "type" : "iri"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -431,17 +431,17 @@
           "value" : "https://w3id.org/eudpp/battery-extinguisher-classes",
           "type" : "iri"
         } ],
-        "references" : [ {
-          "identifier" : "references",
-          "language" : "en",
-          "value" : "EN 2:2005, Classification of fires; Spherity Battery Pass ontology v0.1, extinguishingAgent",
-          "type" : "label"
-        } ],
         "inScheme" : [ {
           "identifier" : "inScheme",
           "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-extinguisher-classes#ExtinguisherClassScheme",
           "type" : "iri"
+        } ],
+        "references" : [ {
+          "identifier" : "references",
+          "language" : "en",
+          "value" : "EN 2:2005, Classification of fires; Spherity Battery Pass ontology v0.1, extinguishingAgent",
+          "type" : "label"
         } ],
         "notation" : [ {
           "identifier" : "notation",

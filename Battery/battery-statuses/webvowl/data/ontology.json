@@ -160,12 +160,7 @@
         }, {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-statuses#Repurposed",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-statuses#Waste",
+          "value" : "https://w3id.org/eudpp/battery-statuses#Original",
           "type" : "iri"
         }, {
           "identifier" : "hasTopConcept",
@@ -175,7 +170,12 @@
         }, {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-statuses#Original",
+          "value" : "https://w3id.org/eudpp/battery-statuses#Waste",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-statuses#Repurposed",
           "type" : "iri"
         } ],
         "scopeNote" : [ {
@@ -266,17 +266,17 @@
           "value" : "https://w3id.org/eudpp/battery-statuses",
           "type" : "iri"
         } ],
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-statuses#BatteryStatusScheme",
-          "type" : "iri"
-        } ],
         "references" : [ {
           "identifier" : "references",
           "language" : "en",
           "value" : "Regulation (EU) 2023/1542, Annex XIII 4(c)",
           "type" : "label"
+        } ],
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-statuses#BatteryStatusScheme",
+          "type" : "iri"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -329,17 +329,17 @@
           "value" : "https://w3id.org/eudpp/battery-statuses",
           "type" : "iri"
         } ],
-        "references" : [ {
-          "identifier" : "references",
-          "language" : "en",
-          "value" : "Regulation (EU) 2023/1542, Annex XIII 4(c)",
-          "type" : "label"
-        } ],
         "inScheme" : [ {
           "identifier" : "inScheme",
           "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-statuses#BatteryStatusScheme",
           "type" : "iri"
+        } ],
+        "references" : [ {
+          "identifier" : "references",
+          "language" : "en",
+          "value" : "Regulation (EU) 2023/1542, Annex XIII 4(c)",
+          "type" : "label"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -380,17 +380,17 @@
           "value" : "https://w3id.org/eudpp/battery-statuses",
           "type" : "iri"
         } ],
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-statuses#BatteryStatusScheme",
-          "type" : "iri"
-        } ],
         "references" : [ {
           "identifier" : "references",
           "language" : "en",
           "value" : "Regulation (EU) 2023/1542, Annex XIII 4(c)",
           "type" : "label"
+        } ],
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-statuses#BatteryStatusScheme",
+          "type" : "iri"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -431,17 +431,17 @@
           "value" : "https://w3id.org/eudpp/battery-statuses",
           "type" : "iri"
         } ],
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-statuses#BatteryStatusScheme",
-          "type" : "iri"
-        } ],
         "references" : [ {
           "identifier" : "references",
           "language" : "en",
           "value" : "Regulation (EU) 2023/1542, Annex XIII 4(c)",
           "type" : "label"
+        } ],
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-statuses#BatteryStatusScheme",
+          "type" : "iri"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -455,16 +455,16 @@
           "value" : "Re-used",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "reused",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "The battery has been subjected to a treatment operation preparing it for re-use and placed on the market again for the purpose it was originally designed for.",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "reused",
           "type" : "label"
         } ],
         "topConceptOf" : [ {

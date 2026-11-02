@@ -163,7 +163,7 @@
         "hasTopConcept" : [ {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-metals#Nickel",
+          "value" : "https://w3id.org/eudpp/battery-metals#Cobalt",
           "type" : "iri"
         }, {
           "identifier" : "hasTopConcept",
@@ -173,7 +173,7 @@
         }, {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-metals#Cobalt",
+          "value" : "https://w3id.org/eudpp/battery-metals#Nickel",
           "type" : "iri"
         }, {
           "identifier" : "hasTopConcept",
@@ -212,17 +212,17 @@
           "value" : "https://w3id.org/eudpp/battery-metals",
           "type" : "iri"
         } ],
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
-          "type" : "iri"
-        } ],
         "references" : [ {
           "identifier" : "references",
           "language" : "en",
           "value" : "Regulation (EU) 2023/1542, Art. 8(1); BatteryPass-Ready Data Attribute Long List v1.3, attributes 48 and 51",
           "type" : "label"
+        } ],
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
+          "type" : "iri"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -230,16 +230,16 @@
           "value" : "Ni",
           "type" : "label"
         } ],
-        "materialTypeScheme" : [ {
-          "identifier" : "materialTypeScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
-          "type" : "label"
-        } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
           "language" : "en",
           "value" : "Nickel",
+          "type" : "label"
+        } ],
+        "materialTypeScheme" : [ {
+          "identifier" : "materialTypeScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
           "type" : "label"
         } ],
         "altLabel" : [ {
@@ -338,17 +338,17 @@
           "value" : "https://w3id.org/eudpp/battery-metals",
           "type" : "iri"
         } ],
-        "references" : [ {
-          "identifier" : "references",
-          "language" : "en",
-          "value" : "Regulation (EU) 2023/1542, Art. 8(1); BatteryPass-Ready Data Attribute Long List v1.3, attributes 50 and 53",
-          "type" : "label"
-        } ],
         "inScheme" : [ {
           "identifier" : "inScheme",
           "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
           "type" : "iri"
+        } ],
+        "references" : [ {
+          "identifier" : "references",
+          "language" : "en",
+          "value" : "Regulation (EU) 2023/1542, Art. 8(1); BatteryPass-Ready Data Attribute Long List v1.3, attributes 50 and 53",
+          "type" : "label"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -356,16 +356,16 @@
           "value" : "Li",
           "type" : "label"
         } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "Lithium",
-          "type" : "label"
-        } ],
         "materialTypeScheme" : [ {
           "identifier" : "materialTypeScheme",
           "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Lithium",
           "type" : "label"
         } ],
         "altLabel" : [ {
@@ -425,16 +425,16 @@
           "value" : "Pb",
           "type" : "label"
         } ],
-        "materialTypeScheme" : [ {
-          "identifier" : "materialTypeScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
-          "type" : "label"
-        } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
           "language" : "en",
           "value" : "Lead",
+          "type" : "label"
+        } ],
+        "materialTypeScheme" : [ {
+          "identifier" : "materialTypeScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
           "type" : "label"
         } ],
         "altLabel" : [ {
@@ -480,17 +480,17 @@
           "value" : "https://w3id.org/eudpp/battery-metals",
           "type" : "iri"
         } ],
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
-          "type" : "iri"
-        } ],
         "references" : [ {
           "identifier" : "references",
           "language" : "en",
           "value" : "Regulation (EU) 2023/1542, Art. 8(1); BatteryPass-Ready Data Attribute Long List v1.3, attributes 48 and 51",
           "type" : "label"
+        } ],
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
+          "type" : "iri"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -498,16 +498,16 @@
           "value" : "Ni",
           "type" : "label"
         } ],
-        "materialTypeScheme" : [ {
-          "identifier" : "materialTypeScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
-          "type" : "label"
-        } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
           "language" : "en",
           "value" : "Nickel",
+          "type" : "label"
+        } ],
+        "materialTypeScheme" : [ {
+          "identifier" : "materialTypeScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
           "type" : "label"
         } ],
         "altLabel" : [ {
@@ -543,17 +543,17 @@
           "value" : "https://w3id.org/eudpp/battery-metals",
           "type" : "iri"
         } ],
-        "references" : [ {
-          "identifier" : "references",
-          "language" : "en",
-          "value" : "Regulation (EU) 2023/1542, Art. 8(1); BatteryPass-Ready Data Attribute Long List v1.3, attributes 50 and 53",
-          "type" : "label"
-        } ],
         "inScheme" : [ {
           "identifier" : "inScheme",
           "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
           "type" : "iri"
+        } ],
+        "references" : [ {
+          "identifier" : "references",
+          "language" : "en",
+          "value" : "Regulation (EU) 2023/1542, Art. 8(1); BatteryPass-Ready Data Attribute Long List v1.3, attributes 50 and 53",
+          "type" : "label"
         } ],
         "notation" : [ {
           "identifier" : "notation",
@@ -561,16 +561,16 @@
           "value" : "Li",
           "type" : "label"
         } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "Lithium",
-          "type" : "label"
-        } ],
         "materialTypeScheme" : [ {
           "identifier" : "materialTypeScheme",
           "language" : "undefined",
           "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Lithium",
           "type" : "label"
         } ],
         "altLabel" : [ {
@@ -693,16 +693,16 @@
           "value" : "Pb",
           "type" : "label"
         } ],
-        "materialTypeScheme" : [ {
-          "identifier" : "materialTypeScheme",
-          "language" : "undefined",
-          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
-          "type" : "label"
-        } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
           "language" : "en",
           "value" : "Lead",
+          "type" : "label"
+        } ],
+        "materialTypeScheme" : [ {
+          "identifier" : "materialTypeScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/eudpp/battery-metals#BatteryMetalScheme",
           "type" : "label"
         } ],
         "altLabel" : [ {

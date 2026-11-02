@@ -174,10 +174,10 @@
     "id" : "11",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "4",
+    "id" : "6",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "6",
+    "id" : "4",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "3",
@@ -257,14 +257,14 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "4",
+    "id" : "6",
     "label" : {
       "IRI-based" : "anyURI"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "6",
+    "id" : "4",
     "label" : {
       "IRI-based" : "anyURI"
     }
@@ -381,9 +381,43 @@
     "type" : "owl:objectProperty"
   } ],
   "propertyAttribute" : [ {
-    "iri" : "https://w3id.org/eudpp/battery#safetyMeasures",
+    "iri" : "https://w3id.org/eudpp/battery#testReportResults",
     "baseIri" : "https://w3id.org/eudpp/battery",
     "range" : "4",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery",
+        "type" : "iri"
+      } ],
+      "references" : [ {
+        "identifier" : "references",
+        "language" : "en",
+        "value" : "Regulation (EU) 2023/1542, Annex XIII 3",
+        "type" : "label"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://eur-lex.europa.eu/eli/reg/2023/1542/oj",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "testReportResults",
+      "en" : "test report results"
+    },
+    "domain" : "3",
+    "comment" : {
+      "en" : "Link to the test report results. Access is restricted to notified bodies, market surveillance authorities and the Commission; the restriction is expressed in the SHACL layer, not here. Migration to the CORE document pattern eudpp:Source (LCA module) is tracked in ontologies-battery#11 and deferred until the LCA module is integrated into the CORE; xsd:anyURI is the agreed interim."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "2"
+  }, {
+    "iri" : "https://w3id.org/eudpp/battery#safetyMeasures",
+    "baseIri" : "https://w3id.org/eudpp/battery",
+    "range" : "6",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -418,41 +452,7 @@
     "comment" : {
       "en" : "Deprecated on 6 October 2026 and kept for existing data: the safety measures are now a bat:SafetyInstruction, subclass of eudpp:DigitalInstruction (P_DPP), reached through dpp:hasProperty with its URL on dpp:webLink (ontologies-core#45). Link to the safety measures applicable to the battery."
     },
-    "attributes" : [ "deprecated", "datatype" ],
-    "id" : "2"
-  }, {
-    "iri" : "https://w3id.org/eudpp/battery#testReportResults",
-    "baseIri" : "https://w3id.org/eudpp/battery",
-    "range" : "6",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/eudpp/battery",
-        "type" : "iri"
-      } ],
-      "references" : [ {
-        "identifier" : "references",
-        "language" : "en",
-        "value" : "Regulation (EU) 2023/1542, Annex XIII 3",
-        "type" : "label"
-      } ],
-      "source" : [ {
-        "identifier" : "source",
-        "language" : "undefined",
-        "value" : "https://eur-lex.europa.eu/eli/reg/2023/1542/oj",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "testReportResults",
-      "en" : "test report results"
-    },
-    "domain" : "3",
-    "comment" : {
-      "en" : "Link to the test report results. Access is restricted to notified bodies, market surveillance authorities and the Commission; the restriction is expressed in the SHACL layer, not here. Migration to the CORE document pattern eudpp:Source (LCA module) is tracked in ontologies-battery#11 and deferred until the LCA module is integrated into the CORE; xsd:anyURI is the agreed interim."
-    },
-    "attributes" : [ "datatype" ],
+    "attributes" : [ "datatype", "deprecated" ],
     "id" : "5"
   }, {
     "iri" : "https://w3id.org/eudpp/battery#partNumber",
@@ -666,12 +666,12 @@
       "seeAlso" : [ {
         "identifier" : "seeAlso",
         "language" : "undefined",
-        "value" : "https://github.com/CIRPASS-2/ontologies-core/issues/35",
+        "value" : "https://w3id.org/eudpp/battery-statuses#BatteryStatusScheme",
         "type" : "iri"
       }, {
         "identifier" : "seeAlso",
         "language" : "undefined",
-        "value" : "https://w3id.org/eudpp/battery-statuses#BatteryStatusScheme",
+        "value" : "https://github.com/CIRPASS-2/ontologies-core/issues/35",
         "type" : "iri"
       } ]
     },

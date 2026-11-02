@@ -245,7 +245,7 @@
     },
     "domain" : "1",
     "subproperty" : [ "2" ],
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "0"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-materials#hasBatteryLocation",
@@ -307,7 +307,7 @@
   }, {
     "range" : "7",
     "domain" : "5",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "8"
   } ]
 }
