@@ -60,7 +60,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/terms/bibliographicCitation" : [ {
     "@language" : "en",
-    "@value" : "EU DPP Battery Performance Ontology. Draft version 0.4.0."
+    "@value" : "EU DPP Battery Performance Ontology. Draft version 0.5.0."
   } ],
   "http://purl.org/dc/terms/contributor" : [ {
     "@language" : "en",
@@ -93,11 +93,11 @@
   } ],
   "http://purl.org/dc/terms/modified" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#date",
-    "@value" : "2026-11-03"
+    "@value" : "2026-11-16"
   } ],
   "http://purl.org/dc/terms/references" : [ {
     "@language" : "en",
-    "@value" : "Regulation (EU) 2023/1542, Annex XIII; BatteryPass-Ready Data Attribute Long List v1.3; Guidance Document: Digital Batteries Passport – data points by category, version 3.2 (19 October 2026)"
+    "@value" : "Regulation (EU) 2023/1542, Annex XIII; BatteryPass-Ready Data Attribute Long List v1.3; Guidance Document: Digital Batteries Passport – data points by category, version 3.2 (19 October 2026); Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026)"
   } ],
   "http://purl.org/dc/terms/source" : [ {
     "@id" : "https://eur-lex.europa.eu/eli/reg/2023/1542/oj"
@@ -121,11 +121,11 @@
     "@value" : "EU DPP Battery Performance Ontology"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://w3id.org/eudpp/battery-performance/0.4.0"
+    "@id" : "https://w3id.org/eudpp/battery-performance/0.5.0"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@language" : "en",
-    "@value" : "Version 0.4.0 DRAFT"
+    "@value" : "Version 0.5.0 DRAFT"
   } ]
 }, {
   "@id" : "https://w3id.org/eudpp/battery-performance#AccidentEvent",
@@ -434,15 +434,42 @@
     "@id" : "https://w3id.org/eudpp/battery-performance#cRateOfCycleLifeTest"
   } ]
 }, {
+  "@id" : "https://w3id.org/eudpp/battery-performance#currentInternalResistance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://purl.org/dc/terms/references" : [ {
+    "@language" : "en",
+    "@value" : "Regulation (EU) 2023/1542, Annex XIII 4(a); Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field internalResistance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Internal resistance of the battery at the date of the state record: the in-use value, where initialInternalResistance is the value at begin of life. Unit: ohm."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/eudpp/battery-performance#BatteryStateRecord"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/eudpp/battery-performance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "current internal resistance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ],
+  "https://w3id.org/eudpp/battery-performance#measurementUnit" : [ {
+    "@id" : "https://si-digital-framework.org/SI/units/ohm"
+  } ]
+}, {
   "@id" : "https://w3id.org/eudpp/battery-performance#currentSelfDischargeRate",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://purl.org/dc/terms/references" : [ {
     "@language" : "en",
-    "@value" : "BatteryPass-Ready Data Attribute Long List v1.3, attribute 79"
+    "@value" : "BatteryPass-Ready Data Attribute Long List v1.3, attribute 79; Regulation (EU) 2023/1542, Annex XIII 4(b); Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field selfDischargingRate"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "The change of the self-discharge rate in an idle state of the battery in reference conditions (temperature etc.) at aging parameter x, e.g. after a certain amount of storage time or number of cycles. Unit: percent per month (%/month)."
+    "@value" : "The change of the self-discharge rate in an idle state of the battery in reference conditions (temperature etc.) at aging parameter x, e.g. after a certain amount of storage time or number of cycles. Unit: percent per year (%/year), as in the Commission semantic model; long list v1.3 and versions up to 0.4.0 of this module used percent per month."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/eudpp/battery-performance#BatteryStateRecord"
@@ -792,7 +819,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "The self-discharge rate in an idle state of the battery in reference conditions (temperature etc.) at begin of life. Unit: percent per month (%/month)."
+    "@value" : "The self-discharge rate in an idle state of the battery in reference conditions (temperature etc.) at begin of life. Unit: percent per year (%/year), as in the Commission semantic model; long list v1.3 and versions up to 0.4.0 of this module used percent per month."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/eudpp/battery-performance#BatteryPerformance"
@@ -1024,6 +1051,33 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/eudpp/battery-performance#ohmicResistance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://purl.org/dc/terms/references" : [ {
+    "@language" : "en",
+    "@value" : "Regulation (EU) 2023/1542, Annex XIII 4(b); Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field ohmicResistance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Ohmic resistance of the battery at the date of the state record: information on its state of health under Article 14 of Regulation (EU) 2023/1542, where possible. Unit: ohm."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/eudpp/battery-performance#BatteryStateRecord"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/eudpp/battery-performance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ohmic resistance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ],
+  "https://w3id.org/eudpp/battery-performance#measurementUnit" : [ {
+    "@id" : "https://si-digital-framework.org/SI/units/ohm"
   } ]
 }, {
   "@id" : "https://w3id.org/eudpp/battery-performance#originalPowerCapability",
@@ -1396,6 +1450,30 @@
   } ],
   "https://w3id.org/eudpp/battery-performance#measurementUnit" : [ {
     "@id" : "https://si-digital-framework.org/SI/units/degreeCelsius"
+  } ]
+}, {
+  "@id" : "https://w3id.org/eudpp/battery-performance#temperatureRangeIdleStateReferenceTest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://purl.org/dc/terms/references" : [ {
+    "@language" : "en",
+    "@value" : "Regulation (EU) 2023/1542, Annex XIII 1(l); Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field notInUseTemperatureRangeTest"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The reference test for the temperature range the battery can withstand when not in use, whose boundaries are temperatureRangeIdleStateLowerBoundary and temperatureRangeIdleStateUpperBoundary."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/eudpp/battery-performance#TemperatureExposure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/eudpp/battery-performance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "temperature range idle state, reference test"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
   "@id" : "https://w3id.org/eudpp/battery-performance#temperatureRangeIdleStateUpperBoundary",

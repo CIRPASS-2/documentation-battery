@@ -54,7 +54,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/terms/bibliographicCitation" : [ {
     "@language" : "en",
-    "@value" : "EU DPP Battery Materials Ontology. Draft version 0.3.0."
+    "@value" : "EU DPP Battery Materials Ontology. Draft version 0.4.0."
   } ],
   "http://purl.org/dc/terms/contributor" : [ {
     "@language" : "en",
@@ -87,11 +87,11 @@
   } ],
   "http://purl.org/dc/terms/modified" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#date",
-    "@value" : "2026-11-03"
+    "@value" : "2026-11-16"
   } ],
   "http://purl.org/dc/terms/references" : [ {
     "@language" : "en",
-    "@value" : "Regulation (EU) 2023/1542, Annex XIII; BatteryPass-Ready Data Attribute Long List v1.3; Spherity Battery Pass ontology v0.1"
+    "@value" : "Regulation (EU) 2023/1542, Annex XIII; BatteryPass-Ready Data Attribute Long List v1.3; Spherity Battery Pass ontology v0.1; Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026)"
   } ],
   "http://purl.org/dc/terms/source" : [ {
     "@id" : "https://eur-lex.europa.eu/eli/reg/2023/1542/oj"
@@ -120,11 +120,11 @@
     "@id" : "https://w3id.org/eudpp/battery-locations"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://w3id.org/eudpp/battery-materials/0.3.0"
+    "@id" : "https://w3id.org/eudpp/battery-materials/0.4.0"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@language" : "en",
-    "@value" : "Version 0.3.0 DRAFT"
+    "@value" : "Version 0.4.0 DRAFT"
   } ]
 }, {
   "@id" : "https://w3id.org/eudpp/battery-materials#BatteryChemistry",
@@ -218,5 +218,29 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/eudpp/battery-materials#BatteryLocation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/eudpp/battery-materials#renewableContentShare",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://purl.org/dc/terms/references" : [ {
+    "@language" : "en",
+    "@value" : "Regulation (EU) 2023/1542, Annex XIII 1(f); BatteryPass-Ready Data Attribute Long List v1.3, attribute 55; Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field renewableContentShare"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The share of renewable content in the battery. Unit: percent (%). Declared here because the CORE removed dpp:SustainableRenewableMaterialsUse from P_DPP on 16 October 2026 and has no term for this share; to move to the CORE if it gets one again."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/eudpp/battery#Battery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/eudpp/battery-materials"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "renewable content share"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
   } ]
 } ]

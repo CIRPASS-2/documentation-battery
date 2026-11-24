@@ -7,18 +7,18 @@
 @base <https://w3id.org/eudpp/battery#> .
 
 <https://w3id.org/eudpp/battery> rdf:type owl:Ontology ;
-                                  owl:versionIRI <https://w3id.org/eudpp/battery/0.4.0> ;
-                                  <http://purl.org/dc/terms/bibliographicCitation> "EU DPP Battery Ontology. Draft version 0.4.0."@en ;
+                                  owl:versionIRI <https://w3id.org/eudpp/battery/0.5.0> ;
+                                  <http://purl.org/dc/terms/bibliographicCitation> "EU DPP Battery Ontology. Draft version 0.5.0."@en ;
                                   <http://purl.org/dc/terms/contributor> "Arnab Sinha" ;
                                   <http://purl.org/dc/terms/created> "2026-07-07"^^xsd:date ;
                                   <http://purl.org/dc/terms/creator> "Marc-Andree Wolf" ,
                                                                      "Nader Jelassi" ;
-                                  <http://purl.org/dc/terms/description> "Sectoral ontology for battery Digital Product Passports under Regulation (EU) 2023/1542. This umbrella module declares the Battery product class and the SafetyInstruction class; battery data is organised in nine companion modules: battery-performance (electrochemical performance, durability and in-use state), battery-materials (chemistry and material location), battery-labeling (labels and symbols), battery-categories (the five Art. 3(1) battery categories), battery-chemistries (the ten labelling chemistries), battery-locations (cathode, anode, electrolyte), battery-metals (the four metals whose recycled content Art. 8(1) requires), battery-statuses (the five Annex XIII 4(c) lifecycle statuses) and battery-extinguisher-classes; battery-cf-shapes carries the carbon footprint SHACL profile. It extends the CIRPASS-2 cross-sectoral CORE ontology by direct reference, following the approach of the Textile sector modules."@en ;
+                                  <http://purl.org/dc/terms/description> "Sectoral ontology for battery Digital Product Passports under Regulation (EU) 2023/1542. This umbrella module declares the Battery product class, the SafetyInstruction class and the nine waste battery information classes of Art. 74(1); battery data is organised in nine companion modules: battery-performance (electrochemical performance, durability and in-use state), battery-materials (chemistry and material location), battery-labeling (labels and symbols), battery-categories (the five Art. 3(1) battery categories), battery-chemistries (the ten labelling chemistries), battery-locations (cathode, anode, electrolyte), battery-metals (the four metals whose recycled content Art. 8(1) requires), battery-statuses (the five Annex XIII 4(c) lifecycle statuses) and battery-extinguisher-classes; battery-cf-shapes carries the carbon footprint SHACL profile. It extends the CIRPASS-2 cross-sectoral CORE ontology by direct reference, following the approach of the Textile sector modules."@en ;
                                   <http://purl.org/dc/terms/issued> "2026-07-07"^^xsd:date ;
                                   <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ,
                                                                      "This ontology is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0). In case of dispute over CC BY 4.0 applicability, or in case considering the ontology as a software or part of it, this ontology is to be considered licensed under the Apache License, Version 2.0."@en ;
-                                  <http://purl.org/dc/terms/modified> "2026-11-03"^^xsd:date ;
-                                  <http://purl.org/dc/terms/references> "Regulation (EU) 2023/1542 (Batteries Regulation)"@en ;
+                                  <http://purl.org/dc/terms/modified> "2026-11-16"^^xsd:date ;
+                                  <http://purl.org/dc/terms/references> "Regulation (EU) 2023/1542 (Batteries Regulation); Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026)"@en ;
                                   <http://purl.org/dc/terms/source> <https://eur-lex.europa.eu/eli/reg/2023/1542/oj> ;
                                   <http://purl.org/dc/terms/title> "EU DPP Battery Ontology"@en ;
                                   <http://purl.org/vocab/vann/preferredNamespacePrefix> "bat" ;
@@ -35,7 +35,7 @@
                                                <https://w3id.org/eudpp/battery-metals> ,
                                                <https://w3id.org/eudpp/battery-performance> ,
                                                <https://w3id.org/eudpp/battery-statuses> ;
-                                  owl:versionInfo "Version 0.4.0 DRAFT"@en .
+                                  owl:versionInfo "Version 0.5.0 DRAFT"@en .
 
 #################################################################
 #    Annotation properties
@@ -328,6 +328,17 @@ xsd:duration rdf:type rdfs:Datatype .
                 owl:deprecated "true"^^xsd:boolean .
 
 
+###  https://w3id.org/eudpp/battery#sparePartsInformation
+:sparePartsInformation rdf:type owl:DatatypeProperty ;
+                       rdfs:domain :Battery ;
+                       rdfs:range xsd:anyURI ;
+                       <http://purl.org/dc/terms/references> "Regulation (EU) 2023/1542, Annex XIII 2(b); BatteryPass-Ready Data Attribute Long List v1.3, attributes 45 and 46; Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field sparePartReplacementDetails"@en ;
+                       <http://purl.org/dc/terms/source> <https://eur-lex.europa.eu/eli/reg/2023/1542/oj> ;
+                       rdfs:comment "Link to the part numbers for components and the contact details of sources for replacement spares. The part numbers themselves stay on bat:partNumber."@en ;
+                       rdfs:isDefinedBy <https://w3id.org/eudpp/battery> ;
+                       rdfs:label "spare parts information"@en .
+
+
 ###  https://w3id.org/eudpp/battery#testReportResults
 :testReportResults rdf:type owl:DatatypeProperty ;
                    rdfs:domain :Battery ;
@@ -389,6 +400,16 @@ xsd:duration rdf:type rdfs:Datatype .
                                                                    rdfs:comment "Symbol indicating the necessity of separate collection of the battery (crossed-out wheeled bin), as a link to the symbol resource. Required on all batteries; the symbol itself is set out in Annex VI Part B."@en ;
                                                                    rdfs:isDefinedBy <https://w3id.org/eudpp/battery-labeling> ;
                                                                    rdfs:label "separate collection symbol"@en .
+
+
+###  https://w3id.org/eudpp/battery-materials#renewableContentShare
+<https://w3id.org/eudpp/battery-materials#renewableContentShare> rdf:type owl:DatatypeProperty ;
+                                                                 rdfs:domain :Battery ;
+                                                                 rdfs:range xsd:decimal ;
+                                                                 <http://purl.org/dc/terms/references> "Regulation (EU) 2023/1542, Annex XIII 1(f); BatteryPass-Ready Data Attribute Long List v1.3, attribute 55; Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field renewableContentShare"@en ;
+                                                                 rdfs:comment "The share of renewable content in the battery. Unit: percent (%). Declared here because the CORE removed dpp:SustainableRenewableMaterialsUse from P_DPP on 16 October 2026 and has no term for this share; to move to the CORE if it gets one again."@en ;
+                                                                 rdfs:isDefinedBy <https://w3id.org/eudpp/battery-materials> ;
+                                                                 rdfs:label "renewable content share"@en .
 
 
 ###  https://w3id.org/eudpp/battery-performance#accidentInformation
@@ -473,12 +494,23 @@ xsd:duration rdf:type rdfs:Datatype .
                                                                         rdfs:label "charge C-rate of relevant cycle-life test"@en .
 
 
+###  https://w3id.org/eudpp/battery-performance#currentInternalResistance
+<https://w3id.org/eudpp/battery-performance#currentInternalResistance> rdf:type owl:DatatypeProperty ;
+                                                                       rdfs:domain <https://w3id.org/eudpp/battery-performance#BatteryStateRecord> ;
+                                                                       rdfs:range xsd:decimal ;
+                                                                       <http://purl.org/dc/terms/references> "Regulation (EU) 2023/1542, Annex XIII 4(a); Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field internalResistance"@en ;
+                                                                       rdfs:comment "Internal resistance of the battery at the date of the state record: the in-use value, where initialInternalResistance is the value at begin of life. Unit: ohm."@en ;
+                                                                       rdfs:isDefinedBy <https://w3id.org/eudpp/battery-performance> ;
+                                                                       rdfs:label "current internal resistance"@en ;
+                                                                       <https://w3id.org/eudpp/battery-performance#measurementUnit> <https://si-digital-framework.org/SI/units/ohm> .
+
+
 ###  https://w3id.org/eudpp/battery-performance#currentSelfDischargeRate
 <https://w3id.org/eudpp/battery-performance#currentSelfDischargeRate> rdf:type owl:DatatypeProperty ;
                                                                       rdfs:domain <https://w3id.org/eudpp/battery-performance#BatteryStateRecord> ;
                                                                       rdfs:range xsd:decimal ;
-                                                                      <http://purl.org/dc/terms/references> "BatteryPass-Ready Data Attribute Long List v1.3, attribute 79"@en ;
-                                                                      rdfs:comment "The change of the self-discharge rate in an idle state of the battery in reference conditions (temperature etc.) at aging parameter x, e.g. after a certain amount of storage time or number of cycles. Unit: percent per month (%/month)."@en ;
+                                                                      <http://purl.org/dc/terms/references> "BatteryPass-Ready Data Attribute Long List v1.3, attribute 79; Regulation (EU) 2023/1542, Annex XIII 4(b); Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field selfDischargingRate"@en ;
+                                                                      rdfs:comment "The change of the self-discharge rate in an idle state of the battery in reference conditions (temperature etc.) at aging parameter x, e.g. after a certain amount of storage time or number of cycles. Unit: percent per year (%/year), as in the Commission semantic model; long list v1.3 and versions up to 0.4.0 of this module used percent per month."@en ;
                                                                       rdfs:isDefinedBy <https://w3id.org/eudpp/battery-performance> ;
                                                                       rdfs:label "current self-discharge rate"@en .
 
@@ -584,7 +616,7 @@ xsd:duration rdf:type rdfs:Datatype .
                                                                       rdfs:domain <https://w3id.org/eudpp/battery-performance#BatteryPerformance> ;
                                                                       rdfs:range xsd:decimal ;
                                                                       <http://purl.org/dc/terms/references> "BatteryPass-Ready Data Attribute Long List v1.3, attribute 78"@en ;
-                                                                      rdfs:comment "The self-discharge rate in an idle state of the battery in reference conditions (temperature etc.) at begin of life. Unit: percent per month (%/month)."@en ;
+                                                                      rdfs:comment "The self-discharge rate in an idle state of the battery in reference conditions (temperature etc.) at begin of life. Unit: percent per year (%/year), as in the Commission semantic model; long list v1.3 and versions up to 0.4.0 of this module used percent per month."@en ;
                                                                       rdfs:isDefinedBy <https://w3id.org/eudpp/battery-performance> ;
                                                                       rdfs:label "initial self-discharge rate"@en .
 
@@ -671,6 +703,17 @@ xsd:duration rdf:type rdfs:Datatype .
                                                                       rdfs:comment "The number of occasions, in which voltage has increased above the upper operational limit as provided in the battery passport. In-use event counter."@en ;
                                                                       rdfs:isDefinedBy <https://w3id.org/eudpp/battery-performance> ;
                                                                       rdfs:label "number of overcharge events"@en .
+
+
+###  https://w3id.org/eudpp/battery-performance#ohmicResistance
+<https://w3id.org/eudpp/battery-performance#ohmicResistance> rdf:type owl:DatatypeProperty ;
+                                                             rdfs:domain <https://w3id.org/eudpp/battery-performance#BatteryStateRecord> ;
+                                                             rdfs:range xsd:decimal ;
+                                                             <http://purl.org/dc/terms/references> "Regulation (EU) 2023/1542, Annex XIII 4(b); Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field ohmicResistance"@en ;
+                                                             rdfs:comment "Ohmic resistance of the battery at the date of the state record: information on its state of health under Article 14 of Regulation (EU) 2023/1542, where possible. Unit: ohm."@en ;
+                                                             rdfs:isDefinedBy <https://w3id.org/eudpp/battery-performance> ;
+                                                             rdfs:label "ohmic resistance"@en ;
+                                                             <https://w3id.org/eudpp/battery-performance#measurementUnit> <https://si-digital-framework.org/SI/units/ohm> .
 
 
 ###  https://w3id.org/eudpp/battery-performance#originalPowerCapability
@@ -827,6 +870,16 @@ xsd:duration rdf:type rdfs:Datatype .
                                                                                     <https://w3id.org/eudpp/battery-performance#measurementUnit> <https://si-digital-framework.org/SI/units/degreeCelsius> .
 
 
+###  https://w3id.org/eudpp/battery-performance#temperatureRangeIdleStateReferenceTest
+<https://w3id.org/eudpp/battery-performance#temperatureRangeIdleStateReferenceTest> rdf:type owl:DatatypeProperty ;
+                                                                                    rdfs:domain <https://w3id.org/eudpp/battery-performance#TemperatureExposure> ;
+                                                                                    rdfs:range xsd:string ;
+                                                                                    <http://purl.org/dc/terms/references> "Regulation (EU) 2023/1542, Annex XIII 1(l); Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field notInUseTemperatureRangeTest"@en ;
+                                                                                    rdfs:comment "The reference test for the temperature range the battery can withstand when not in use, whose boundaries are temperatureRangeIdleStateLowerBoundary and temperatureRangeIdleStateUpperBoundary."@en ;
+                                                                                    rdfs:isDefinedBy <https://w3id.org/eudpp/battery-performance> ;
+                                                                                    rdfs:label "temperature range idle state, reference test"@en .
+
+
 ###  https://w3id.org/eudpp/battery-performance#temperatureRangeIdleStateUpperBoundary
 <https://w3id.org/eudpp/battery-performance#temperatureRangeIdleStateUpperBoundary> rdf:type owl:DatatypeProperty ;
                                                                                     rdfs:domain <https://w3id.org/eudpp/battery-performance#TemperatureExposure> ;
@@ -937,6 +990,26 @@ xsd:duration rdf:type rdfs:Datatype .
          rdfs:seeAlso <https://w3id.org/eudpp/battery-categories#BatteryCategoryScheme> .
 
 
+###  https://w3id.org/eudpp/battery#PreparationForRepurposingInformation
+:PreparationForRepurposingInformation rdf:type owl:Class ;
+                                      rdfs:subClassOf <https://w3id.org/eudpp#DigitalInstruction> ;
+                                      <http://purl.org/dc/terms/references> "Regulation (EU) 2023/1542, Art. 74(1) and Annex XIII 1(s); BatteryPass-Ready Data Attribute Long List v1.3, attribute 58; Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field preparationForRepurposingFacilities"@en ;
+                                      <http://purl.org/dc/terms/source> <https://eur-lex.europa.eu/eli/reg/2023/1542/oj> ;
+                                      rdfs:comment "Information on the facilities for preparing waste batteries for repurposing. A digital instruction in the sense of eudpp:DigitalInstruction (P_DPP), like bat:SafetyInstruction: reached from the battery through dpp:hasProperty, with its text on dpp:value or its URL on dpp:webLink."@en ;
+                                      rdfs:isDefinedBy <https://w3id.org/eudpp/battery> ;
+                                      rdfs:label "Preparation for repurposing information"@en .
+
+
+###  https://w3id.org/eudpp/battery#PreparationForReuseInformation
+:PreparationForReuseInformation rdf:type owl:Class ;
+                                rdfs:subClassOf <https://w3id.org/eudpp#DigitalInstruction> ;
+                                <http://purl.org/dc/terms/references> "Regulation (EU) 2023/1542, Art. 74(1) and Annex XIII 1(s); BatteryPass-Ready Data Attribute Long List v1.3, attribute 58; Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field preparationForReuseFacilities"@en ;
+                                <http://purl.org/dc/terms/source> <https://eur-lex.europa.eu/eli/reg/2023/1542/oj> ;
+                                rdfs:comment "Information on the facilities for preparing waste batteries for re-use. A digital instruction in the sense of eudpp:DigitalInstruction (P_DPP), like bat:SafetyInstruction: reached from the battery through dpp:hasProperty, with its text on dpp:value or its URL on dpp:webLink."@en ;
+                                rdfs:isDefinedBy <https://w3id.org/eudpp/battery> ;
+                                rdfs:label "Preparation for re-use information"@en .
+
+
 ###  https://w3id.org/eudpp/battery#SafetyInstruction
 :SafetyInstruction rdf:type owl:Class ;
                    rdfs:subClassOf <https://w3id.org/eudpp#DigitalInstruction> ;
@@ -945,6 +1018,76 @@ xsd:duration rdf:type rdfs:Datatype .
                    rdfs:comment "Instruction manual giving the safety measures to be taken when handling the battery, including dismantling. A digital instruction in the sense of the cross-sectoral class eudpp:DigitalInstruction (P_DPP): reached from the battery through dpp:hasProperty, with its URL on dpp:webLink. Declared here so that the safety measures can be told apart from the other instructions of a battery; replaces the datatype property bat:safetyMeasures (ontologies-core#45)."@en ;
                    rdfs:isDefinedBy <https://w3id.org/eudpp/battery> ;
                    rdfs:label "Safety instruction"@en .
+
+
+###  https://w3id.org/eudpp/battery#SeparateCollectionInformation
+:SeparateCollectionInformation rdf:type owl:Class ;
+                               rdfs:subClassOf <https://w3id.org/eudpp#DigitalInstruction> ;
+                               <http://purl.org/dc/terms/references> "Regulation (EU) 2023/1542, Art. 74(1) and Annex XIII 1(s); BatteryPass-Ready Data Attribute Long List v1.3, attribute 57; Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field endUserRoleInSeparateCollection"@en ;
+                               <http://purl.org/dc/terms/source> <https://eur-lex.europa.eu/eli/reg/2023/1542/oj> ;
+                               rdfs:comment "Information on the role of end-users in contributing to the separate collection of waste batteries. A digital instruction in the sense of eudpp:DigitalInstruction (P_DPP), like bat:SafetyInstruction: reached from the battery through dpp:hasProperty, with its text on dpp:value or its URL on dpp:webLink."@en ;
+                               rdfs:isDefinedBy <https://w3id.org/eudpp/battery> ;
+                               rdfs:label "Separate collection information"@en .
+
+
+###  https://w3id.org/eudpp/battery#SeparateCollectionPointsInformation
+:SeparateCollectionPointsInformation rdf:type owl:Class ;
+                                     rdfs:subClassOf <https://w3id.org/eudpp#DigitalInstruction> ;
+                                     <http://purl.org/dc/terms/references> "Regulation (EU) 2023/1542, Art. 74(1) and Annex XIII 1(s); BatteryPass-Ready Data Attribute Long List v1.3, attribute 58; Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field separateCollectionPoints"@en ;
+                                     <http://purl.org/dc/terms/source> <https://eur-lex.europa.eu/eli/reg/2023/1542/oj> ;
+                                     rdfs:comment "Information on the separate collection points for waste batteries. A digital instruction in the sense of eudpp:DigitalInstruction (P_DPP), like bat:SafetyInstruction: reached from the battery through dpp:hasProperty, with its text on dpp:value or its URL on dpp:webLink."@en ;
+                                     rdfs:isDefinedBy <https://w3id.org/eudpp/battery> ;
+                                     rdfs:label "Separate collection points information"@en .
+
+
+###  https://w3id.org/eudpp/battery#SubstancesImpactInformation
+:SubstancesImpactInformation rdf:type owl:Class ;
+                             rdfs:subClassOf <https://w3id.org/eudpp#DigitalInstruction> ;
+                             <http://purl.org/dc/terms/references> "Regulation (EU) 2023/1542, Art. 74(1) and Annex XIII 1(s); BatteryPass-Ready Data Attribute Long List v1.3, attribute 43; Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field batterySubstancesImpact"@en ;
+                             <http://purl.org/dc/terms/source> <https://eur-lex.europa.eu/eli/reg/2023/1542/oj> ;
+                             rdfs:comment "Information on the impact of the substances present in the battery on the environment and on human health or the safety of persons. A digital instruction in the sense of eudpp:DigitalInstruction (P_DPP), like bat:SafetyInstruction: reached from the battery through dpp:hasProperty, with its text on dpp:value or its URL on dpp:webLink. Declared here while the CORE has no term for it: SOC 2.2.0 removed dpp:hasImpactOnEnvironment and dpp:hasImpactOnHumanHealth on 15 October 2026. To deprecate if SOC restores them."@en ;
+                             rdfs:isDefinedBy <https://w3id.org/eudpp/battery> ;
+                             rdfs:label "Substances impact information"@en .
+
+
+###  https://w3id.org/eudpp/battery#TakeBackPointsInformation
+:TakeBackPointsInformation rdf:type owl:Class ;
+                           rdfs:subClassOf <https://w3id.org/eudpp#DigitalInstruction> ;
+                           <http://purl.org/dc/terms/references> "Regulation (EU) 2023/1542, Art. 74(1) and Annex XIII 1(s); BatteryPass-Ready Data Attribute Long List v1.3, attribute 58; Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field takeBackCollectionPoints"@en ;
+                           <http://purl.org/dc/terms/source> <https://eur-lex.europa.eu/eli/reg/2023/1542/oj> ;
+                           rdfs:comment "Information on the take-back and collection points for waste batteries. A digital instruction in the sense of eudpp:DigitalInstruction (P_DPP), like bat:SafetyInstruction: reached from the battery through dpp:hasProperty, with its text on dpp:value or its URL on dpp:webLink."@en ;
+                           rdfs:isDefinedBy <https://w3id.org/eudpp/battery> ;
+                           rdfs:label "Take-back points information"@en .
+
+
+###  https://w3id.org/eudpp/battery#WasteBatterySafetyInformation
+:WasteBatterySafetyInformation rdf:type owl:Class ;
+                               rdfs:subClassOf <https://w3id.org/eudpp#DigitalInstruction> ;
+                               <http://purl.org/dc/terms/references> "Regulation (EU) 2023/1542, Art. 74(1) and Annex XIII 1(s); Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field wasteBatterySafetyInstructions"@en ;
+                               <http://purl.org/dc/terms/source> <https://eur-lex.europa.eu/eli/reg/2023/1542/oj> ;
+                               rdfs:comment "Safety instructions for handling waste batteries. A digital instruction in the sense of eudpp:DigitalInstruction (P_DPP), like bat:SafetyInstruction: reached from the battery through dpp:hasProperty, with its text on dpp:value or its URL on dpp:webLink."@en ;
+                               rdfs:isDefinedBy <https://w3id.org/eudpp/battery> ;
+                               rdfs:label "Waste battery safety information"@en .
+
+
+###  https://w3id.org/eudpp/battery#WastePreventionInformation
+:WastePreventionInformation rdf:type owl:Class ;
+                            rdfs:subClassOf <https://w3id.org/eudpp#DigitalInstruction> ;
+                            <http://purl.org/dc/terms/references> "Regulation (EU) 2023/1542, Art. 74(1) and Annex XIII 1(s); BatteryPass-Ready Data Attribute Long List v1.3, attribute 56; Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field endUserRoleInWastePrevention"@en ;
+                            <http://purl.org/dc/terms/source> <https://eur-lex.europa.eu/eli/reg/2023/1542/oj> ;
+                            rdfs:comment "Information on the role of end-users in contributing to waste prevention. A digital instruction in the sense of eudpp:DigitalInstruction (P_DPP), like bat:SafetyInstruction: reached from the battery through dpp:hasProperty, with its text on dpp:value or its URL on dpp:webLink."@en ;
+                            rdfs:isDefinedBy <https://w3id.org/eudpp/battery> ;
+                            rdfs:label "Waste prevention information"@en .
+
+
+###  https://w3id.org/eudpp/battery#WasteTreatmentInformation
+:WasteTreatmentInformation rdf:type owl:Class ;
+                           rdfs:subClassOf <https://w3id.org/eudpp#DigitalInstruction> ;
+                           <http://purl.org/dc/terms/references> "Regulation (EU) 2023/1542, Art. 74(1) and Annex XIII 1(s); BatteryPass-Ready Data Attribute Long List v1.3, attribute 58; Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field wasteBatteryTreatmentFacilities"@en ;
+                           <http://purl.org/dc/terms/source> <https://eur-lex.europa.eu/eli/reg/2023/1542/oj> ;
+                           rdfs:comment "Information on the treatment facilities for waste batteries. A digital instruction in the sense of eudpp:DigitalInstruction (P_DPP), like bat:SafetyInstruction: reached from the battery through dpp:hasProperty, with its text on dpp:value or its URL on dpp:webLink."@en ;
+                           rdfs:isDefinedBy <https://w3id.org/eudpp/battery> ;
+                           rdfs:label "Waste treatment information"@en .
 
 
 ###  https://w3id.org/eudpp/battery-labeling#BatteryLabel

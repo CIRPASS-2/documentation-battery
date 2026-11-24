@@ -7,10 +7,10 @@
       "en" : "EU DPP Battery Ontology"
     },
     "iri" : "https://w3id.org/eudpp/battery",
-    "version" : "Version 0.4.0 DRAFT",
-    "author" : [ "Marc-Andree Wolf", "Nader Jelassi" ],
+    "version" : "Version 0.5.0 DRAFT",
+    "author" : [ "Nader Jelassi", "Marc-Andree Wolf" ],
     "description" : {
-      "en" : "Sectoral ontology for battery Digital Product Passports under Regulation (EU) 2023/1542. This umbrella module declares the Battery product class and the SafetyInstruction class; battery data is organised in nine companion modules: battery-performance (electrochemical performance, durability and in-use state), battery-materials (chemistry and material location), battery-labeling (labels and symbols), battery-categories (the five Art. 3(1) battery categories), battery-chemistries (the ten labelling chemistries), battery-locations (cathode, anode, electrolyte), battery-metals (the four metals whose recycled content Art. 8(1) requires), battery-statuses (the five Annex XIII 4(c) lifecycle statuses) and battery-extinguisher-classes; battery-cf-shapes carries the carbon footprint SHACL profile. It extends the CIRPASS-2 cross-sectoral CORE ontology by direct reference, following the approach of the Textile sector modules."
+      "en" : "Sectoral ontology for battery Digital Product Passports under Regulation (EU) 2023/1542. This umbrella module declares the Battery product class, the SafetyInstruction class and the nine waste battery information classes of Art. 74(1); battery data is organised in nine companion modules: battery-performance (electrochemical performance, durability and in-use state), battery-materials (chemistry and material location), battery-labeling (labels and symbols), battery-categories (the five Art. 3(1) battery categories), battery-chemistries (the ten labelling chemistries), battery-locations (cathode, anode, electrolyte), battery-metals (the four metals whose recycled content Art. 8(1) requires), battery-statuses (the five Annex XIII 4(c) lifecycle statuses) and battery-extinguisher-classes; battery-cf-shapes carries the carbon footprint SHACL profile. It extends the CIRPASS-2 cross-sectoral CORE ontology by direct reference, following the approach of the Textile sector modules."
     },
     "labels" : {
       "en" : "EU DPP Battery Ontology"
@@ -22,18 +22,18 @@
       "creator" : [ {
         "identifier" : "creator",
         "language" : "en",
-        "value" : "Marc-Andree Wolf",
+        "value" : "Nader Jelassi",
         "type" : "label"
       }, {
         "identifier" : "creator",
         "language" : "en",
-        "value" : "Nader Jelassi",
+        "value" : "Marc-Andree Wolf",
         "type" : "label"
       } ],
       "references" : [ {
         "identifier" : "references",
         "language" : "en",
-        "value" : "Regulation (EU) 2023/1542 (Batteries Regulation)",
+        "value" : "Regulation (EU) 2023/1542 (Batteries Regulation); Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026)",
         "type" : "label"
       } ],
       "created" : [ {
@@ -42,17 +42,17 @@
         "value" : "2026-07-07",
         "type" : "label"
       } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "en",
+        "value" : "Version 0.5.0 DRAFT",
+        "type" : "label"
+      } ],
       "source" : [ {
         "identifier" : "source",
         "language" : "undefined",
         "value" : "https://eur-lex.europa.eu/eli/reg/2023/1542/oj",
         "type" : "iri"
-      } ],
-      "versionInfo" : [ {
-        "identifier" : "versionInfo",
-        "language" : "en",
-        "value" : "Version 0.4.0 DRAFT",
-        "type" : "label"
       } ],
       "title" : [ {
         "identifier" : "title",
@@ -63,42 +63,7 @@
       "seeAlso" : [ {
         "identifier" : "seeAlso",
         "language" : "undefined",
-        "value" : "https://w3id.org/eudpp/battery-cf-shapes",
-        "type" : "iri"
-      }, {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://w3id.org/eudpp/battery-extinguisher-classes",
-        "type" : "iri"
-      }, {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://w3id.org/eudpp/battery-categories",
-        "type" : "iri"
-      }, {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
         "value" : "https://w3id.org/eudpp/battery-metals",
-        "type" : "iri"
-      }, {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://w3id.org/eudpp/battery-locations",
-        "type" : "iri"
-      }, {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://w3id.org/eudpp/battery-materials",
-        "type" : "iri"
-      }, {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://w3id.org/eudpp/battery-performance",
-        "type" : "iri"
-      }, {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://w3id.org/eudpp/battery-statuses",
         "type" : "iri"
       }, {
         "identifier" : "seeAlso",
@@ -108,19 +73,54 @@
       }, {
         "identifier" : "seeAlso",
         "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery-performance",
+        "type" : "iri"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery-locations",
+        "type" : "iri"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery-extinguisher-classes",
+        "type" : "iri"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
         "value" : "https://w3id.org/eudpp/battery-labeling",
+        "type" : "iri"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery-statuses",
+        "type" : "iri"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery-materials",
+        "type" : "iri"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery-cf-shapes",
+        "type" : "iri"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery-categories",
         "type" : "iri"
       } ],
       "license" : [ {
         "identifier" : "license",
-        "language" : "undefined",
-        "value" : "https://creativecommons.org/licenses/by/4.0/",
-        "type" : "iri"
-      }, {
-        "identifier" : "license",
         "language" : "en",
         "value" : "This ontology is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0). In case of dispute over CC BY 4.0 applicability, or in case considering the ontology as a software or part of it, this ontology is to be considered licensed under the Apache License, Version 2.0.",
         "type" : "label"
+      }, {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://creativecommons.org/licenses/by/4.0/",
+        "type" : "iri"
       } ],
       "contributor" : [ {
         "identifier" : "contributor",
@@ -137,19 +137,19 @@
       "modified" : [ {
         "identifier" : "modified",
         "language" : "undefined",
-        "value" : "2026-11-03",
+        "value" : "2026-11-16",
+        "type" : "label"
+      } ],
+      "bibliographicCitation" : [ {
+        "identifier" : "bibliographicCitation",
+        "language" : "en",
+        "value" : "EU DPP Battery Ontology. Draft version 0.5.0.",
         "type" : "label"
       } ],
       "preferredNamespaceUri" : [ {
         "identifier" : "preferredNamespaceUri",
         "language" : "undefined",
         "value" : "https://w3id.org/eudpp/battery#",
-        "type" : "label"
-      } ],
-      "bibliographicCitation" : [ {
-        "identifier" : "bibliographicCitation",
-        "language" : "en",
-        "value" : "EU DPP Battery Ontology. Draft version 0.4.0.",
         "type" : "label"
       } ],
       "issued" : [ {
@@ -165,37 +165,67 @@
     "id" : "0",
     "type" : "owl:Class"
   }, {
-    "id" : "7",
+    "id" : "2",
     "type" : "owl:Class"
   }, {
-    "id" : "8",
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "5",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "36",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "11",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "4",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "6",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "3",
-    "type" : "owl:Class"
-  }, {
-    "id" : "12",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "16",
-    "type" : "rdfs:Datatype"
-  }, {
     "id" : "1",
     "type" : "owl:Class"
   }, {
-    "id" : "17",
+    "id" : "13",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "10",
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
@@ -232,6 +262,39 @@
     "id" : "0",
     "superClasses" : [ "1" ]
   }, {
+    "iri" : "https://w3id.org/eudpp/battery#SeparateCollectionPointsInformation",
+    "baseIri" : "https://w3id.org/eudpp/battery",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery",
+        "type" : "iri"
+      } ],
+      "references" : [ {
+        "identifier" : "references",
+        "language" : "en",
+        "value" : "Regulation (EU) 2023/1542, Art. 74(1) and Annex XIII 1(s); BatteryPass-Ready Data Attribute Long List v1.3, attribute 58; Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field separateCollectionPoints",
+        "type" : "label"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://eur-lex.europa.eu/eli/reg/2023/1542/oj",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SeparateCollectionPointsInformation",
+      "en" : "Separate collection points information"
+    },
+    "comment" : {
+      "en" : "Information on the separate collection points for waste batteries. A digital instruction in the sense of eudpp:DigitalInstruction (P_DPP), like bat:SafetyInstruction: reached from the battery through dpp:hasProperty, with its text on dpp:value or its URL on dpp:webLink."
+    },
+    "id" : "2",
+    "superClasses" : [ "1" ]
+  }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#Concept",
     "baseIri" : "http://www.w3.org/2004/02/skos/core",
     "instances" : 0,
@@ -239,32 +302,164 @@
       "IRI-based" : "Concept"
     },
     "attributes" : [ "external" ],
-    "id" : "7"
+    "id" : "6"
+  }, {
+    "iri" : "https://w3id.org/eudpp/battery#TakeBackPointsInformation",
+    "baseIri" : "https://w3id.org/eudpp/battery",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery",
+        "type" : "iri"
+      } ],
+      "references" : [ {
+        "identifier" : "references",
+        "language" : "en",
+        "value" : "Regulation (EU) 2023/1542, Art. 74(1) and Annex XIII 1(s); BatteryPass-Ready Data Attribute Long List v1.3, attribute 58; Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field takeBackCollectionPoints",
+        "type" : "label"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://eur-lex.europa.eu/eli/reg/2023/1542/oj",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "TakeBackPointsInformation",
+      "en" : "Take-back points information"
+    },
+    "comment" : {
+      "en" : "Information on the take-back and collection points for waste batteries. A digital instruction in the sense of eudpp:DigitalInstruction (P_DPP), like bat:SafetyInstruction: reached from the battery through dpp:hasProperty, with its text on dpp:value or its URL on dpp:webLink."
+    },
+    "id" : "16",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/eudpp/battery#SubstancesImpactInformation",
+    "baseIri" : "https://w3id.org/eudpp/battery",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery",
+        "type" : "iri"
+      } ],
+      "references" : [ {
+        "identifier" : "references",
+        "language" : "en",
+        "value" : "Regulation (EU) 2023/1542, Art. 74(1) and Annex XIII 1(s); BatteryPass-Ready Data Attribute Long List v1.3, attribute 43; Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field batterySubstancesImpact",
+        "type" : "label"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://eur-lex.europa.eu/eli/reg/2023/1542/oj",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SubstancesImpactInformation",
+      "en" : "Substances impact information"
+    },
+    "comment" : {
+      "en" : "Information on the impact of the substances present in the battery on the environment and on human health or the safety of persons. A digital instruction in the sense of eudpp:DigitalInstruction (P_DPP), like bat:SafetyInstruction: reached from the battery through dpp:hasProperty, with its text on dpp:value or its URL on dpp:webLink. Declared here while the CORE has no term for it: SOC 2.2.0 removed dpp:hasImpactOnEnvironment and dpp:hasImpactOnHumanHealth on 15 October 2026. To deprecate if SOC restores them."
+    },
+    "id" : "17",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/eudpp/battery#WasteTreatmentInformation",
+    "baseIri" : "https://w3id.org/eudpp/battery",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery",
+        "type" : "iri"
+      } ],
+      "references" : [ {
+        "identifier" : "references",
+        "language" : "en",
+        "value" : "Regulation (EU) 2023/1542, Art. 74(1) and Annex XIII 1(s); BatteryPass-Ready Data Attribute Long List v1.3, attribute 58; Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field wasteBatteryTreatmentFacilities",
+        "type" : "label"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://eur-lex.europa.eu/eli/reg/2023/1542/oj",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "WasteTreatmentInformation",
+      "en" : "Waste treatment information"
+    },
+    "comment" : {
+      "en" : "Information on the treatment facilities for waste batteries. A digital instruction in the sense of eudpp:DigitalInstruction (P_DPP), like bat:SafetyInstruction: reached from the battery through dpp:hasProperty, with its text on dpp:value or its URL on dpp:webLink."
+    },
+    "id" : "32",
+    "superClasses" : [ "1" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "8",
+    "id" : "35",
     "label" : {
       "IRI-based" : "anyURI"
     }
   }, {
+    "iri" : "https://w3id.org/eudpp/battery#PreparationForRepurposingInformation",
+    "baseIri" : "https://w3id.org/eudpp/battery",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery",
+        "type" : "iri"
+      } ],
+      "references" : [ {
+        "identifier" : "references",
+        "language" : "en",
+        "value" : "Regulation (EU) 2023/1542, Art. 74(1) and Annex XIII 1(s); BatteryPass-Ready Data Attribute Long List v1.3, attribute 58; Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field preparationForRepurposingFacilities",
+        "type" : "label"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://eur-lex.europa.eu/eli/reg/2023/1542/oj",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PreparationForRepurposingInformation",
+      "en" : "Preparation for repurposing information"
+    },
+    "comment" : {
+      "en" : "Information on the facilities for preparing waste batteries for repurposing. A digital instruction in the sense of eudpp:DigitalInstruction (P_DPP), like bat:SafetyInstruction: reached from the battery through dpp:hasProperty, with its text on dpp:value or its URL on dpp:webLink."
+    },
+    "id" : "22",
+    "superClasses" : [ "1" ]
+  }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "11",
+    "id" : "9",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "4",
+    "id" : "5",
     "label" : {
       "IRI-based" : "anyURI"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "6",
+    "id" : "15",
     "label" : {
       "IRI-based" : "anyURI"
     }
@@ -305,19 +500,26 @@
     "comment" : {
       "en" : "A battery placed on the market or put into service, subject of a battery passport under Regulation (EU) 2023/1542. Modelled as a subclass of the cross-sectoral Product class. A battery incorporated as a component of another product remains a Product, linked through the CORE component property (no dedicated Component class), in line with CIRPASS-2 modelling decisions. The regulatory category of a battery is expressed through the CORE property dpp:hasProductGroup, pointing to one of the five individuals of the battery-categories vocabulary; no category property is declared in the battery namespace. Its lifecycle status is expressed through bat:hasBatteryStatus, declared locally for want of a cross-sectoral equivalent. The date of manufacture is carried by the cross-sectoral property dpp:manufacturingDate, settled on ontologies-core#33; no manufacturing date property is declared in the battery namespace."
     },
-    "id" : "3",
-    "superClasses" : [ "10" ]
+    "id" : "4",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "34",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#duration",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "12",
+    "id" : "36",
     "label" : {
       "IRI-based" : "duration"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "16",
+    "id" : "11",
     "label" : {
       "IRI-based" : "anyURI"
     }
@@ -328,16 +530,49 @@
     "label" : {
       "IRI-based" : "DigitalInstruction"
     },
-    "subClasses" : [ "0" ],
+    "subClasses" : [ "0", "39", "2", "32", "16", "17", "22", "27", "25", "20" ],
     "attributes" : [ "external" ],
     "id" : "1"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "17",
+    "id" : "13",
     "label" : {
       "IRI-based" : "anyURI"
     }
+  }, {
+    "iri" : "https://w3id.org/eudpp/battery#WastePreventionInformation",
+    "baseIri" : "https://w3id.org/eudpp/battery",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery",
+        "type" : "iri"
+      } ],
+      "references" : [ {
+        "identifier" : "references",
+        "language" : "en",
+        "value" : "Regulation (EU) 2023/1542, Art. 74(1) and Annex XIII 1(s); BatteryPass-Ready Data Attribute Long List v1.3, attribute 56; Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field endUserRoleInWastePrevention",
+        "type" : "label"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://eur-lex.europa.eu/eli/reg/2023/1542/oj",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "WastePreventionInformation",
+      "en" : "Waste prevention information"
+    },
+    "comment" : {
+      "en" : "Information on the role of end-users in contributing to waste prevention. A digital instruction in the sense of eudpp:DigitalInstruction (P_DPP), like bat:SafetyInstruction: reached from the battery through dpp:hasProperty, with its text on dpp:value or its URL on dpp:webLink."
+    },
+    "id" : "25",
+    "superClasses" : [ "1" ]
   }, {
     "iri" : "https://w3id.org/eudpp#Product",
     "baseIri" : "https://w3id.org/eudpp",
@@ -345,45 +580,174 @@
     "label" : {
       "IRI-based" : "Product"
     },
-    "subClasses" : [ "3" ],
+    "subClasses" : [ "4" ],
     "attributes" : [ "external" ],
-    "id" : "10"
+    "id" : "8"
+  }, {
+    "iri" : "https://w3id.org/eudpp/battery#SeparateCollectionInformation",
+    "baseIri" : "https://w3id.org/eudpp/battery",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery",
+        "type" : "iri"
+      } ],
+      "references" : [ {
+        "identifier" : "references",
+        "language" : "en",
+        "value" : "Regulation (EU) 2023/1542, Art. 74(1) and Annex XIII 1(s); BatteryPass-Ready Data Attribute Long List v1.3, attribute 57; Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field endUserRoleInSeparateCollection",
+        "type" : "label"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://eur-lex.europa.eu/eli/reg/2023/1542/oj",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SeparateCollectionInformation",
+      "en" : "Separate collection information"
+    },
+    "comment" : {
+      "en" : "Information on the role of end-users in contributing to the separate collection of waste batteries. A digital instruction in the sense of eudpp:DigitalInstruction (P_DPP), like bat:SafetyInstruction: reached from the battery through dpp:hasProperty, with its text on dpp:value or its URL on dpp:webLink."
+    },
+    "id" : "39",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/eudpp/battery#WasteBatterySafetyInformation",
+    "baseIri" : "https://w3id.org/eudpp/battery",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery",
+        "type" : "iri"
+      } ],
+      "references" : [ {
+        "identifier" : "references",
+        "language" : "en",
+        "value" : "Regulation (EU) 2023/1542, Art. 74(1) and Annex XIII 1(s); Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field wasteBatterySafetyInstructions",
+        "type" : "label"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://eur-lex.europa.eu/eli/reg/2023/1542/oj",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "WasteBatterySafetyInformation",
+      "en" : "Waste battery safety information"
+    },
+    "comment" : {
+      "en" : "Safety instructions for handling waste batteries. A digital instruction in the sense of eudpp:DigitalInstruction (P_DPP), like bat:SafetyInstruction: reached from the battery through dpp:hasProperty, with its text on dpp:value or its URL on dpp:webLink."
+    },
+    "id" : "27",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/eudpp/battery#PreparationForReuseInformation",
+    "baseIri" : "https://w3id.org/eudpp/battery",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery",
+        "type" : "iri"
+      } ],
+      "references" : [ {
+        "identifier" : "references",
+        "language" : "en",
+        "value" : "Regulation (EU) 2023/1542, Art. 74(1) and Annex XIII 1(s); BatteryPass-Ready Data Attribute Long List v1.3, attribute 58; Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field preparationForReuseFacilities",
+        "type" : "label"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://eur-lex.europa.eu/eli/reg/2023/1542/oj",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PreparationForReuseInformation",
+      "en" : "Preparation for re-use information"
+    },
+    "comment" : {
+      "en" : "Information on the facilities for preparing waste batteries for re-use. A digital instruction in the sense of eudpp:DigitalInstruction (P_DPP), like bat:SafetyInstruction: reached from the battery through dpp:hasProperty, with its text on dpp:value or its URL on dpp:webLink."
+    },
+    "id" : "20",
+    "superClasses" : [ "1" ]
   } ],
   "property" : [ {
-    "id" : "2",
+    "id" : "3",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "5",
+    "id" : "7",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "9",
+    "id" : "10",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "13",
-    "type" : "rdfs:SubClassOf"
+    "id" : "12",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "14",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "15",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "18",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "19",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "20",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "41",
+    "type" : "owl:datatypeProperty"
   } ],
   "propertyAttribute" : [ {
     "iri" : "https://w3id.org/eudpp/battery#safetyMeasures",
     "baseIri" : "https://w3id.org/eudpp/battery",
-    "range" : "4",
+    "range" : "5",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -414,50 +778,16 @@
       "IRI-based" : "safetyMeasures",
       "en" : "safety measures"
     },
-    "domain" : "3",
+    "domain" : "4",
     "comment" : {
       "en" : "Deprecated on 6 October 2026 and kept for existing data: the safety measures are now a bat:SafetyInstruction, subclass of eudpp:DigitalInstruction (P_DPP), reached through dpp:hasProperty with its URL on dpp:webLink (ontologies-core#45). Link to the safety measures applicable to the battery."
     },
-    "attributes" : [ "deprecated", "datatype" ],
-    "id" : "2"
-  }, {
-    "iri" : "https://w3id.org/eudpp/battery#testReportResults",
-    "baseIri" : "https://w3id.org/eudpp/battery",
-    "range" : "6",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/eudpp/battery",
-        "type" : "iri"
-      } ],
-      "references" : [ {
-        "identifier" : "references",
-        "language" : "en",
-        "value" : "Regulation (EU) 2023/1542, Annex XIII 3",
-        "type" : "label"
-      } ],
-      "source" : [ {
-        "identifier" : "source",
-        "language" : "undefined",
-        "value" : "https://eur-lex.europa.eu/eli/reg/2023/1542/oj",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "testReportResults",
-      "en" : "test report results"
-    },
-    "domain" : "3",
-    "comment" : {
-      "en" : "Link to the test report results. Access is restricted to notified bodies, market surveillance authorities and the Commission; the restriction is expressed in the SHACL layer, not here. Migration to the CORE document pattern eudpp:Source (LCA module) is tracked in ontologies-battery#11 and deferred until the LCA module is integrated into the CORE; xsd:anyURI is the agreed interim."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "5"
+    "attributes" : [ "datatype", "deprecated" ],
+    "id" : "3"
   }, {
     "iri" : "https://w3id.org/eudpp/battery#partNumber",
     "baseIri" : "https://w3id.org/eudpp/battery",
-    "range" : "11",
+    "range" : "9",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -482,26 +812,16 @@
       "IRI-based" : "partNumber",
       "en" : "part number"
     },
-    "domain" : "10",
+    "domain" : "8",
     "comment" : {
       "en" : "Manufacturer part number of a component of the battery, and of the battery itself where one is assigned. Annex XIII 2(b) asks for the part numbers of the components, so the subject is the component and not the battery: CIRPASS-2 decided in June 2026 not to introduce a Component class, a component being a product in its own right, linked to the battery through the CORE property dpp:isComponentOf. The domain is therefore dpp:Product rather than bat:Battery. The property is declared in the battery namespace because the CORE has no cross-sectoral part number; adding one was raised as a recommendation to the Commission. Typed as in the Spherity Battery Pass ontology v0.1, where bp:partNumber is an xsd:string datatype property."
     },
     "attributes" : [ "datatype" ],
-    "id" : "9"
-  }, {
-    "range" : "1",
-    "domain" : "0",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "13"
-  }, {
-    "range" : "10",
-    "domain" : "3",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "14"
+    "id" : "7"
   }, {
     "iri" : "https://w3id.org/eudpp/battery#dismantlingInformation",
     "baseIri" : "https://w3id.org/eudpp/battery",
-    "range" : "16",
+    "range" : "11",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -526,16 +846,16 @@
       "IRI-based" : "dismantlingInformation",
       "en" : "dismantling information"
     },
-    "domain" : "3",
+    "domain" : "4",
     "comment" : {
       "en" : "Link to the dismantling documentation: exploded diagrams, disassembly sequences, fastening techniques, required tools, safety warnings, and the number and layout of cells. Migration to the CORE document pattern eudpp:Source (LCA module) is tracked in ontologies-battery#11 and deferred until the LCA module is integrated into the CORE; xsd:anyURI is the agreed interim."
     },
     "attributes" : [ "datatype" ],
-    "id" : "15"
+    "id" : "10"
   }, {
     "iri" : "https://w3id.org/eudpp/battery#dueDiligenceAudit",
     "baseIri" : "https://w3id.org/eudpp/battery",
-    "range" : "17",
+    "range" : "13",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -560,16 +880,184 @@
       "IRI-based" : "dueDiligenceAudit",
       "en" : "due diligence audit"
     },
-    "domain" : "3",
+    "domain" : "4",
     "comment" : {
       "en" : "Link to the third-party verification of the battery due diligence policy, carried out by a notified body. Migration to the CORE document pattern eudpp:Source (LCA module) is tracked in ontologies-battery#11 and deferred until the LCA module is integrated into the CORE; xsd:anyURI is the agreed interim."
     },
     "attributes" : [ "datatype" ],
+    "id" : "12"
+  }, {
+    "iri" : "https://w3id.org/eudpp/battery#sparePartsInformation",
+    "baseIri" : "https://w3id.org/eudpp/battery",
+    "range" : "15",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery",
+        "type" : "iri"
+      } ],
+      "references" : [ {
+        "identifier" : "references",
+        "language" : "en",
+        "value" : "Regulation (EU) 2023/1542, Annex XIII 2(b); BatteryPass-Ready Data Attribute Long List v1.3, attributes 45 and 46; Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field sparePartReplacementDetails",
+        "type" : "label"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://eur-lex.europa.eu/eli/reg/2023/1542/oj",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "sparePartsInformation",
+      "en" : "spare parts information"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "Link to the part numbers for components and the contact details of sources for replacement spares. The part numbers themselves stay on bat:partNumber."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "14"
+  }, {
+    "range" : "8",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "18"
+  }, {
+    "range" : "1",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "19"
+  }, {
+    "range" : "1",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "21"
+  }, {
+    "range" : "1",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "23"
+  }, {
+    "range" : "1",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
+  }, {
+    "range" : "1",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
+  }, {
+    "range" : "1",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "28"
+  }, {
+    "iri" : "https://w3id.org/eudpp/battery#hasBatteryStatus",
+    "baseIri" : "https://w3id.org/eudpp/battery",
+    "range" : "6",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery",
+        "type" : "iri"
+      } ],
+      "references" : [ {
+        "identifier" : "references",
+        "language" : "en",
+        "value" : "Regulation (EU) 2023/1542, Annex XIII 4(c); BatteryPass-Ready Data Attribute Long List v1.3, attribute 20",
+        "type" : "label"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://eur-lex.europa.eu/eli/reg/2023/1542/oj",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://github.com/CIRPASS-2/ontologies-core/issues/35",
+        "type" : "iri"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery-statuses#BatteryStatusScheme",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasBatteryStatus",
+      "en" : "has battery status"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "Links a battery to its lifecycle status: one of the five individuals of the battery-statuses vocabulary (original, repurposed, re-used, remanufactured, waste). This is the status of the battery as a physical item, and not the status of its passport as a digital resource, which the CORE carries on dpp:DPP through dpp:dppStatus. Declared locally, unlike the battery category and the battery chemistry, because the CORE has no generic product status property to reuse: dpp:hasProductGroup carries the product group, not the state of the item. This is a stopgap: a cross-sectoral eudpp:productStatus on eudpp:Product was requested in CIRPASS-2/ontologies-core#35 (opened 22 June 2026, still open), motivated by this very attribute. When it lands, this property is to be deprecated in favour of it, using owl:deprecated and dcterms:isReplacedBy."
+    },
+    "attributes" : [ "object" ],
+    "id" : "29"
+  }, {
+    "range" : "1",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "30"
+  }, {
+    "range" : "1",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "31"
+  }, {
+    "iri" : "https://w3id.org/eudpp/battery#testReportResults",
+    "baseIri" : "https://w3id.org/eudpp/battery",
+    "range" : "34",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery",
+        "type" : "iri"
+      } ],
+      "references" : [ {
+        "identifier" : "references",
+        "language" : "en",
+        "value" : "Regulation (EU) 2023/1542, Annex XIII 3",
+        "type" : "label"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://eur-lex.europa.eu/eli/reg/2023/1542/oj",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "testReportResults",
+      "en" : "test report results"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "Link to the test report results. Access is restricted to notified bodies, market surveillance authorities and the Commission; the restriction is expressed in the SHACL layer, not here. Migration to the CORE document pattern eudpp:Source (LCA module) is tracked in ontologies-battery#11 and deferred until the LCA module is integrated into the CORE; xsd:anyURI is the agreed interim."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "33"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "37"
+  }, {
+    "range" : "1",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
   }, {
     "iri" : "https://w3id.org/eudpp/battery#dueDiligenceReport",
     "baseIri" : "https://w3id.org/eudpp/battery",
-    "range" : "8",
+    "range" : "35",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -594,16 +1082,16 @@
       "IRI-based" : "dueDiligenceReport",
       "en" : "due diligence report"
     },
-    "domain" : "3",
+    "domain" : "4",
     "comment" : {
       "en" : "Link to the battery due diligence policy and report on the supply chain, covering the raw materials listed in Annex X (cobalt, natural graphite, lithium, nickel) and the chemical compounds based on them. Migration to the CORE document pattern eudpp:Source (LCA module) is tracked in ontologies-battery#11 and deferred until the LCA module is integrated into the CORE; xsd:anyURI is the agreed interim."
     },
     "attributes" : [ "datatype" ],
-    "id" : "19"
+    "id" : "40"
   }, {
     "iri" : "https://w3id.org/eudpp/battery#warrantyPeriod",
     "baseIri" : "https://w3id.org/eudpp/battery",
-    "range" : "12",
+    "range" : "36",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -634,56 +1122,11 @@
       "IRI-based" : "warrantyPeriod",
       "en" : "warranty period"
     },
-    "domain" : "3",
+    "domain" : "4",
     "comment" : {
       "en" : "Length of the commercial warranty covering the calendar life of the battery, as an ISO 8601 duration - for example \"P24M\" for twenty-four months. Declared in the battery namespace on the decision of 26 August 2026: a cross-sectoral warranty period was requested in CIRPASS-2/ontologies-core#34, but the ESPR does not require one, whereas Regulation (EU) 2023/1542 does, so the term stays sectoral."
     },
     "attributes" : [ "datatype" ],
-    "id" : "20"
-  }, {
-    "iri" : "https://w3id.org/eudpp/battery#hasBatteryStatus",
-    "baseIri" : "https://w3id.org/eudpp/battery",
-    "range" : "7",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/eudpp/battery",
-        "type" : "iri"
-      } ],
-      "references" : [ {
-        "identifier" : "references",
-        "language" : "en",
-        "value" : "Regulation (EU) 2023/1542, Annex XIII 4(c); BatteryPass-Ready Data Attribute Long List v1.3, attribute 20",
-        "type" : "label"
-      } ],
-      "source" : [ {
-        "identifier" : "source",
-        "language" : "undefined",
-        "value" : "https://eur-lex.europa.eu/eli/reg/2023/1542/oj",
-        "type" : "iri"
-      } ],
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://w3id.org/eudpp/battery-statuses#BatteryStatusScheme",
-        "type" : "iri"
-      }, {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://github.com/CIRPASS-2/ontologies-core/issues/35",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "hasBatteryStatus",
-      "en" : "has battery status"
-    },
-    "domain" : "3",
-    "comment" : {
-      "en" : "Links a battery to its lifecycle status: one of the five individuals of the battery-statuses vocabulary (original, repurposed, re-used, remanufactured, waste). This is the status of the battery as a physical item, and not the status of its passport as a digital resource, which the CORE carries on dpp:DPP through dpp:dppStatus. Declared locally, unlike the battery category and the battery chemistry, because the CORE has no generic product status property to reuse: dpp:hasProductGroup carries the product group, not the state of the item. This is a stopgap: a cross-sectoral eudpp:productStatus on eudpp:Product was requested in CIRPASS-2/ontologies-core#35 (opened 22 June 2026, still open), motivated by this very attribute. When it lands, this property is to be deprecated in favour of it, using owl:deprecated and dcterms:isReplacedBy."
-    },
-    "attributes" : [ "object" ],
-    "id" : "21"
+    "id" : "41"
   } ]
 }

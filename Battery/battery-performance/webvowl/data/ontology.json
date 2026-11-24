@@ -7,7 +7,7 @@
       "en" : "EU DPP Battery Performance Ontology"
     },
     "iri" : "https://w3id.org/eudpp/battery-performance",
-    "version" : "Version 0.4.0 DRAFT",
+    "version" : "Version 0.5.0 DRAFT",
     "author" : [ "Marc-Andree Wolf", "Nader Jelassi" ],
     "description" : {
       "en" : "Module for the electrochemical performance, durability and in-use state of batteries in EU Digital Product Passports (capacity, voltage, power capability, round trip efficiency, self-discharge, internal resistance, lifetime, temperature exposure, accidents), covering the 'Performance and durability' category of the BatteryPass-Ready Data Attribute Long List (attributes 59-100) required by Regulation (EU) 2023/1542, Annex XIII."
@@ -33,7 +33,7 @@
       "references" : [ {
         "identifier" : "references",
         "language" : "en",
-        "value" : "Regulation (EU) 2023/1542, Annex XIII; BatteryPass-Ready Data Attribute Long List v1.3; Guidance Document: Digital Batteries Passport – data points by category, version 3.2 (19 October 2026)",
+        "value" : "Regulation (EU) 2023/1542, Annex XIII; BatteryPass-Ready Data Attribute Long List v1.3; Guidance Document: Digital Batteries Passport – data points by category, version 3.2 (19 October 2026); Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026)",
         "type" : "label"
       } ],
       "created" : [ {
@@ -51,7 +51,7 @@
       "versionInfo" : [ {
         "identifier" : "versionInfo",
         "language" : "en",
-        "value" : "Version 0.4.0 DRAFT",
+        "value" : "Version 0.5.0 DRAFT",
         "type" : "label"
       } ],
       "title" : [ {
@@ -62,14 +62,14 @@
       } ],
       "license" : [ {
         "identifier" : "license",
-        "language" : "en",
-        "value" : "This ontology is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0). In case of dispute over CC BY 4.0 applicability, or in case considering the ontology as a software or part of it, this ontology is to be considered licensed under the Apache License, Version 2.0.",
-        "type" : "label"
-      }, {
-        "identifier" : "license",
         "language" : "undefined",
         "value" : "https://creativecommons.org/licenses/by/4.0/",
         "type" : "iri"
+      }, {
+        "identifier" : "license",
+        "language" : "en",
+        "value" : "This ontology is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0). In case of dispute over CC BY 4.0 applicability, or in case considering the ontology as a software or part of it, this ontology is to be considered licensed under the Apache License, Version 2.0.",
+        "type" : "label"
       } ],
       "contributor" : [ {
         "identifier" : "contributor",
@@ -86,7 +86,7 @@
       "modified" : [ {
         "identifier" : "modified",
         "language" : "undefined",
-        "value" : "2026-11-03",
+        "value" : "2026-11-16",
         "type" : "label"
       } ],
       "preferredNamespaceUri" : [ {
@@ -98,7 +98,7 @@
       "bibliographicCitation" : [ {
         "identifier" : "bibliographicCitation",
         "language" : "en",
-        "value" : "EU DPP Battery Performance Ontology. Draft version 0.4.0.",
+        "value" : "EU DPP Battery Performance Ontology. Draft version 0.5.0.",
         "type" : "label"
       } ],
       "issued" : [ {
@@ -153,10 +153,10 @@
     "id" : "44",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "45",
+    "id" : "43",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "43",
+    "id" : "45",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "46",
@@ -165,25 +165,34 @@
     "id" : "47",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "48",
+    "id" : "14",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "49",
+    "id" : "48",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "6",
     "type" : "owl:Class"
   }, {
-    "id" : "51",
+    "id" : "50",
     "type" : "rdfs:Datatype"
+  }, {
+    "id" : "51",
+    "type" : "owl:Thing"
   }, {
     "id" : "5",
     "type" : "owl:Class"
   }, {
-    "id" : "63",
-    "type" : "owl:Thing"
+    "id" : "39",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:Datatype"
   }, {
     "id" : "11",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "65",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "68",
@@ -192,34 +201,40 @@
     "id" : "56",
     "type" : "owl:Class"
   }, {
-    "id" : "69",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "62",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "39",
+    "id" : "2",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "70",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "2",
+    "id" : "57",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "24",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "81",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "74",
-    "type" : "rdfs:Datatype"
-  }, {
     "id" : "9",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "83",
+    "id" : "79",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "59",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "33",
@@ -228,58 +243,52 @@
     "id" : "37",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "60",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "18",
-    "type" : "rdfs:Datatype"
-  }, {
     "id" : "1",
     "type" : "owl:Class"
   }, {
     "id" : "20",
     "type" : "owl:Class"
   }, {
-    "id" : "67",
+    "id" : "54",
     "type" : "owl:Class"
   }, {
     "id" : "13",
     "type" : "owl:Class"
   }, {
-    "id" : "100",
+    "id" : "104",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "80",
+    "id" : "82",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "76",
+    "id" : "77",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "27",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "94",
+    "id" : "95",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "97",
+    "id" : "101",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "86",
+    "id" : "107",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "14",
+    "id" : "87",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "21",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "91",
+    "id" : "92",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "50",
+    "id" : "49",
     "type" : "owl:Class"
   }, {
-    "id" : "53",
+    "id" : "69",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
@@ -311,18 +320,18 @@
       "IRI-based" : "integer"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "25",
     "label" : {
-      "IRI-based" : "integer"
+      "IRI-based" : "decimal"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "28",
     "label" : {
-      "IRI-based" : "decimal"
+      "IRI-based" : "integer"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#integer",
@@ -381,18 +390,18 @@
       "IRI-based" : "decimal"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "45",
-    "label" : {
-      "IRI-based" : "decimal"
-    }
-  }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#integer",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "43",
     "label" : {
       "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "45",
+    "label" : {
+      "IRI-based" : "decimal"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
@@ -409,16 +418,16 @@
       "IRI-based" : "decimal"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "48",
+    "id" : "14",
     "label" : {
-      "IRI-based" : "decimal"
+      "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "49",
+    "id" : "48",
     "label" : {
       "IRI-based" : "decimal"
     }
@@ -448,13 +457,20 @@
       "en" : "Battery-specific durability data: expected lifetime in calendar years and in charge-discharge cycles, number of full cycles, energy and capacity throughput, capacity threshold for exhaustion. Specialises the cross-sectoral Durability quality indicator (ESPR Art. 2 (22))."
     },
     "id" : "6",
-    "superClasses" : [ "50" ]
+    "superClasses" : [ "49" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "51",
+    "id" : "50",
     "label" : {
       "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "51",
+    "label" : {
+      "undefined" : "Thing"
     }
   }, {
     "iri" : "https://w3id.org/eudpp/battery#Battery",
@@ -466,16 +482,30 @@
     "attributes" : [ "external" ],
     "id" : "5"
   }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "63",
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "39",
     "label" : {
-      "undefined" : "Thing"
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "66",
+    "label" : {
+      "IRI-based" : "decimal"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "11",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "65",
     "label" : {
       "IRI-based" : "decimal"
     }
@@ -512,25 +542,11 @@
       "en" : "Container for the thermal exposure of the battery in use: operating temperature information, idle-state temperature range boundaries, and aggregated time spent (and spent charging) in extreme temperatures outside those boundaries. Anchored under the cross-sectoral Property class, not under QuantitativeProperty: this is a container grouping several measured quantities, not a quantity itself."
     },
     "id" : "56",
-    "superClasses" : [ "53" ]
+    "superClasses" : [ "69" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "69",
-    "label" : {
-      "IRI-based" : "decimal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "62",
-    "label" : {
-      "IRI-based" : "decimal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "39",
+    "id" : "2",
     "label" : {
       "IRI-based" : "decimal"
     }
@@ -542,30 +558,16 @@
       "IRI-based" : "decimal"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "2",
+    "id" : "57",
     "label" : {
-      "IRI-based" : "decimal"
+      "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "24",
-    "label" : {
-      "IRI-based" : "decimal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "81",
-    "label" : {
-      "IRI-based" : "decimal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "74",
     "label" : {
       "IRI-based" : "decimal"
     }
@@ -579,7 +581,49 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "83",
+    "id" : "79",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "63",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "18",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "84",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "75",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "61",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "59",
     "label" : {
       "IRI-based" : "decimal"
     }
@@ -594,20 +638,6 @@
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "37",
-    "label" : {
-      "IRI-based" : "decimal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "60",
-    "label" : {
-      "IRI-based" : "decimal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "18",
     "label" : {
       "IRI-based" : "decimal"
     }
@@ -643,7 +673,7 @@
       "en" : "A dated record of the values a battery management system updates during operational life. One record per reading; the series of records is the history required by Annex XIII 4 and Annex VII Part B, which describe data that changes over the life of the product rather than a single snapshot. Anchored under dpp:Property and deliberately not under dpp:QuantitativeProperty: this is a container grouping several measured quantities, not a quantity itself, and would otherwise inherit dpp:hasMeasurementUnit, which has no meaning on a container. Which properties belong here follows the 'Data behavioural characteristic: static vs. dynamic' column of the BatteryPass-Ready Data Attribute Long List v1.3, not a local judgement."
     },
     "id" : "1",
-    "superClasses" : [ "53" ]
+    "superClasses" : [ "69" ]
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#AccidentEvent",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
@@ -670,7 +700,7 @@
       "en" : "An accident affecting the battery, including when incorporated in the equipment it is powering. Specialises the generic ProductEvent class of the CORE event module, of which MaintenanceEvent is a sibling: an accident is not a maintenance operation. The link to the battery is provided by the CORE event mechanism (no dedicated object property in this module)."
     },
     "id" : "20",
-    "superClasses" : [ "67" ]
+    "superClasses" : [ "54" ]
   }, {
     "iri" : "https://w3id.org/eudpp#ProductEvent",
     "baseIri" : "https://w3id.org/eudpp",
@@ -680,7 +710,7 @@
     },
     "subClasses" : [ "20" ],
     "attributes" : [ "external" ],
-    "id" : "67"
+    "id" : "54"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#BatteryPerformance",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
@@ -707,25 +737,25 @@
       "en" : "Container for the electrochemical performance and in-use state parameters of a battery: capacity (rated, remaining, fade), voltage (minimum, maximum, nominal), power capability, round trip energy efficiency, self-discharge rates, internal resistance, cycle-life test parameters, and in-use event counters. Anchored under the cross-sectoral Property class, not under QuantitativeProperty: this is a container grouping several measured quantities, not a quantity itself, and would otherwise inherit hasMeasurementUnit, which has no meaning on a container."
     },
     "id" : "13",
-    "superClasses" : [ "53" ]
+    "superClasses" : [ "69" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "100",
+    "id" : "104",
     "label" : {
       "IRI-based" : "decimal"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "80",
+    "id" : "82",
     "label" : {
       "IRI-based" : "decimal"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "76",
+    "id" : "77",
     "label" : {
       "IRI-based" : "decimal"
     }
@@ -739,30 +769,30 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "94",
+    "id" : "95",
     "label" : {
       "IRI-based" : "decimal"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "97",
+    "id" : "101",
     "label" : {
       "IRI-based" : "decimal"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "86",
+    "id" : "107",
     "label" : {
       "IRI-based" : "decimal"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "14",
+    "id" : "87",
     "label" : {
-      "IRI-based" : "string"
+      "IRI-based" : "decimal"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -774,7 +804,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "91",
+    "id" : "92",
     "label" : {
       "IRI-based" : "dateTimeStamp"
     }
@@ -787,7 +817,7 @@
     },
     "subClasses" : [ "6" ],
     "attributes" : [ "external" ],
-    "id" : "50"
+    "id" : "49"
   }, {
     "iri" : "https://w3id.org/eudpp#Property",
     "baseIri" : "https://w3id.org/eudpp",
@@ -797,7 +827,7 @@
     },
     "subClasses" : [ "13", "56", "1" ],
     "attributes" : [ "external" ],
-    "id" : "53"
+    "id" : "69"
   } ],
   "property" : [ {
     "id" : "0",
@@ -842,32 +872,26 @@
     "id" : "52",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "54",
+    "id" : "53",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "55",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "57",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "58",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "59",
+    "id" : "60",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "61",
+    "id" : "62",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "64",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "65",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "66",
-    "type" : "rdfs:SubClassOf"
+    "id" : "67",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "71",
     "type" : "owl:datatypeProperty"
@@ -878,28 +902,28 @@
     "id" : "73",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "75",
+    "id" : "74",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "77",
+    "id" : "76",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "78",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "79",
+    "id" : "80",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "82",
+    "id" : "81",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "84",
-    "type" : "owl:objectProperty"
+    "id" : "83",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "85",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
-    "id" : "87",
+    "id" : "86",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "88",
@@ -911,26 +935,29 @@
     "id" : "90",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "92",
+    "id" : "91",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "93",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "95",
+    "id" : "94",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "96",
     "type" : "owl:datatypeProperty"
   }, {
+    "id" : "97",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "98",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "99",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "101",
-    "type" : "owl:objectProperty"
+    "id" : "100",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "102",
     "type" : "owl:datatypeProperty"
@@ -938,23 +965,14 @@
     "id" : "103",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "104",
-    "type" : "owl:datatypeProperty"
-  }, {
     "id" : "105",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "106",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "107",
-    "type" : "owl:objectProperty"
-  }, {
     "id" : "108",
     "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "7",
-    "type" : "owl:objectProperty"
   }, {
     "id" : "109",
     "type" : "owl:datatypeProperty"
@@ -969,6 +987,27 @@
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "113",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "114",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "115",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "116",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "117",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "118",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "119",
     "type" : "owl:datatypeProperty"
   } ],
   "propertyAttribute" : [ {
@@ -1355,24 +1394,47 @@
     "attributes" : [ "datatype" ],
     "id" : "42"
   }, {
-    "range" : "53",
-    "domain" : "13",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "49",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "52"
   }, {
-    "range" : "53",
-    "domain" : "1",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "54"
+    "range" : "54",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "53"
   }, {
-    "range" : "53",
+    "iri" : "https://w3id.org/eudpp/battery-performance#temperatureRangeIdleStateReferenceTest",
+    "baseIri" : "https://w3id.org/eudpp/battery-performance",
+    "range" : "57",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery-performance",
+        "type" : "iri"
+      } ],
+      "references" : [ {
+        "identifier" : "references",
+        "language" : "en",
+        "value" : "Regulation (EU) 2023/1542, Annex XIII 1(l); Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field notInUseTemperatureRangeTest",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "temperatureRangeIdleStateReferenceTest",
+      "en" : "temperature range idle state, reference test"
+    },
     "domain" : "56",
-    "attributes" : [ "object", "anonymous" ],
+    "comment" : {
+      "en" : "The reference test for the temperature range the battery can withstand when not in use, whose boundaries are temperatureRangeIdleStateLowerBoundary and temperatureRangeIdleStateUpperBoundary."
+    },
+    "attributes" : [ "datatype" ],
     "id" : "55"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#powerToEnergyRatio",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "15",
+    "range" : "59",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -1396,11 +1458,11 @@
       "en" : "The suitable approximate value of the power capability used to designate or identify the battery, while the battery energy is determined in reference conditions to be defined. Unit: watt per watt-hour (W/Wh). Declared as Integer [W/Wh] in the BatteryPass-Ready long list; xsd:decimal retained per the Gap Analysis decision (open question to BatteryPass-Ready)."
     },
     "attributes" : [ "datatype" ],
-    "id" : "57"
+    "id" : "58"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#ratedCapacity",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "3",
+    "range" : "61",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -1424,11 +1486,11 @@
       "en" : "The total number of ampere-hours that can be withdrawn from a fully charged battery under reference conditions. Unit: ampere-hour (Ah), or milliampere-hour (mAh) for LMT batteries."
     },
     "attributes" : [ "datatype" ],
-    "id" : "58"
+    "id" : "60"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#remainingUsableBatteryEnergy",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "60",
+    "range" : "63",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -1452,11 +1514,11 @@
       "en" : "The usable battery energy at the present point in the lifetime of a battery as determined according to the procedure in the UN GTR No 22. Unit: kilowatt-hour (kWh)."
     },
     "attributes" : [ "datatype" ],
-    "id" : "59"
+    "id" : "62"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#timeSpentInExtremeTemperaturesAboveBoundary",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "62",
+    "range" : "65",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -1486,16 +1548,11 @@
       "en" : "The aggregated time, in which temperatures above the upper boundary of the temperature range as defined in 'Temperature range idle state, upper boundary' are prevalent. Unit: minute."
     },
     "attributes" : [ "datatype" ],
-    "id" : "61"
-  }, {
-    "range" : "50",
-    "domain" : "6",
-    "attributes" : [ "object", "anonymous" ],
     "id" : "64"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#nominalVoltage",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "34",
+    "range" : "25",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -1525,16 +1582,11 @@
       "en" : "The suitable approximate value of the voltage used to designate or identify the battery. Unit: volt (V)."
     },
     "attributes" : [ "datatype" ],
-    "id" : "65"
-  }, {
-    "range" : "67",
-    "domain" : "20",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "66"
+    "id" : "67"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#numberOfOverchargeEvents",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "29",
+    "range" : "28",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -1562,7 +1614,7 @@
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#initialSelfDischargeRate",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "40",
+    "range" : "44",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -1583,14 +1635,48 @@
     },
     "domain" : "13",
     "comment" : {
-      "en" : "The self-discharge rate in an idle state of the battery in reference conditions (temperature etc.) at begin of life. Unit: percent per month (%/month)."
+      "en" : "The self-discharge rate in an idle state of the battery in reference conditions (temperature etc.) at begin of life. Unit: percent per year (%/year), as in the Commission semantic model; long list v1.3 and versions up to 0.4.0 of this module used percent per month."
     },
     "attributes" : [ "datatype" ],
     "id" : "72"
   }, {
+    "iri" : "https://w3id.org/eudpp/battery-performance#ohmicResistance",
+    "baseIri" : "https://w3id.org/eudpp/battery-performance",
+    "range" : "16",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery-performance",
+        "type" : "iri"
+      } ],
+      "references" : [ {
+        "identifier" : "references",
+        "language" : "en",
+        "value" : "Regulation (EU) 2023/1542, Annex XIII 4(b); Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field ohmicResistance",
+        "type" : "label"
+      } ],
+      "measurementUnit" : [ {
+        "identifier" : "measurementUnit",
+        "language" : "undefined",
+        "value" : "https://si-digital-framework.org/SI/units/ohm",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ohmicResistance",
+      "en" : "ohmic resistance"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Ohmic resistance of the battery at the date of the state record: information on its state of health under Article 14 of Regulation (EU) 2023/1542, where possible. Unit: ohm."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "73"
+  }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#roundTripEnergyEfficiencyAt50PercentCycleLife",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "74",
+    "range" : "75",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -1614,11 +1700,11 @@
       "en" : "The ratio of the net energy delivered by a battery during a discharge test to the total energy required to restore the initial state of charge by a standard charge, measured at 50% of cycle life (see Regulation (EU) 2023/1542, Annex IV (6)). Unit: percent (%)."
     },
     "attributes" : [ "datatype" ],
-    "id" : "73"
+    "id" : "74"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#capacityThresholdForExhaustion",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "76",
+    "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -1642,11 +1728,11 @@
       "en" : "The percentage of SOCE (State of Certified Energy), above which the battery is still considered operational as EV battery in its current life, as provided by the economic operator. Unit: percent (%)."
     },
     "attributes" : [ "datatype" ],
-    "id" : "75"
+    "id" : "76"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#temperatureRangeIdleStateLowerBoundary",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "70",
+    "range" : "68",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -1676,11 +1762,11 @@
       "en" : "The lower boundary of the surrounding temperature range. Unit: degree Celsius (°C)."
     },
     "attributes" : [ "datatype" ],
-    "id" : "77"
+    "id" : "78"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#dischargeCRateOfCycleLifeTest",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "48",
+    "range" : "50",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -1704,11 +1790,11 @@
       "en" : "Discharge rate, in terms of rated capacity (C-rate), applied in the relevant cycle-life reference test: data point 40 of the Commission guidance. Unit: ampere per ampere-hour (A/Ah)."
     },
     "attributes" : [ "datatype" ],
-    "id" : "78"
+    "id" : "80"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#capacityFade",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "80",
+    "range" : "82",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -1732,11 +1818,11 @@
       "en" : "The decrease over time and upon usage in the amount of charge that a battery can deliver at the rated voltage, with respect to the original rated capacity as declared by the manufacturer. Unit: percent (%)."
     },
     "attributes" : [ "datatype" ],
-    "id" : "79"
+    "id" : "81"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#originalPowerCapability",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "28",
+    "range" : "15",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -1766,7 +1852,7 @@
       "en" : "The amount of energy that a battery is capable to provide over a given period of time under reference conditions. Unit: watt (W)."
     },
     "attributes" : [ "datatype" ],
-    "id" : "82"
+    "id" : "83"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#hasTemperatureExposure",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
@@ -1789,11 +1875,11 @@
       "en" : "Links a battery to its in-use thermal exposure data."
     },
     "attributes" : [ "object" ],
-    "id" : "84"
+    "id" : "85"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#currentSelfDischargeRate",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "86",
+    "range" : "87",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -1804,7 +1890,7 @@
       "references" : [ {
         "identifier" : "references",
         "language" : "en",
-        "value" : "BatteryPass-Ready Data Attribute Long List v1.3, attribute 79",
+        "value" : "BatteryPass-Ready Data Attribute Long List v1.3, attribute 79; Regulation (EU) 2023/1542, Annex XIII 4(b); Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field selfDischargingRate",
         "type" : "label"
       } ]
     },
@@ -1814,14 +1900,14 @@
     },
     "domain" : "1",
     "comment" : {
-      "en" : "The change of the self-discharge rate in an idle state of the battery in reference conditions (temperature etc.) at aging parameter x, e.g. after a certain amount of storage time or number of cycles. Unit: percent per month (%/month)."
+      "en" : "The change of the self-discharge rate in an idle state of the battery in reference conditions (temperature etc.) at aging parameter x, e.g. after a certain amount of storage time or number of cycles. Unit: percent per year (%/year), as in the Commission semantic model; long list v1.3 and versions up to 0.4.0 of this module used percent per month."
     },
     "attributes" : [ "datatype" ],
-    "id" : "85"
+    "id" : "86"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#internalResistanceIncrease",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "44",
+    "range" : "31",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -1845,11 +1931,11 @@
       "en" : "The increase over time and upon usage of internal resistance, for the pack (cell and module recommended). Unit: percent (%)."
     },
     "attributes" : [ "datatype" ],
-    "id" : "87"
+    "id" : "88"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#minimumVoltage",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "35",
+    "range" : "34",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -1879,11 +1965,11 @@
       "en" : "The lower voltage limit that the safe operation of the battery is rated for. Unit: volt (V)."
     },
     "attributes" : [ "datatype" ],
-    "id" : "88"
+    "id" : "89"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#initialInternalResistance",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "47",
+    "range" : "46",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -1913,11 +1999,11 @@
       "en" : "'Quotient of change of voltage of a battery by the corresponding change in discharge current under specified conditions' (IEV 482 03 36), at begin of life, for battery cell and pack (module recommended). Unit: ohm. Version 3.2 of the Commission guidance gives the cell and pack values as two items of data point 38: use the subproperties initialCellInternalResistance and initialPackInternalResistance."
     },
     "attributes" : [ "datatype" ],
-    "id" : "89"
+    "id" : "90"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#asOfDate",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "91",
+    "range" : "92",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -1947,11 +2033,11 @@
       "en" : "The date and time the values of this record were read. xsd:dateTimeStamp rather than xsd:dateTime: the time zone offset is then mandatory, so no separate offset property is needed."
     },
     "attributes" : [ "datatype" ],
-    "id" : "90"
+    "id" : "91"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#expectedLifetimeCalendarYears",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "49",
+    "range" : "45",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -1975,11 +2061,11 @@
       "en" : "Expected lifetime under the reference conditions for which the battery has been designed, in calendar years. Unit: year."
     },
     "attributes" : [ "datatype" ],
-    "id" : "92"
+    "id" : "93"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#certifiedUsableBatteryEnergy",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "94",
+    "range" : "95",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2003,11 +2089,11 @@
       "en" : "The usable battery energy according to the procedure in the UN GTR No 22 as determined during the certification of the vehicle. Unit: kilowatt-hour (kWh)."
     },
     "attributes" : [ "datatype" ],
-    "id" : "93"
+    "id" : "94"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#numberOfFullCycles",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "22",
+    "range" : "29",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2031,11 +2117,26 @@
       "en" : "In-use number of (full) charging and discharging cycles."
     },
     "attributes" : [ "datatype" ],
-    "id" : "95"
+    "id" : "96"
+  }, {
+    "range" : "69",
+    "domain" : "56",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "97"
+  }, {
+    "range" : "69",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "98"
+  }, {
+    "range" : "69",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "99"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#chargeCRateOfCycleLifeTest",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "97",
+    "range" : "101",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2059,11 +2160,11 @@
       "en" : "Charge rate, in terms of rated capacity (C-rate), applied in the relevant cycle-life reference test: data point 39 of the Commission guidance. Unit: ampere per ampere-hour (A/Ah)."
     },
     "attributes" : [ "datatype" ],
-    "id" : "96"
+    "id" : "100"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#temperatureRangeIdleStateUpperBoundary",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "69",
+    "range" : "70",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2093,11 +2194,11 @@
       "en" : "The upper boundary of the surrounding temperature range. Unit: degree Celsius (°C)."
     },
     "attributes" : [ "datatype" ],
-    "id" : "98"
+    "id" : "102"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#timeSpentChargingInExtremeTemperaturesAboveBoundary",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "68",
+    "range" : "66",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2127,7 +2228,7 @@
       "en" : "The aggregated time, in which the battery is charged, while temperatures above the upper boundary of the temperature range as defined in 'Temperature range idle state, upper boundary' are prevalent. Unit: minute."
     },
     "attributes" : [ "datatype" ],
-    "id" : "99"
+    "id" : "103"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#hasBatteryStateRecord",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
@@ -2150,11 +2251,11 @@
       "en" : "Links a battery to one dated record of its in-use state. A battery carries as many records as there are readings; no ordering property is declared, the as-of date orders the series."
     },
     "attributes" : [ "object" ],
-    "id" : "101"
+    "id" : "105"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#initialPackInternalResistance",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "46",
+    "range" : "41",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2184,11 +2285,11 @@
       "en" : "Initial internal resistance at battery pack level: the pack value of data point 38 of the Commission guidance (internal battery pack resistance). Unit: ohm."
     },
     "attributes" : [ "datatype" ],
-    "id" : "102"
+    "id" : "106"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#initialCellInternalResistance",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "45",
+    "range" : "47",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2218,11 +2319,11 @@
       "en" : "Initial internal resistance at battery cell level: the cell value of data point 38 of the Commission guidance (internal battery cell resistance). Unit: ohm."
     },
     "attributes" : [ "datatype" ],
-    "id" : "103"
+    "id" : "108"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#maximumPermittedBatteryPower",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "31",
+    "range" : "30",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2252,11 +2353,45 @@
       "en" : "The value of maximum permitted power the battery is rated for and reflects the data relevant for power limits. Unit: watt (W). Declared as Integer [W] in the BatteryPass-Ready long list; xsd:decimal retained per the Gap Analysis decision (open question to BatteryPass-Ready)."
     },
     "attributes" : [ "datatype" ],
-    "id" : "104"
+    "id" : "109"
+  }, {
+    "iri" : "https://w3id.org/eudpp/battery-performance#currentInternalResistance",
+    "baseIri" : "https://w3id.org/eudpp/battery-performance",
+    "range" : "107",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/eudpp/battery-performance",
+        "type" : "iri"
+      } ],
+      "references" : [ {
+        "identifier" : "references",
+        "language" : "en",
+        "value" : "Regulation (EU) 2023/1542, Annex XIII 4(a); Commission semantic model for batteries 1.0.0 (DPP Registry – Semantic Data Artifacts, 30 October 2026), field internalResistance",
+        "type" : "label"
+      } ],
+      "measurementUnit" : [ {
+        "identifier" : "measurementUnit",
+        "language" : "undefined",
+        "value" : "https://si-digital-framework.org/SI/units/ohm",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "currentInternalResistance",
+      "en" : "current internal resistance"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Internal resistance of the battery at the date of the state record: the in-use value, where initialInternalResistance is the value at begin of life. Unit: ohm."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "110"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#energyThroughput",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "51",
+    "range" : "48",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2280,11 +2415,11 @@
       "en" : "The overall sum of the energy throughput over the battery lifetime at a specific time during usage. Unit: kilowatt-hour (kWh)."
     },
     "attributes" : [ "datatype" ],
-    "id" : "105"
+    "id" : "111"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#maximumVoltage",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "30",
+    "range" : "35",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2314,7 +2449,7 @@
       "en" : "The upper voltage limit that the safe operation of the battery is rated for. Unit: volt (V)."
     },
     "attributes" : [ "datatype" ],
-    "id" : "106"
+    "id" : "112"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#hasBatteryPerformance",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
@@ -2337,11 +2472,11 @@
       "en" : "Links a battery to its electrochemical performance and in-use state data."
     },
     "attributes" : [ "object" ],
-    "id" : "107"
+    "id" : "113"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#initialRoundTripEnergyEfficiency",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "41",
+    "range" : "40",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2365,22 +2500,22 @@
       "en" : "The ratio of the net energy delivered by a battery during a discharge test to the total energy required to restore the initial state of charge by a standard charge (see Regulation (EU) 2023/1542, Annex IV (6)). Unit: percent (%)."
     },
     "attributes" : [ "datatype" ],
-    "id" : "108"
+    "id" : "114"
   }, {
     "iri" : "https://w3id.org/eudpp#hasProperty",
     "baseIri" : "https://w3id.org/eudpp",
-    "range" : "63",
+    "range" : "51",
     "label" : {
       "IRI-based" : "hasProperty"
     },
-    "domain" : "63",
-    "subproperty" : [ "4", "101", "107", "84" ],
-    "attributes" : [ "object", "external" ],
+    "domain" : "51",
+    "subproperty" : [ "4", "105", "113", "85" ],
+    "attributes" : [ "external", "object" ],
     "id" : "7"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#cRateOfCycleLifeTest",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "100",
+    "range" : "104",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2404,11 +2539,11 @@
       "en" : "Measurement parameter for 'Expected lifetime: Number of charge-discharge cycles': applied charge and discharge rate in terms of rated capacity (C-rate) of the relevant cycle-life reference test. Unit: ampere per ampere-hour (A/Ah). Version 3.2 of the Commission guidance separates the charge C-rate (data point 39) from the discharge C-rate (data point 40): use the subproperties chargeCRateOfCycleLifeTest and dischargeCRateOfCycleLifeTest."
     },
     "attributes" : [ "datatype" ],
-    "id" : "109"
+    "id" : "115"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#selfDischargeRateEvolution",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "83",
+    "range" : "79",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2432,11 +2567,11 @@
       "en" : "The change of self-discharge over time and usage, as percentage calculated from the initial and current self-discharge rate. Unit: percent (%)."
     },
     "attributes" : [ "datatype" ],
-    "id" : "110"
+    "id" : "116"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#roundTripEnergyEfficiencyFade",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "81",
+    "range" : "84",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2460,11 +2595,11 @@
       "en" : "The decrease of round trip energy efficiency as percentage. Unit: percent (%)."
     },
     "attributes" : [ "datatype" ],
-    "id" : "111"
+    "id" : "117"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#numberOfDeepDischargeEvents",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "25",
+    "range" : "22",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2488,11 +2623,11 @@
       "en" : "The number of occasions, in which voltage has dropped below the lower operational limit as provided in the battery passport. In-use event counter."
     },
     "attributes" : [ "datatype" ],
-    "id" : "112"
+    "id" : "118"
   }, {
     "iri" : "https://w3id.org/eudpp/battery-performance#powerFade",
     "baseIri" : "https://w3id.org/eudpp/battery-performance",
-    "range" : "16",
+    "range" : "3",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2516,6 +2651,6 @@
       "en" : "The decrease over time and upon usage in the amount of power that a battery can deliver at the rated voltage. Unit: percent (%)."
     },
     "attributes" : [ "datatype" ],
-    "id" : "113"
+    "id" : "119"
   } ]
 }
